@@ -130,6 +130,40 @@
   .dropdown-wide a:nth-child(13),
   .dropdown-wide a:nth-child(14){border-bottom:none;}
 
+  /* Treatable Conditions — two-level flyout (category list -> subcategory panel) */
+  .dropdown-conditions{min-width:260px;padding:8px;}
+  .cond-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;}
+  .cond-item{position:relative;}
+  .cond-item > a{
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    padding:11px 12px;font-size:14.5px;color:var(--ink-soft);text-decoration:none;
+    border-bottom:1px solid var(--line);transition:background .12s,color .12s;
+  }
+  .cond-item:last-child > a{border-bottom:none;}
+  .cond-item > a:hover{background:var(--lime-soft);color:var(--lime-deep);}
+  .cond-item.has-sub > a::after{
+    content:"";width:5px;height:5px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+    transform:rotate(-45deg);opacity:.5;flex-shrink:0;
+  }
+  .cond-submenu{
+    position:absolute;top:0;left:100%;margin-left:6px;min-width:250px;
+    background:var(--paper);border:1px solid var(--line);border-radius:10px;
+    box-shadow:0 16px 40px rgba(24,24,24,.10);
+    padding:8px;display:flex;flex-direction:column;
+    opacity:0;visibility:hidden;transform:translateX(6px);
+    transition:opacity .15s, transform .15s, visibility .15s;
+  }
+  .cond-item.has-sub:hover .cond-submenu,
+  .cond-item.has-sub:focus-within .cond-submenu{
+    opacity:1;visibility:visible;transform:translateX(0);
+  }
+  .cond-submenu a{
+    display:block;padding:10px 12px;font-size:14px;color:var(--ink-soft);
+    text-decoration:none;border-bottom:1px solid var(--line);transition:background .12s,color .12s;
+  }
+  .cond-submenu a:last-child{border-bottom:none;}
+  .cond-submenu a:hover{background:var(--lime-soft);color:var(--lime-deep);}
+
   .nav-right{display:flex;align-items:center;gap:14px;flex-shrink:0;margin-left:6px;}
   .lang{font-size:13px;letter-spacing:.03em;color:var(--ink-faint);white-space:nowrap;}
   .lang a{color:var(--ink-faint);text-decoration:none;}
@@ -161,6 +195,16 @@
     }
     .nav-links > li.dropdown-open .dropdown{display:flex;}
     .dropdown-wide{grid-template-columns:1fr;}
+
+    .dropdown-conditions{padding:0;}
+    .cond-list{width:100%;}
+    .cond-item{width:100%;}
+    .cond-item > a{padding:12px 4px;}
+    .cond-submenu{
+      position:static;margin-left:0;opacity:1;visibility:visible;transform:none;
+      box-shadow:none;border:none;border-radius:0;padding:0 0 6px 16px;display:none;
+    }
+    .cond-item.sub-open .cond-submenu{display:flex;}
     .nav-right{flex-direction:column;align-items:stretch;padding:16px 20px;gap:12px;}
     .book-btn{text-align:center;}
     .lang{text-align:center;}
@@ -762,21 +806,84 @@
         </li>
         <li class="has-dropdown">
           <a href="#conditions">Treatable Conditions</a>
-          <div class="dropdown dropdown-wide">
-            <a href="/greenleafclinic-web/treatable-conditions/mental-health/anxiety/">Mental Health</a>
-            <a href="#conditions">Pain</a>
-            <a href="/greenleafclinic-web/treatable-conditions/fertility/conditions-during-pregnancy/">Fertility</a>
-            <a href="/greenleafclinic-web/treatable-conditions/uterine-condition/pcos/">Uterine Condition</a>
-            <a href="/greenleafclinic-web/treatable-conditions/mens-wellness/erectile-dysfunction/">Men's Wellness</a>
-            <a href="#conditions">Facial &amp; MTS Acupuncture</a>
-            <a href="/greenleafclinic-web/treatable-conditions/skin-conditions/hives/">Skin Conditions</a>
-            <a href="/greenleafclinic-web/treatable-conditions/pediatrics/">Pediatrics</a>
-            <a href="/greenleafclinic-web/treatable-conditions/digestive/gerd/">Digestive Problems</a>
-            <a href="/greenleafclinic-web/treatable-conditions/allergies/">Allergies</a>
-            <a href="/greenleafclinic-web/treatable-conditions/urinary/">Urinary Problems</a>
-            <a href="/greenleafclinic-web/treatable-conditions/ent-eye/">ENT &amp; Eye</a>
-            <a href="/greenleafclinic-web/treatable-conditions/cancer/">Cancer &amp; Chemotherapy</a>
-            <a href="/greenleafclinic-web/treatable-conditions/weight-loss/">Weight Loss</a>
+          <div class="dropdown dropdown-conditions">
+            <ul class="cond-list">
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/mental-health/">Mental Health</a>
+                <div class="cond-submenu">
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/anxiety/">Anxiety</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/insomnia/">Insomnia</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/depression/">Depression</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/ocd/">Obsessive Compulsive Disorder</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/adhd/">ADHD</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/tic-disorder/">Tic Disorder</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mental-health/addiction/">Addiction</a>
+                </div>
+              </li>
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/pain/">Pain</a>
+                <div class="cond-submenu">
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/back-pain-sciatica/">Back Pain / Sciatica</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/neck-shoulder-headache/">Neck &amp; Shoulder Pain / Headache</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/auto-injuries/">Auto Injuries</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/stroke/">Stroke</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/bells-palsy/">Bell's Palsy</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/sports-injury/">Sports Injury</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/pain/tmj-dystonia/">TMJ / Dystonia</a>
+                </div>
+              </li>
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/fertility/">Fertility</a>
+                <div class="cond-submenu">
+                  <a href="https://fertilityvancouver.ca/">Fertility</a>
+                  <a href="https://fertilityvancouver.ca/egg-problems/">IVF Support</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/fertility/conditions-during-pregnancy/">Conditions During Pregnancy</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/fertility/conditions-after-birth/">Conditions after Birth</a>
+                </div>
+              </li>
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/uterine-condition/">Uterine Condition</a>
+                <div class="cond-submenu">
+                  <a href="/greenleafclinic-web/treatable-conditions/uterine-condition/pcos/">PCOS</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/uterine-condition/uterine-fibroids/">Uterine Fibroids</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/uterine-condition/adenomyosis/">Adenomyosis</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/uterine-condition/endometriosis/">Endometriosis</a>
+                </div>
+              </li>
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/mens-wellness/">Men's Wellness</a>
+                <div class="cond-submenu">
+                  <a href="/greenleafclinic-web/treatable-conditions/mens-wellness/erectile-dysfunction/">Erectile Dysfunction</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/mens-wellness/prostate-health/">Prostate Health</a>
+                </div>
+              </li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/facial-mts/">Facial &amp; MTS Acupuncture</a></li>
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/skin-conditions/">Skin Conditions</a>
+                <div class="cond-submenu">
+                  <a href="/greenleafclinic-web/treatable-conditions/skin-conditions/hives/">Hives</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/skin-conditions/psoriasis/">Psoriasis</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/skin-conditions/eczema/">Eczema</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/skin-conditions/acne/">Acne</a>
+                </div>
+              </li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/pediatrics/">Pediatrics</a></li>
+              <li class="cond-item has-sub">
+                <a href="/greenleafclinic-web/treatable-conditions/digestive/">Digestive Problems</a>
+                <div class="cond-submenu">
+                  <a href="/greenleafclinic-web/treatable-conditions/digestive/gerd/">GERD</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/digestive/gastritis/">Gastritis</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/digestive/ibs/">Irritable Bowel Syndrome</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/digestive/ulcerative-colitis/">Ulcerative Colitis</a>
+                  <a href="/greenleafclinic-web/treatable-conditions/digestive/crohns-disease/">Crohn's Disease</a>
+                </div>
+              </li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/allergies/">Allergies</a></li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/urinary/">Urinary Problems</a></li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/ent-eye/">ENT &amp; Eye</a></li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/cancer/">Cancer &amp; Chemotherapy</a></li>
+              <li class="cond-item"><a href="/greenleafclinic-web/treatable-conditions/weight-loss/">Weight Loss</a></li>
+            </ul>
           </div>
         </li>
         <li><a href="https://fertilityvancouver.ca/">Fertility Clinic</a></li>
@@ -816,6 +923,14 @@
       if(window.innerWidth <= 1220){
         e.preventDefault();
         link.parentElement.classList.toggle('dropdown-open');
+      }
+    });
+  });
+  document.querySelectorAll('.cond-item.has-sub > a').forEach(function(link){
+    link.addEventListener('click', function(e){
+      if(window.innerWidth <= 1220){
+        e.preventDefault();
+        link.parentElement.classList.toggle('sub-open');
       }
     });
   });
