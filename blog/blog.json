@@ -1,0 +1,66 @@
+{
+  "categories": [
+    "Acupuncture & TCM Theory",
+    "Fertility & Women's Health",
+    "Herbal Medicine & Nutrition",
+    "Conditions Explained",
+    "Patient Care Tips",
+    "Clinic Notes"
+  ],
+  "posts": [
+    {
+      "slug": "what-is-qi",
+      "title": "What is Qi (氣)? Understanding the core concept in Traditional Chinese Medicine",
+      "excerpt": "Weak Qi means decreased metabolism, Stagnant Qi means stress and autonomic imbalance — a plain-language guide to how TCM practitioners actually use the idea of Qi in the clinic.",
+      "category": "Acupuncture & TCM Theory",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/greenleafclinic-web/blog/what-is-qi/"
+    },
+    {
+      "slug": "wind-cold-syndrome",
+      "title": "Wind-Cold Syndrome: TCM's approach to early-stage colds",
+      "excerpt": "Why chills and fever appear together in early colds, and how TCM's Exterior/Interior distinction shapes treatment.",
+      "category": "Acupuncture & TCM Theory",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/greenleafclinic-web/blog/wind-cold-syndrome/"
+    },
+    {
+      "slug": "what-was-tcm-observing-for-two-thousand-years",
+      "title": "What was Traditional Chinese Medicine observing for two thousand years?",
+      "excerpt": "A single point on the dorsum of the foot. Two thousand years of clinical records. What East Asian physicians documented about LR3 maps remarkably onto modern portal hypertension and liver cirrhosis.",
+      "category": "Acupuncture & TCM Theory",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/greenleafclinic-web/blog/what-was-tcm-observing-for-two-thousand-years/"
+    },
+    {
+      "slug": "why-five-elements-attached-to-three-yin-three-yang",
+      "title": "Why are Five Elements attached to Three Yin Three Yang theory?",
+      "excerpt": "Five Elements is Xing (form/qualities), Three Yin Three Yang is Qi (dynamic process). Together they form a complete theory of transformation: Wuyun Liuqi.",
+      "category": "Acupuncture & TCM Theory",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/greenleafclinic-web/blog/why-five-elements-attached-to-three-yin-three-yang/"
+    },
+    {
+      "slug": "healing-after-miscarriage",
+      "title": "Healing after miscarriage",
+      "excerpt": "Compassionate support for healing after miscarriage through acupuncture and herbal medicine — how treatment supports physical, hormonal, and emotional recovery.",
+      "category": "Fertility & Women's Health",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/greenleafclinic-web/blog/healing-after-miscarriage/"
+    },
+    {
+      "slug": "foods-avoid-taking-herbal-medicine",
+      "title": "Foods to avoid while taking herbal medicine",
+      "excerpt": "A few common foods can quietly work against your herbal medicine. Here's what to watch for, and why it depends on what you've been prescribed.",
+      "category": "Herbal Medicine & Nutrition",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/greenleafclinic-web/blog/foods-avoid-taking-herbal-medicine/"
+    }
+  ]
+}
