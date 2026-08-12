@@ -863,8 +863,8 @@
     <h2>Conditions we treat. <em>See how others got better.</em></h2>
     <div class="search-bar">
       <i class="ti ti-search"></i>
-      <input type="text" placeholder="Try a symptom — e.g. insomnia, back pain, digestion">
-      <button class="search-btn">Search Cases</button>
+      <input type="text" id="case-search-input" placeholder="Try a symptom — e.g. insomnia, back pain, digestion" onkeydown="if(event.key==='Enter'){window.location.href='https://greenleaf.github.io/greenleaf-case-reports-en/?q='+encodeURIComponent(this.value);}">
+      <button class="search-btn" onclick="window.location.href='https://greenleaf.github.io/greenleaf-case-reports-en/?q='+encodeURIComponent(document.getElementById('case-search-input').value)">Search Cases</button>
     </div>
   </div>
 </header>
@@ -928,7 +928,7 @@
 
     <div class="cases-footer">
       <p><b>70+ documented cases</b> across 14 conditions.</p>
-      <a class="archive-link" href="#">Browse the full case archive →</a>
+      <a class="archive-link" href="https://greenleaf.github.io/greenleaf-case-reports-en/">Browse the full case archive →</a>
     </div>
   </div>
 </section>
