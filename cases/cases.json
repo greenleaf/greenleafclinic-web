@@ -1,0 +1,675 @@
+[
+  {
+    "slug": "case-01-two-years-of-stomach-trouble",
+    "title": "Two Years of Stomach Trouble No Test Could Explain",
+    "summary": "Indigestion and heartburn that got worse with stress and travel, plus a strange fluttering sensation under the ribs.",
+    "cat": "Digestive Issues",
+    "weeks": "3 weeks",
+    "kw_en": "stomach indigestion heartburn reflux acid butterfly sensation frequent urination worry anxiety insomnia dry lips bitter taste"
+  },
+  {
+    "slug": "case-02-hot-and-cold-flashes-after-menopause",
+    "title": "The Anxiety That Started Right After Menopause",
+    "summary": "Sudden hot and cold flashes, night sweats, and a low, unexplained sadness that showed up right after menopause.",
+    "cat": "Uterine Conditions",
+    "weeks": "6 weeks",
+    "kw_en": "menopause hot flash cold flash night sweats anxiety depression low mood constipation dry mouth waking at night"
+  },
+  {
+    "slug": "case-03-waking-up-every-night-for-two-years",
+    "title": "Waking Up Every Night for Two Years — Plus an Itchy Scalp No One Could Explain",
+    "summary": "Constant nighttime waking and low-grade anxiety, alongside scalp itching and dandruff that came out of nowhere.",
+    "cat": "Mental Health",
+    "weeks": "4 weeks",
+    "kw_en": "insomnia waking up at night anxiety stress scalp itching dandruff puffiness water retention frequent urination chest tightness sugar cravings"
+  },
+  {
+    "slug": "case-04-insomnia-and-anger-after-a-car-accident",
+    "title": "Insomnia and Anger That Started After a Car Accident",
+    "summary": "Sleepless nights, a racing heart, and sudden bursts of anger that surfaced after a traumatic car accident.",
+    "cat": "Mental Health",
+    "weeks": "6 weeks",
+    "kw_en": "insomnia PTSD trauma anger irritability car accident heart palpitations chest tightness nausea hot flash cold sweat"
+  },
+  {
+    "slug": "case-05-headaches-cold-hands-that-never-warmed-up",
+    "title": "Daily Headaches, a Stomach That Wouldn't Settle, and Cold Hands That Never Warmed Up",
+    "summary": "Persistent headaches, indigestion, and exhaustion under work stress, with hands and feet that stayed cold no matter the season.",
+    "cat": "Pain",
+    "weeks": "6 weeks",
+    "kw_en": "headache migraine indigestion fatigue cold hands cold feet stress period pain menstrual cramps insomnia"
+  },
+  {
+    "slug": "case-06-panic-attacks-that-start-in-the-stomach",
+    "title": "Panic Attacks That Always Started in Her Stomach",
+    "summary": "Panic attacks and morning anxiety that showed up as stomach pain, gas, and diarrhea after a frightening experience abroad.",
+    "cat": "Mental Health",
+    "weeks": "3 weeks",
+    "kw_en": "anxiety panic attack morning anxiety stomach pain gas bloating diarrhea PTSD homesick cold hands feet"
+  },
+  {
+    "slug": "case-07-diarrhea-and-restless-legs-after-menopause",
+    "title": "Five Years of Diarrhea and Restless Legs After Menopause",
+    "summary": "Diarrhea that began after menopause, along with nightly leg shaking and irritability, when nothing fit the usual explanations.",
+    "cat": "Digestive Issues",
+    "weeks": "5 weeks",
+    "kw_en": "diarrhea restless leg syndrome menopause irritability fatigue dry skin waking at night early morning waking"
+  },
+  {
+    "slug": "case-08-blocked-nose-and-breathless-mornings",
+    "title": "A Blocked Nose and Breathless Mornings That Cleared, One Layer at a Time",
+    "summary": "Three months of nasal congestion and eye-pressure headaches on top of seven years of COPD-related shortness of breath, resolved stage by stage.",
+    "cat": "ENT (Ear, Nose & Throat)",
+    "weeks": "4 weeks",
+    "kw_en": "nasal congestion stuffy nose sinus pressure headache COPD shortness of breath breathlessness postnasal drip dry skin night sweats runny nose phlegm"
+  },
+  {
+    "slug": "case-09-burping-that-wouldnt-stop",
+    "title": "The Burping That Wouldn't Stop, and the Panic Attacks Hiding Underneath It",
+    "summary": "Constant burping, bloating, and diarrhea that spiraled into panic attacks and unexplained crying, all traced back to trapped internal heat.",
+    "cat": "Mental Health",
+    "weeks": "12 weeks",
+    "kw_en": "burping bloating diarrhea anxiety panic attack crying spells flushed face nausea car sickness stress digestive heat coffee sensitivity"
+  },
+  {
+    "slug": "case-10-racing-heart-and-irregular-period-after-miscarriage",
+    "title": "Anxiety, a Racing Heart, and a Period That Wouldn't Settle After a Miscarriage",
+    "summary": "Heavy, twice-monthly bleeding and panic-like anxiety after a miscarriage, resolved once treatment shifted from replenishing blood to releasing a hidden tension.",
+    "cat": [
+      "Uterine Conditions",
+      "Fertility"
+    ],
+    "weeks": "3 weeks",
+    "kw_en": "irregular period heavy bleeding miscarriage D&C anxiety panic attack heart palpitations racing heart fatigue anemia lightheaded bloating gas fertility pregnancy"
+  },
+  {
+    "slug": "case-11-twenty-sleepless-nights-depression",
+    "title": "Twenty Sleepless Nights, and the Depression That Followed",
+    "summary": "Severe insomnia followed by deep depression and a stubbornly elevated pulse, resolved once treatment addressed excess heat building up from the liver.",
+    "cat": "Mental Health",
+    "weeks": "9 weeks",
+    "kw_en": "depression anxiety fatigue insomnia elevated heart rate high pulse night sweats running hot loose stools frequent urination stress burnout loss of motivation"
+  },
+  {
+    "slug": "case-12-five-years-of-insomnia",
+    "title": "Five Years of Insomnia, and a Mind That Wouldn't Switch Off at Night",
+    "summary": "Five years of exhausting, wide-awake nights that worsened after breast cancer treatment, resolved by addressing both nervous tension and an underlying fluid imbalance.",
+    "cat": [
+      "Mental Health",
+      "Cancer & Chemotherapy"
+    ],
+    "weeks": "10 weeks",
+    "kw_en": "insomnia can't fall asleep chronic sleep problems breast cancer treatment dry mouth frequent urination loose stools chest hollowness dry eyes shoulder pain leg numbness elderly"
+  },
+  {
+    "slug": "case-13-anxiety-palpitations-and-heartburn",
+    "title": "Three Symptoms, Fifteen Years, and One Hidden Source",
+    "summary": "Anxiety, racing-heart palpitations that had lingered for fifteen years, and long-standing heartburn, all traced back to the same overflow of digestive heat.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "8 weeks",
+    "kw_en": "anxiety heart palpitations heartburn acid reflux GERD stress flushed face hot flashes constipation morning nausea health anxiety antacid thickened heart valve"
+  },
+  {
+    "slug": "case-14-racing-heart-and-nausea-in-crowds",
+    "title": "Racing Heart and Nausea That Started in a Shopping Mall",
+    "summary": "Sudden panic-like nausea and a racing heart in crowded places, plus a fear of choking that made eating difficult, resolved in two stages as anxiety eased and lingering digestive sensitivity settled last.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "12 weeks",
+    "kw_en": "anxiety panic attack nausea vomiting indigestion fear of eating fear of choking crowded places car sickness cold sensitivity vasovagal syncope night owl sleep schedule"
+  },
+  {
+    "slug": "case-15-stomach-fullness-during-job-search",
+    "title": "A Stomach That Wouldn't Settle While He Waited for a Job Offer",
+    "summary": "A week of stubborn fullness below the breastbone and job-search anxiety, both resolved once treatment restored the gut lining's ability to absorb fluid.",
+    "cat": [
+      "Digestive Issues",
+      "Mental Health"
+    ],
+    "weeks": "2 weeks",
+    "kw_en": "indigestion fullness bloating anxiety unemployment job search stress shortness of breath hot flush cold intolerance loose stools frequent urination facial swelling low energy"
+  },
+  {
+    "slug": "case-16-two-years-of-itching-no-rash",
+    "title": "Two Years of Itching and Tingling That No Rash Could Explain",
+    "summary": "Two years of unexplained tingling, numbness, and itching with no rash, resolved once treatment warmed surface circulation and helped a stalled sweating process complete itself.",
+    "cat": "Skin Conditions",
+    "weeks": "4 weeks",
+    "kw_en": "skin tingling numbness itching no rash cold sensitivity cold feet swelling shoulder neck stiffness low energy menstrual pain fatigue"
+  },
+  {
+    "slug": "case-17-panic-symptoms-sweaty-rehearsal",
+    "title": "Three Years of Panic Symptoms That Started With One Sweaty Rehearsal",
+    "summary": "Years of anxiety, a racing heart, and sweating only below the waist, resolved once treatment addressed a misfiring sweat-regulation switch instead of the anxiety itself.",
+    "cat": "Mental Health",
+    "weeks": "2 weeks",
+    "kw_en": "anxiety panic attack heart palpitations racing heart heat intolerance abnormal sweating below the waist trembling hands chest tightness shortness of breath dancer trauma stress"
+  },
+  {
+    "slug": "case-18-nausea-after-one-bad-night",
+    "title": "A Month of Nausea That Started With One Bad Night",
+    "summary": "A month of relentless nausea that began after one severe vomiting episode, resolved with a simple two-herb formula once every other system checked out clean.",
+    "cat": "Digestive Issues",
+    "weeks": "2 weeks",
+    "kw_en": "nausea vomiting morning nausea appetite intact fatigue palpitations stomach upset no indigestion student"
+  },
+  {
+    "slug": "case-19-indigestion-period-pain-hidden-problem",
+    "title": "Three Years of Indigestion and Period Pain, and the Real Problem Hiding Underneath",
+    "summary": "Three years of poor digestion, recurring abdominal pain with diarrhea, and severe menstrual pain, resolved once treatment shifted twice and uncovered the real underlying issue.",
+    "cat": [
+      "Digestive Issues",
+      "Uterine Conditions"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "indigestion abdominal pain diarrhea stress irritable bowel menstrual pain period pain irregular period clots cold hands feet hot flush sighing dry lips eye fatigue"
+  },
+  {
+    "slug": "case-20-abdominal-pain-that-suddenly-spiked",
+    "title": "Years of Heartburn and Bloating, and the Abdominal Pain That Suddenly Spiked",
+    "summary": "Years of burping, bloating, and severe heartburn, plus abdominal pain that suddenly intensified under stress, eased by releasing gut muscle tension and warming circulation to the area.",
+    "cat": "Digestive Issues",
+    "weeks": "3 weeks",
+    "kw_en": "abdominal pain heartburn acid reflux bloating burping constipation diarrhea alternating stress worse at night cold feet banker"
+  },
+  {
+    "slug": "case-21-bloating-depression-muscle-tension",
+    "title": "A Year of Bloating and Low Mood, and the Muscle Tension That Herbs Couldn't Fully Release",
+    "summary": "A year of abdominal bloating, fatigue, and depression traced to a tense band of abdominal muscle, resolved once herbs and finally a single needling session released the remaining tension.",
+    "cat": [
+      "Digestive Issues",
+      "Mental Health"
+    ],
+    "weeks": "7 weeks",
+    "kw_en": "bloating abdominal distension fatigue depression low mood irritability palpitations frequent urination headache dry mouth abdominal muscle tension trigger point acupuncture"
+  },
+  {
+    "slug": "case-22-diarrhea-after-meat",
+    "title": "Diarrhea After Every Meal With Meat, and the Formula That Finally Changed Course",
+    "summary": "Years of diarrhea and pain triggered specifically by eating meat, resolved once treatment shifted from calming stress to clearing heat-type inflammation in the gut lining.",
+    "cat": "Digestive Issues",
+    "weeks": "5 weeks",
+    "kw_en": "diarrhea abdominal pain IBS meat triggered food sensitivity heat intolerance dry mouth thirst frequent urination palpitations leg sensation motion sickness"
+  },
+  {
+    "slug": "case-23-seven-years-diarrhea-bloating",
+    "title": "Seven Years of Diarrhea and Bloating, and the Quiet Temperament That Hid the Real Signal",
+    "summary": "Seven years of unexplained diarrhea and constant bloating, resolved once treatment moved past an introverted temperament to follow what the body itself was showing.",
+    "cat": [
+      "Digestive Issues",
+      "Mental Health"
+    ],
+    "weeks": "6 weeks",
+    "kw_en": "diarrhea bloating abdominal pain seven years IBS stress anxiety cold hands feet introverted temperament rectus abdominis tenderness incomplete emptying"
+  },
+  {
+    "slug": "case-24-elevator-claustrophobia-heartburn",
+    "title": "The Man Who Couldn't Ride an Elevator, and the Heartburn That Wouldn't Quit",
+    "summary": "A year of claustrophobia and daily heartburn that resolved in two stages, once a single added herb finally let the eroded gastric lining heal.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "8 weeks",
+    "kw_en": "claustrophobia acid reflux heartburn GERD antacid chest tightness palpitations elevator confined spaces stress anxiety anger flushed face"
+  },
+  {
+    "slug": "case-25-fatigue-bloating-diarrhea",
+    "title": "Three to Four Years of Fatigue, Bloating, and Diarrhea, Resolved by One Formula",
+    "summary": "Three to four years of fatigue, bloating, and diarrhea from a body running hot above and cold below, resolved with one formula addressing both at once.",
+    "cat": "Digestive Issues",
+    "weeks": "4 weeks",
+    "kw_en": "fatigue bloating diarrhea loose stools thirst dry mouth chest tightness heat and cold intolerance stress low stamina appetite loss"
+  },
+  {
+    "slug": "case-26-anxiety-panic-loud-noise",
+    "title": "Anxiety and Panic That Began With One Loud Noise",
+    "summary": "Anxiety and nightly palpitations that began after a single startling noise, resolved only after moving past calming fear to treat the nervous system's reactivity directly.",
+    "cat": "Mental Health",
+    "weeks": "12 weeks",
+    "kw_en": "anxiety palpitations panic attack startle response tinnitus ear sensitivity tongue numbness insomnia waking at night swelling depression emergency room"
+  },
+  {
+    "slug": "case-27-panic-on-a-plane",
+    "title": "Panic That Began on a Plane, Resolved in Time to Travel Again",
+    "summary": "Panic attacks that began on a flight and spread to cars and elevators, resolved by widening treatment to include circulation and muscle tension alongside nervous system calming.",
+    "cat": "Mental Health",
+    "weeks": "11 weeks",
+    "kw_en": "panic attack anxiety palpitations claustrophobia travel flight elevator car cold hands feet chest tightness shortness of breath PMS perfectionist international student"
+  },
+  {
+    "slug": "case-28-depression-insomnia-chest-tightness",
+    "title": "A Lifetime of Depression and Insomnia, and the Chest Tightness That Started With Every Meal",
+    "summary": "Lifelong depression and insomnia that finally lifted once treatment traced chest tightness after every meal back to a specific digestive-respiratory pattern.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "5 weeks",
+    "kw_en": "depression insomnia chest tightness shortness of breath meal triggered digestive issues bloating nausea headache menstrual pain childhood"
+  },
+  {
+    "slug": "case-29-anxiety-shows-up-in-the-gut",
+    "title": "When Anxiety Shows Up in the Gut",
+    "summary": "Anxiety and trauma showing up as diarrhea, bloating, and finger tremors, resolved once treatment addressed the gut and nervous system together in the body's own order of recovery.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "anxiety trauma diarrhea bloating cold hands feet sweaty hands feet headache muscle twitching sensitive temperament PTSD"
+  },
+  {
+    "slug": "case-30-nighttime-incontinence-childhood-trauma",
+    "title": "Nighttime Incontinence and a Childhood Trauma",
+    "summary": "Nighttime bedwetting rooted in a childhood trauma and fluid stagnation, resolved once treatment addressed the nervous system and circulation together.",
+    "cat": "Mental Health",
+    "weeks": "3 weeks",
+    "kw_en": "nocturnal enuresis bedwetting incontinence PTSD childhood trauma swelling fluid retention PCOS anxiety dizziness bitter taste"
+  },
+  {
+    "slug": "case-31-ibs-eczema-heat-trapped",
+    "title": "IBS, Eczema, and Heat Trapped in the Body",
+    "summary": "IBS, eczema, and anxiety traced back to one shared pattern of trapped heat, resolved once a single formula vented that heat through both the gut and the skin.",
+    "cat": [
+      "Digestive Issues",
+      "Skin Conditions"
+    ],
+    "weeks": "3 weeks",
+    "kw_en": "IBS constipation acid reflux eczema itchy skin anxiety heat intolerance night sweats headache after eating dizziness"
+  },
+  {
+    "slug": "case-32-insomnia-after-chemotherapy",
+    "title": "Insomnia After Chemotherapy, and a Body Left Depleted",
+    "summary": "Insomnia that worsened after chemotherapy, resolved by replenishing the fluids depletion had left behind rather than sedating the nervous system directly.",
+    "cat": [
+      "Mental Health",
+      "Cancer & Chemotherapy"
+    ],
+    "weeks": "7 weeks",
+    "kw_en": "insomnia chemotherapy lymphoma cancer thirst dry skin night sweats bitter taste constipation shortness of breath fatigue"
+  },
+  {
+    "slug": "case-33-chronic-abdominal-pain-normal-tests",
+    "title": "Chronic Abdominal Pain That Showed Up Normal on Every Gynecological Test",
+    "summary": "A year of unexplained abdominal pain that all gynecological testing missed, resolved in layers once treatment moved from nervous tension to localized pelvic blood stasis.",
+    "cat": [
+      "Uterine Conditions",
+      "Pain"
+    ],
+    "weeks": "18 weeks",
+    "kw_en": "chronic abdominal pain right lower abdomen gynecological workup birth control cold hands feet ovulation pelvic blood stasis teenager"
+  },
+  {
+    "slug": "case-34-sensitive-nervous-system-allergy",
+    "title": "The Sensitive Nervous System Behind an Allergy",
+    "summary": "Allergy symptoms in a sensitive child, resolved once treatment looked past the eyes and nose to calm an overactive nervous system and fluid imbalance underneath.",
+    "cat": [
+      "Pediatrics",
+      "ENT (Ear, Nose & Throat)",
+      "Skin Conditions"
+    ],
+    "weeks": "6 weeks",
+    "kw_en": "allergy itchy eyes nasal congestion runny nose itchy skin child pediatric sensitive to smells insomnia poor appetite constipation"
+  },
+  {
+    "slug": "case-35-ibs-fear-of-colon-cancer",
+    "title": "When Irritable Bowel Symptoms Bring Fear of Colon Cancer",
+    "summary": "IBS symptoms that raised a fear of colon cancer, resolved once treatment traced the gut and chest symptoms back to chronic nervous system tension.",
+    "cat": [
+      "Digestive Issues",
+      "Mental Health"
+    ],
+    "weeks": "5 weeks",
+    "kw_en": "IBS diarrhea abdominal pain burping chest tightness shortness of breath sighing cold hands feet colon cancer worry anxiety"
+  },
+  {
+    "slug": "case-36-swelling-foggy-head-sleepless-nights",
+    "title": "The Swelling Behind a Foggy Head and Sleepless Nights",
+    "summary": "Brain fog, insomnia, and ADHD-like symptoms traced to swelling and poor lymphatic circulation, resolved once fluid retention throughout the body was addressed.",
+    "cat": "Mental Health",
+    "weeks": "3 weeks",
+    "kw_en": "brain fog insomnia ADHD swelling leg edema lymphatic circulation lower back pain flat affect fatigue"
+  },
+  {
+    "slug": "case-37-knee-pain-not-the-joint",
+    "title": "Knee Pain That Didn't Respond to Treatment — Because It Wasn't the Joint",
+    "summary": "Knee pain that ten sessions of acupuncture elsewhere couldn't touch, resolved once treatment looked past the joint to whole-body fluid retention.",
+    "cat": "Pain",
+    "weeks": "4 weeks",
+    "kw_en": "knee pain swelling joint pain stairs normal x-ray fluid retention insomnia waking at night elderly"
+  },
+  {
+    "slug": "case-38-panic-attack-mid-treatment",
+    "title": "A Sudden Panic Attack Mid-Treatment, and the Clue That Had Been Missed",
+    "summary": "A sudden panic attack mid-recovery from PTSD, resolved once tenderness in the lower abdomen and tongue color pointed to blood stasis hiding underneath.",
+    "cat": "Mental Health",
+    "weeks": "8 weeks",
+    "kw_en": "PTSD depression panic attack trauma workplace accident fatigue insomnia blood stasis healthcare worker concentration ADHD"
+  },
+  {
+    "slug": "case-39-exhaustion-heavy-bleeding-irritability",
+    "title": "The Exhaustion and Heavy Bleeding Behind the Irritability",
+    "summary": "Irritability and anxiety that turned out to be signs of a body depleted by fatigue and heavy bleeding, resolved by replenishing rather than calming.",
+    "cat": [
+      "Uterine Conditions",
+      "Mental Health"
+    ],
+    "weeks": "3 weeks",
+    "kw_en": "fatigue heavy menstrual bleeding irritability anxiety cold intolerance constipation diarrhea puffy face weak energy"
+  },
+  {
+    "slug": "case-40-full-body-hives-thirst-heat",
+    "title": "Full-Body Hives — The Clue Was in the Thirst and Heat",
+    "summary": "Months of full-body hives that resisted a heat-clearing formula until heartburn revealed the inflammation had spread beyond the skin, resolved once treatment addressed both the vessels and the mucosal lining.",
+    "cat": "Skin Conditions",
+    "weeks": "10 weeks",
+    "kw_en": "chronic hives urticaria full body rash itching heat intolerance thirst heavy sweating heartburn antihistamine skin condition"
+  },
+  {
+    "slug": "case-41-bedwetting-college-student-returns",
+    "title": "A Boy Treated for Bedwetting a Decade Ago Returns as a College Student",
+    "summary": "A childhood bedwetting case resolved a decade ago by recognizing a heat pattern hiding behind apparent cold intolerance, and the same underlying constitution resurfacing years later as adult irritability and chest tightness.",
+    "cat": [
+      "Mental Health",
+      "Pediatrics"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "nocturnal enuresis bedwetting ADHD childhood attention difficulties irritability chest tightness college student excess heat sugar soda"
+  },
+  {
+    "slug": "case-42-anxiety-fixed-point-abdominal-pain",
+    "title": "Anxiety and Lower Right Abdominal Pain — What a Single Fixed Point of Pain Revealed",
+    "summary": "Anxiety-driven abdominal pain and diarrhea that mostly resolved with one formula, except for pain fixed at a single point — the clue that pointed to a separate, localized inflammation underneath.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "anxiety lower right abdominal pain diarrhea alternating constipation cold sweaty hands feet localized inflammation fixed point pain"
+  },
+  {
+    "slug": "case-43-frequent-urination-decade-sexual-activity",
+    "title": "Over a Decade of Frequent Urination — Why It Worsened After One Specific Activity",
+    "summary": "Over a decade of frequent nighttime urination that worsened after sexual activity, resolved slowly once circulation-supporting herbs were added to the usual formula.",
+    "cat": "Men's Health",
+    "weeks": "4 weeks",
+    "kw_en": "frequent urination nocturia over ten years sexual activity cold hands feet anxious constitution circulation urinary frequency"
+  },
+  {
+    "slug": "case-44-quick-tempered-achy-bellied-child",
+    "title": "A Quick-Tempered, Achy-Bellied Child — When the Tension Eased, So Did the Bowels",
+    "summary": "A preschool boy's quick temper, constipation, and abdominal pain traced to the same abdominal muscle tension, resolved together as one formula eased that tension throughout the body.",
+    "cat": [
+      "Pediatrics",
+      "Digestive Issues"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "irritability temper tantrums constipation abdominal pain child preschool pediatric rectus abdominis tension poor appetite"
+  },
+  {
+    "slug": "case-45-dry-cough-lingered-three-months",
+    "title": "A Dry Cough That Lingered for Nearly Three Months",
+    "summary": "A completely dry, phlegm-free cough that lingered for months after a cold, resolved once treatment moved past moisturizing the airway to calm the lingering inflammation underneath.",
+    "cat": [
+      "Pediatrics",
+      "ENT (Ear, Nose & Throat)"
+    ],
+    "weeks": "3 weeks",
+    "kw_en": "dry cough no phlegm child pediatric persistent cough three months airway dryness throat inflammation post-cold"
+  },
+  {
+    "slug": "case-46-heat-prone-child-phlegmy-cough",
+    "title": "A Heat-Prone Child's Phlegmy Cough — Why One Formula Wasn't Enough",
+    "summary": "A phlegmy cough that outlasted a child's cold, resolved once treatment moved past opening the airway to cool the heat still fueling the inflammation.",
+    "cat": [
+      "Pediatrics",
+      "ENT (Ear, Nose & Throat)"
+    ],
+    "weeks": "3 weeks",
+    "kw_en": "phlegmy cough child pediatric heat prone flushing lingering cold airway inflammation sibling different constitution"
+  },
+  {
+    "slug": "case-47-four-years-ttc-remote-herbs-ivf-success",
+    "title": "Four Years, Two Failed IUIs, and the Herbal Care That Changed Her First IVF Cycle",
+    "summary": "After four years trying to conceive and two failed IUI cycles, personalized herbal care coordinated long-distance from Toronto helped support her body through a first, successful IVF cycle and a full-term birth.",
+    "cat": [
+      "Fertility"
+    ],
+    "weeks": "16 weeks",
+    "kw_en": "infertility ovarian cyst surgery IUI failed IVF success personalized herbs remote long distance patient phone follow up pregnancy birth egg quality uterine lining"
+  },
+  {
+    "slug": "case-48-fertility-support-natural-conception-chemical-pregnancy-recovery",
+    "title": "From Fertility Support to Two Healthy Births, With One Loss Along the Way",
+    "summary": "Acupuncture-only care helped a stressed, lower-AMH patient conceive naturally right before an IVF cycle was set to begin; a year later, a targeted formula supported her recovery from a chemical pregnancy and a healthy second birth.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "fertility support low AMH stress rib side tenderness acupuncture only natural conception before IVF chemical pregnancy recovery second pregnancy postpartum care uterine lining residual tissue"
+  },
+  {
+    "slug": "case-49-failed-transfer-acupuncture-successful-second-transfer",
+    "title": "After One Failed Transfer, the One Change That Led to a Healthy Baby",
+    "summary": "After an unexplained failed embryo transfer and a new endometriosis diagnosis, acupuncture — the only change made before her second cycle — supported a successful transfer and a healthy birth.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "8 weeks",
+    "kw_en": "IVF failed transfer unexplained bad cycle endometriosis insomnia hypochondriac pain chest tenderness headache loose stool period acupuncture second transfer successful baby"
+  },
+  {
+    "slug": "case-50-dysmenorrhea-headaches-swelling-two-pregnancies",
+    "title": "Severe Cramping, Headaches, and Swelling — Two Smooth Pregnancies, Three Years Apart",
+    "summary": "Severe dysmenorrhea, headaches, indigestion, and swelling resolved over three months of acupuncture and herbal care, leading to a natural conception — and a second, even faster conception three years later using the same approach.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "12 weeks",
+    "kw_en": "fertility preparation severe dysmenorrhea menstrual cramping headache indigestion swelling blood deficiency fluid retention natural conception second pregnancy postpartum"
+  },
+  {
+    "slug": "case-51-endometriosis-period-pain-healthy-delivery",
+    "title": "Endometriosis and Severe Period Pain, Pain-Free Within Three Months, and a Healthy Delivery",
+    "summary": "Years of endometriosis and severe menstrual pain resolved within three months of herbal and acupuncture care, followed by a natural pregnancy and a healthy delivery.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "12 weeks",
+    "kw_en": "endometriosis severe menstrual pain dysmenorrhea infertility blood stasis pregnancy healthy delivery nausea headache mood swings"
+  },
+  {
+    "slug": "case-52-miscarriage-ivf-healthy-delivery",
+    "title": "From the Moment of Miscarriage Through IVF to a Healthy Delivery",
+    "summary": "Emergency acupuncture during a miscarriage, staged herbal care through recovery, and continued treatment through IVF led to a healthy delivery.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "",
+    "kw_en": "miscarriage emergency acupuncture uterine recovery IVF pregnancy healthy delivery blood stasis"
+  },
+  {
+    "slug": "case-53-ivf-fibroids-placental-blood-flow-preeclampsia-36-weeks",
+    "title": "An IVF Pregnancy Alongside Uterine Fibroids — Overcoming a Placental Blood Flow Crisis and Preeclampsia to Meet Her Daughter at 36 Weeks",
+    "summary": "A high-risk IVF pregnancy complicated by uterine fibroids, a placental blood flow crisis, and preeclampsia was carried safely through to a healthy delivery at 36 weeks.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "2 weeks",
+    "kw_en": "IVF uterine fibroids placental blood flow growth delay preeclampsia gestational diabetes high risk pregnancy delivery"
+  },
+  {
+    "slug": "case-54-recurrent-pregnancy-loss-acupuncture-only-twins",
+    "title": "Recurrent Pregnancy Loss and Infertility, Rebalanced Through Acupuncture Alone, Ending in Healthy Twins",
+    "summary": "Recurrent miscarriage and a failed IVF transfer were addressed with acupuncture alone, restoring balance in a constitutionally warm body ahead of a successful IVF cycle that resulted in twins.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "",
+    "kw_en": "recurrent pregnancy loss chemical pregnancy failed IVF transfer acupuncture only warm constitution progesterone twins"
+  },
+  {
+    "slug": "case-55-infertility-arrhythmia-digestive-period-pain-herbal-only",
+    "title": "Infertility, Arrhythmia, Digestive Trouble, and Severe Period Pain — Pregnancy Achieved Through Herbal Medicine Alone",
+    "summary": "A constitutional pattern of muscle tension and fluid stagnation linked infertility, arrhythmia, digestive trouble, and severe menstrual pain with fibroids &mdash; addressed with herbal medicine alone, leading to pregnancy.",
+    "cat": [
+      "Fertility",
+      "Uterine Conditions"
+    ],
+    "weeks": "",
+    "kw_en": "infertility arrhythmia PVC AV block cold constitution bloating constipation dysmenorrhea uterine fibroids herbal medicine only pregnancy"
+  },
+  {
+    "slug": "case-56-infertility-ibs-low-blood-pressure-spinal-history-ivf",
+    "title": "Infertility, IBS, Low Blood Pressure, and the Shadow of an Old Spinal Injury — Pregnancy and a Safe Delivery After Treatment That Warmed the Body from Its Core",
+    "summary": "Infertility layered on IBS, low blood pressure, chronic stress, and a childhood spinal injury was addressed by warming circulation from the body's core, supporting a successful IVF pregnancy and safe delivery.",
+    "cat": [
+      "Fertility",
+      "Digestive Issues"
+    ],
+    "weeks": "",
+    "kw_en": "infertility IBS low blood pressure cold constitution chronic stress cervical lumbar disc herniation IVF pregnancy safe delivery"
+  },
+  {
+    "slug": "case-57-stress-headaches-brain-fog",
+    "title": "Chronic Stress Headaches and Brain Fog — Relief by Treating the Digestive Root, Not Just the Head",
+    "summary": "Recurring headaches and brain fog driven by chronic work stress were traced back to disrupted digestion and fluid buildup, with acupuncture and herbal medicine bringing consistent relief over several years of ongoing care.",
+    "cat": [
+      "Pain"
+    ],
+    "weeks": "",
+    "kw_en": "stress headache brain fog chronic stress digestive dysfunction fluid retention acupuncture herbal medicine Banha Baekchul Cheonmatang"
+  },
+  {
+    "slug": "case-58-cervicogenic-dizziness-neck-tension",
+    "title": "Positional Dizziness Traced to the Neck, Not the Ears — Clear Improvement Within Weeks",
+    "summary": "An episode of unsteady, movement-triggered dizziness turned out to be caused by tension in the neck muscles rather than the inner ear, resolving significantly with acupuncture alone.",
+    "cat": [
+      "ENT (Ear, Nose & Throat)"
+    ],
+    "weeks": "Significant improvement within 3 weeks",
+    "kw_en": "cervicogenic dizziness neck tension positional dizziness unsteadiness vestibular acupuncture"
+  },
+  {
+    "slug": "case-59-occipital-nerve-compression-head-pain",
+    "title": "Severe, Recurring Head Pain — Relief Once a Compressed Nerve Was Identified",
+    "summary": "Intermittent, severe head pain that lasted for days was traced to occipital nerve compression rather than ordinary muscle tension, bringing immediate relief once acupuncture targeted the true source.",
+    "cat": [
+      "Pain"
+    ],
+    "weeks": "Substantial relief within 2 weeks",
+    "kw_en": "occipital nerve compression severe head pain tension headache nerve pain acupuncture"
+  },
+  {
+    "slug": "case-60-wrist-pain-whole-arm-chain",
+    "title": "Wrist Pain That Was Really a Whole-Arm Problem — Significant Relief After Treating the Full Chain",
+    "summary": "Daily wrist pain that made everyday motions painful turned out to originate along the whole arm-shoulder-neck chain, improving significantly after two visits of comprehensive acupuncture and stone massage.",
+    "cat": [
+      "Pain"
+    ],
+    "weeks": "Significant relief in 2 visits over 2 weeks",
+    "kw_en": "wrist pain whole arm chain shoulder neck referred pain acupuncture stone massage"
+  },
+  {
+    "slug": "case-61-summer-heat-erectile-dysfunction",
+    "title": "Erectile Dysfunction Rooted in Heat Intolerance — Resolved With One Month of Herbal Treatment",
+    "summary": "Long-standing heat intolerance, constant thirst, and erectile dysfunction that emerged right as the patient and his wife began trying to conceive in early summer.",
+    "cat": [
+      "Men's Health",
+      "Fertility"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "erectile dysfunction ED heat intolerance summer thirst excess heat trying to conceive herbal medicine"
+  },
+  {
+    "slug": "case-62-erectile-dysfunction-depression-liver-heat",
+    "title": "Erectile Dysfunction and Depression Together — Traced to Liver Heat and Resolved Over Three Months",
+    "summary": "Erectile dysfunction accompanied by depressive mood, both worsening after drinking, traced to excess heat generated in the liver.",
+    "cat": [
+      "Men's Health",
+      "Mental Health"
+    ],
+    "weeks": "12 weeks",
+    "kw_en": "erectile dysfunction ED depression depressed mood alcohol drinking liver heat warm skin acupuncture herbal medicine"
+  },
+  {
+    "slug": "case-63-edema-bloating-erectile-dysfunction",
+    "title": "Body-Wide Swelling and Fatigue, With Erectile Dysfunction at the End — All Resolved Together Over Three Months",
+    "summary": "Chronic bloating, edema, incomplete bowel movements, and restless sleep culminating in erectile dysfunction, traced to fluid stagnation and low-grade inflammation.",
+    "cat": [
+      "Men's Health",
+      "Digestive Issues"
+    ],
+    "weeks": "12 weeks",
+    "kw_en": "erectile dysfunction ED edema swelling bloating incomplete bowel movements insomnia restless sleep overweight fluid stagnation"
+  },
+  {
+    "slug": "case-64-post-accident-headache-brain-fog-glymphatic",
+    "title": "Post-Accident Headaches and Brain Fog, Traced to the Neck — Resolved Together",
+    "summary": "Headaches, brain fog, and reduced concentration following a car accident, traced to neck muscle tension compressing the brain's glymphatic drainage pathway.",
+    "cat": "Pain",
+    "weeks": "12 weeks",
+    "kw_en": "headache brain fog concentration car accident motor vehicle accident neck tension glymphatic system cognitive"
+  },
+  {
+    "slug": "case-65-arm-tingling-scalene-syndrome",
+    "title": "Arm Tingling and Neck Pain, Resolved by Releasing a Nerve Compressed Between the Scalene Muscles",
+    "summary": "Arm tingling and neck pain caused by scalene syndrome, resolved with precise acupuncture directly releasing the compressed nerve pathway.",
+    "cat": "Pain",
+    "weeks": "3 weeks",
+    "kw_en": "arm tingling neck pain scalene syndrome brachial plexus compression nerve acupuncture"
+  },
+  {
+    "slug": "case-66-restricted-jaw-opening-pterygoid",
+    "title": "Restricted Jaw Opening, Resolved by Reaching a Muscle Hidden Deep Behind the Jawbone",
+    "summary": "Sudden restricted jaw opening caused by excess tension in the pterygoid muscle, resolved with acupuncture and electroacupuncture reaching a muscle too deep for manual therapy.",
+    "cat": "Pain",
+    "weeks": "3 weeks",
+    "kw_en": "restricted jaw opening lockjaw pterygoid muscle masseter TMJ electroacupuncture"
+  },
+  {
+    "slug": "case-67-shoulder-ligament-coracoacromial-restriction",
+    "title": "The Shoulder Ligament Problem That Made Unhooking a Bra Impossible, Resolved in Three Weeks",
+    "summary": "Restricted shoulder motion preventing internal rotation behind the back, traced to the coracoacromial ligament rather than the surrounding muscles.",
+    "cat": "Pain",
+    "weeks": "3 weeks",
+    "kw_en": "shoulder pain restricted motion coracoacromial ligament internal rotation behind back rotator cuff"
+  },
+  {
+    "slug": "case-68-shoulder-catching-subacromial-space",
+    "title": "The Catching Feeling When Raising an Arm, Resolved by Reaching a Gap Hands Can't Access",
+    "summary": "A catching sensation deep in the shoulder that persisted even after muscle tension resolved, traced to narrowing of the subacromial space rather than the rotator cuff.",
+    "cat": "Pain",
+    "weeks": "3 weeks",
+    "kw_en": "shoulder catching sensation subacromial impingement rotator cuff range of motion acupuncture"
+  },
+  {
+    "slug": "case-69-volleyball-shoulder-supraspinatus-injury",
+    "title": "A Volleyball Shoulder Injury That Wouldn't Lift on Its Own, Resolved in Three Weeks",
+    "summary": "A supraspinatus injury from a volleyball spike, causing weak active shoulder elevation with preserved passive movement, resolved with acupuncture and cupping.",
+    "cat": "Pain",
+    "weeks": "3 weeks",
+    "kw_en": "volleyball shoulder injury supraspinatus rotator cuff tear active passive range of motion night pain"
+  },
+  {
+    "slug": "case-70-tennis-elbow-chef-lateral-epicondylitis",
+    "title": "Tennis Elbow Without Ever Playing Tennis, Resolved Over Five Weeks",
+    "summary": "Lateral epicondylitis (tennis elbow) in a chef from years of repetitive knife use, resolved with specialized fascia-release needling and cupping.",
+    "cat": "Pain",
+    "weeks": "5 weeks",
+    "kw_en": "tennis elbow lateral epicondylitis chef knife repetitive strain tendon fascia release cupping"
+  }
+]
