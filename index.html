@@ -26,7 +26,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
 <style>
   :root{
@@ -34,7 +34,7 @@
     --paper:#FFFFFF;
     --ink:#181818;
     --ink-soft:#4A4D40;
-    --ink-faint:#707165;
+    --ink-faint:#5C5E4E;
     --line:#E1E3D5;
     --lime:#A8CE3D;
     --lime-soft:#EEF5DA;
@@ -229,7 +229,7 @@
   .video-hero-content .eyebrow{
     color:rgba(255,255,255,.88);font-size:17px;font-weight:600;
   }
-  .video-hero-content .eyebrow::before{background:var(--lime);}
+  .video-hero-content .eyebrow::before{background:var(--lime);margin-top:.55em;}
   .video-hero-content h1{
     color:#fff;max-width:660px;margin:0;
     text-shadow:0 2px 18px rgba(0,0,0,.28);
@@ -259,15 +259,29 @@
   }
   .stat-num{
     font-family:'Fraunces',serif;font-weight:500;font-size:43px;
-    color:var(--warm-deep);line-height:1;
+    color:var(--ink);line-height:1;
   }
+  .stat-num-accent{color:var(--warm-deep);}
   .stat-badge-icon{width:34px;height:auto;flex-shrink:0;}
   .stat-label{font-size:14.5px;color:var(--ink-soft);line-height:1.35;}
 
+  .stat-item-badge{display:flex;align-items:center;justify-content:center;}
+  .stat-item-badge .stat-num-row{margin-bottom:0;gap:20px;}
+  .stat-item-badge .stat-badge-icon{width:100px;}
+  .stat-item-badge .stat-num{font-size:55px;}
+  .stat-item-badge .stat-num .unit{
+    font-family:'IBM Plex Sans',sans-serif;font-size:17px;font-weight:500;
+    color:var(--ink-soft);margin-left:4px;
+  }
+
   @media (max-width:700px){
     .stat-row{grid-template-columns:repeat(2,1fr);row-gap:28px;max-width:480px;}
-    .stat-item{border-left:1px solid var(--line);}
+    .stat-item{border-left:1px solid var(--line);padding:0 12px;min-width:0;}
     .stat-item:nth-child(odd){border-left:none;}
+    .stat-item-badge{grid-column:1 / -1;border-left:none;padding-top:8px;}
+    .stat-item-badge .stat-num-row{gap:10px;}
+    .stat-item-badge .stat-badge-icon{width:56px;}
+    .stat-item-badge .stat-num{font-size:38px;}
   }
 
   /* hero */
@@ -276,12 +290,12 @@
     font-family:'Fraunces',serif;font-weight:500;font-size:43px;line-height:1.12;
     letter-spacing:-0.01em;margin:0 0 24px;max-width:620px;color:var(--ink);
   }
-  h1 em{font-style:normal;color:var(--warm-text);}
+  h1 em{font-style:italic;font-weight:500;color:inherit;}
   .hero h2{
     font-family:'Fraunces',serif;font-weight:500;font-size:43px;line-height:1.12;
     letter-spacing:-0.01em;margin:0 0 24px;max-width:620px;color:var(--ink);
   }
-  .hero h2 em{font-style:normal;color:var(--warm-text);}
+  .hero h2 em{font-style:italic;font-weight:500;color:inherit;}
 
   .search-bar{
     display:flex;align-items:center;gap:12px;max-width:640px;
@@ -301,15 +315,21 @@
   }
   .search-btn:hover{background:var(--warm);}
 
+  @media (max-width:480px){
+    .search-bar{padding:5px 5px 5px 14px;gap:8px;}
+    .search-bar input{font-size:14.5px;min-width:0;}
+    .search-btn{padding:11px 16px;font-size:14px;}
+  }
+
   /* section header — shared rhythm across Conditions / Case archive / Practitioners */
   .section{padding:28px 0;}
   .section-chapter{padding:64px 0 60px;} /* overridden inline per-section below too; kept here for clarity */
   .eyebrow{
-    display:inline-flex;align-items:center;gap:8px;
+    display:inline-flex;align-items:flex-start;gap:8px;
     font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.08em;
     color:var(--ink-faint);text-transform:uppercase;margin-bottom:14px;
   }
-  .eyebrow::before{content:"";width:16px;height:1px;background:var(--lime);}
+  .eyebrow::before{content:"";width:16px;height:1px;background:var(--lime);flex-shrink:0;margin-top:.65em;}
   .section-head{max-width:560px;margin-bottom:18px;}
   .section-head h2{
     font-family:'Fraunces',serif;font-weight:500;font-size:28px;line-height:1.25;
@@ -332,10 +352,11 @@
     display:grid;grid-template-columns:repeat(7,1fr);gap:12px;
   }
   .card{
-    background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--lime);
+    background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--line);
     border-radius:var(--radius);
     padding:20px 18px;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;
-    justify-content:flex-start;min-height:96px;transition:border-color .15s, transform .15s, box-shadow .15s;
+    justify-content:flex-start;min-height:96px;min-width:0;
+    transition:border-color .15s, transform .15s, box-shadow .15s;
   }
   .card:hover{border-color:var(--line);border-top-color:var(--lime-deep);transform:translateY(-2px);box-shadow:0 6px 16px rgba(24,24,24,.06);}
   .card:focus-visible{outline:2px solid var(--lime);outline-offset:2px;}
@@ -343,7 +364,7 @@
     font-size:23.5px;color:var(--lime-deep);
     margin-bottom:10px;
   }
-  .card .title{font-size:16.5px;font-weight:500;line-height:1.32;}
+  .card .title{font-size:16.5px;font-weight:500;line-height:1.32;overflow-wrap:break-word;}
   .card .row{display:flex;align-items:flex-start;justify-content:space-between;gap:6px;flex:1;}
   .card .sub-hint{
     flex-shrink:0;font-size:17px;color:var(--ink-faint);margin-top:1px;
@@ -355,6 +376,9 @@
   }
   @media (max-width:560px){
     .grid-15{grid-template-columns:repeat(3,1fr);}
+  }
+  @media (max-width:430px){
+    .grid-15{grid-template-columns:repeat(2,1fr);}
   }
 
   /* site footer */
@@ -456,10 +480,12 @@
     display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:26px;
   }
   .case-card{
-    background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--lime);
+    background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--line);
     border-radius:14px;
     padding:24px 22px;display:flex;flex-direction:column;
+    transition:border-color .15s, transform .15s, box-shadow .15s;
   }
+  .case-card:hover{border-top-color:var(--lime-deep);transform:translateY(-2px);box-shadow:0 6px 16px rgba(24,24,24,.06);}
   .case-tags{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:20px;}
   .case-tag{
     font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500;
@@ -467,10 +493,10 @@
   }
   .case-weeks{
     font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500;
-    background:var(--warm-soft);color:var(--warm-deep);padding:5px 12px;border-radius:14px;
+    background:var(--bg);color:var(--ink-faint);padding:5px 12px;border-radius:14px;
     white-space:nowrap;flex-shrink:0;
   }
-  .case-text{font-size:18px;line-height:1.55;color:var(--ink-soft);flex:1;margin:0 0 20px;}
+  .case-text{font-size:15.5px;line-height:1.6;color:var(--ink-soft);flex:1;margin:0 0 20px;}
   .case-link{font-size:15px;color:var(--ink);text-decoration:none;font-weight:500;}
   .case-link:hover{color:var(--warm-deep);}
 
@@ -496,7 +522,7 @@
     h1{font-size:36px;}
   }
   @media (prefers-reduced-motion: reduce){
-    .card{transition:none;}
+    .card, .case-card{transition:none;}
   }
 
   /* ============ Treatment method ============ */
@@ -569,12 +595,10 @@
   .prac-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
   .prac-tag{
     font-size:13.5px;padding:6px 12px;border-radius:20px;
-    background:var(--lime-soft);color:var(--lime-deep);text-decoration:none;
-    font-weight:500;transition:background .15s;
+    background:var(--bg);color:var(--ink-soft);text-decoration:none;
+    font-weight:500;transition:background .15s,color .15s;
   }
   .prac-tag:hover{background:var(--lime);color:#fff;}
-  .prac-tag.warm{background:var(--warm-soft);color:var(--warm-deep);}
-  .prac-tag.warm:hover{background:var(--warm);color:#fff;}
 
   .prac-link{
     margin-top:auto;padding-top:16px;border-top:1px solid var(--line);
@@ -952,7 +976,7 @@
     <div class="eyebrow-pill"><span>Trusted, one visit at a time</span></div>
     <div class="stat-row">
       <div class="stat-item">
-        <div class="stat-num-row"><div class="stat-num">20</div></div>
+        <div class="stat-num-row"><div class="stat-num stat-num-accent">20</div></div>
         <div class="stat-label">Years of care</div>
       </div>
       <div class="stat-item">
@@ -963,10 +987,10 @@
         <div class="stat-num-row"><div class="stat-num">61,318+</div></div>
         <div class="stat-label">Treatments delivered</div>
       </div>
-      <div class="stat-item" style="display:flex;align-items:center;justify-content:center;">
-        <div class="stat-num-row" style="margin-bottom:0;gap:20px;">
-          <img class="stat-badge-icon" src="bov-badge.png" alt="Best of Vancouver — Straight" style="width:100px;">
-          <div class="stat-num" style="font-size:55px;">9<span style="font-family:'IBM Plex Sans',sans-serif;font-size:17px;font-weight:500;color:var(--ink-soft);margin-left:4px;">times</span></div>
+      <div class="stat-item stat-item-badge">
+        <div class="stat-num-row">
+          <img class="stat-badge-icon" src="bov-badge.png" alt="Best of Vancouver — Straight">
+          <div class="stat-num">9<span class="unit">times</span></div>
         </div>
       </div>
     </div>
@@ -978,7 +1002,7 @@
     <h2>Conditions we treat. <em>See how others got better.</em></h2>
     <div class="search-bar">
       <i class="ti ti-search"></i>
-      <input type="text" id="case-search-input" placeholder="Try a symptom — e.g. insomnia, back pain, digestion" onkeydown="if(event.key==='Enter'){window.location.href='/greenleafclinic-web/cases/?q='+encodeURIComponent(this.value);}">
+      <input type="text" id="case-search-input" placeholder="Try a symptom — e.g. insomnia, back pain, digestion" data-placeholder-full="Try a symptom — e.g. insomnia, back pain, digestion" data-placeholder-short="Try a symptom…" onkeydown="if(event.key==='Enter'){window.location.href='/greenleafclinic-web/cases/?q='+encodeURIComponent(this.value);}">
       <button class="search-btn" onclick="window.location.href='/greenleafclinic-web/cases/?q='+encodeURIComponent(document.getElementById('case-search-input').value)">Search Cases</button>
     </div>
   </div>
@@ -1075,8 +1099,8 @@
       <div class="prac-tags">
         <a class="prac-tag" href="#">Anxiety, insomnia, low mood</a>
         <a class="prac-tag" href="#">Trying to conceive</a>
-        <a class="prac-tag warm" href="#">Eczema, acne, hives</a>
-        <a class="prac-tag warm" href="#">Bloating, reflux, IBS</a>
+        <a class="prac-tag" href="#">Eczema, acne, hives</a>
+        <a class="prac-tag" href="#">Bloating, reflux, IBS</a>
         <a class="prac-tag" href="#">Erectile dysfunction, prostate</a>
       </div>
       <a class="prac-link" href="/greenleafclinic-web/practitioners/dr-na/">
@@ -1096,10 +1120,12 @@
       </div>
       <p class="prac-intro">If you've never had acupuncture before, start here — the gentlest hand in the clinic. Clare treats women, kids, and the whole family, with a special focus on skin and cosmetic acupuncture.</p>
       <div class="prac-tags">
-        <a class="prac-tag warm" href="#">Eczema, acne, hives</a>
-        <a class="prac-tag" href="#">Cosmetic acupuncture</a>
-        <a class="prac-tag" href="#">Period pain, PCOS, endometriosis</a>
-        <a class="prac-tag warm" href="#">Pain that won't go away</a>
+        <a class="prac-tag" href="#">TMJ &amp; Jaw pain</a>
+        <a class="prac-tag" href="#">Neck &amp; Back Pain</a>
+        <a class="prac-tag" href="#">Facial &amp; MTS Acupuncture</a>
+        <a class="prac-tag" href="#">ICBC Recovery</a>
+        <a class="prac-tag" href="#">Acne &amp; Dry Face</a>
+        <a class="prac-tag" href="#">Numbness &amp; Tingling</a>
       </div>
       <a class="prac-link" href="#practitioners">
         <span><span class="lb-text">Clare's full profile</span><span class="lb-sub">Credentials, focus areas, case archive</span></span>
@@ -1769,6 +1795,19 @@
     {"@type":"Question","name":"Can I take herbal medicine alongside my prescription medications?","acceptedAnswer":{"@type":"Answer","text":"In many cases yes, but it depends on the specific herbs and medications involved — some combinations require caution or timing adjustments. Patients are asked to share their current medications during consultation so the herbal formula can be selected with those interactions in mind."}}
   ]
 }
+</script>
+
+<script>
+(function(){
+  var input = document.getElementById('case-search-input');
+  if(!input) return;
+  var mq = window.matchMedia('(max-width:480px)');
+  function updatePlaceholder(){
+    input.placeholder = mq.matches ? input.dataset.placeholderShort : input.dataset.placeholderFull;
+  }
+  mq.addEventListener ? mq.addEventListener('change', updatePlaceholder) : mq.addListener(updatePlaceholder);
+  updatePlaceholder();
+})();
 </script>
 
 <a href="https://greenleafacuclinic.janeapp.com/" class="floating-book-btn" id="floatingBookBtn" aria-label="Book an Appointment">
