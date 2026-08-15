@@ -426,8 +426,7 @@
   /* ============================================================
      FOOTER — identical to homepage
      ============================================================ */
-  .site-footer{
-  background: var(--paper);padding:64px 0 0;background:var(--paper);}
+  .site-footer{padding:64px 0 0;}
   .footer-headline{text-align:center;margin-bottom:40px;}
   .footer-headline h2{font-family:'Fraunces',serif;font-weight:500;font-size:30px;margin:0;}
   .footer-top{
@@ -437,9 +436,18 @@
   .footer-visit{display:contents;}
   .footer-map-small{
     width:340px;height:220px;flex-shrink:0;border-radius:var(--radius);
-    overflow:hidden;border:1px solid var(--line);
+    overflow:hidden;border:1px solid var(--line);position:relative;
   }
-  .footer-map-small iframe{width:100%;height:100%;border:0;display:block;}
+  .footer-map-small iframe{
+    width:100%;height:100%;border:0;display:block;filter:grayscale(1) contrast(1.05);
+  }
+  .footer-map-pin{
+    position:absolute;left:50%;top:50%;
+    transform:translate(-50%,-100%);
+    width:30px;height:40px;pointer-events:none;
+    filter:drop-shadow(0 3px 4px rgba(0,0,0,.35));
+    z-index:1;
+  }
   .footer-visit-info{max-width:440px;}
   .footer-visit-info p{color:var(--ink-soft);font-size:14.5px;line-height:1.85;margin:0 0 18px;}
   .footer-visit-info a{color:var(--ink-soft);text-decoration:none;}
@@ -452,14 +460,10 @@
 
   .footer-social{display:flex;gap:10px;}
   .footer-social a{
-    width:38px;height:38px;border-radius:10px;color:#fff;
-    display:flex;align-items:center;justify-content:center;text-decoration:none;
-    transition:filter .15s, transform .15s;
+    width:38px;height:38px;border-radius:10px;background:var(--ink-faint);color:#fff;
+    display:flex;align-items:center;justify-content:center;text-decoration:none;transition:background .15s;
   }
-  .footer-social a:hover{filter:brightness(1.08);transform:translateY(-1px);}
-  .footer-social a.fb{background:#1877F2;}
-  .footer-social a.ig{background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);}
-  .footer-social a.yt{background:#FF0000;}
+  .footer-social a:hover{background:var(--lime-deep);}
   .footer-social svg{width:18px;height:18px;fill:currentColor;}
 
   @media (max-width:860px){
@@ -786,6 +790,10 @@
     <div class="footer-visit">
       <div class="footer-map-small">
         <iframe src="https://www.google.com/maps?q=409+Granville+Street+Vancouver+BC&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Greenleaf Acupuncture &amp; Herb Clinic location"></iframe>
+              <svg class="footer-map-pin" viewBox="0 0 30 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 0C6.716 0 0 6.716 0 15c0 10.5 15 25 15 25s15-14.5 15-25c0-8.284-6.716-15-15-15z" fill="var(--warm)"/>
+          <circle cx="15" cy="15" r="6" fill="#fff"/>
+        </svg>
       </div>
       <div class="footer-visit-info">
         <p>
