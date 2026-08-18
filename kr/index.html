@@ -28,6 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT@2/fonts/variable/woff2/SUIT-Variable.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
 <style>
   :root{
@@ -329,7 +330,7 @@
   .section-chapter{padding:64px 0 60px;} /* overridden inline per-section below too; kept here for clarity */
   .eyebrow{
     display:inline-flex;align-items:center;gap:12px;
-    font-family:'IBM Plex Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.01em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:24px;font-weight:600;letter-spacing:.01em;
     color:var(--ink);text-transform:none;margin-bottom:20px;
   }
   .eyebrow::before{content:"";width:28px;height:2px;background:var(--lime);flex-shrink:0;}
@@ -475,7 +476,7 @@
   .media-visual.is-social{background:#DB8467;}
   .media-tag{
     background:rgba(255,255,255,.94);border-radius:999px;padding:7px 16px;
-    font-family:'IBM Plex Mono',monospace;font-size:12.5px;letter-spacing:.06em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:12.5px;letter-spacing:.06em;
     text-transform:uppercase;color:var(--ink);
   }
   .media-icon{
@@ -510,11 +511,11 @@
   .case-card:hover{border-top-color:var(--lime-deep);transform:translateY(-2px);box-shadow:0 6px 16px rgba(24,24,24,.06);}
   .case-tags{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:20px;}
   .case-tag{
-    font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:12.5px;font-weight:500;
     background:var(--lime-soft);color:var(--lime-deep);padding:5px 12px;border-radius:14px;letter-spacing:.01em;
   }
   .case-weeks{
-    font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:12.5px;font-weight:500;
     background:var(--bg);color:var(--ink-faint);padding:5px 12px;border-radius:14px;
     white-space:nowrap;flex-shrink:0;
   }
@@ -578,10 +579,10 @@
   .method-row:hover .num{color:var(--warm-deep);}
   .method-row:hover .arrow{transform:translateX(3px);opacity:1;}
   .method-row:focus-visible{outline:2px solid var(--lime);outline-offset:-2px;}
-  .num{font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--ink-faint);transition:color .15s;}
+  .num{font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:14px;color:var(--ink-faint);transition:color .15s;}
   .method-main{display:flex;align-items:baseline;gap:10px;min-width:0;}
   .method-title{font-family:'Noto Serif KR',serif;font-weight:700;font-size:18.5px;color:var(--ink);white-space:nowrap;}
-  .method-tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--lime-deep);background:var(--lime-soft);padding:2px 7px;border-radius:5px;text-transform:uppercase;white-space:nowrap;}
+  .method-tag{font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:11px;letter-spacing:.04em;color:var(--lime-deep);background:var(--lime-soft);padding:2px 7px;border-radius:5px;text-transform:uppercase;white-space:nowrap;}
   .method-teaser{font-size:14.5px;color:var(--ink-faint);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .arrow{font-size:17px;color:var(--ink-faint);opacity:0;transition:transform .15s, opacity .15s;justify-self:end;}
   .method-row:hover .arrow{opacity:1;}
@@ -614,7 +615,7 @@
   }
   .prac-top{min-width:0;}
   .prac-role{
-    font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.06em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:12px;letter-spacing:.06em;
     text-transform:uppercase;color:var(--lime-deep);margin-bottom:4px;
   }
   .prac-role.founder{color:var(--warm-deep);}
@@ -670,7 +671,7 @@
   .stat-block{position:sticky;top:40px;}
   .stat-eyebrow{
     display:inline-flex;align-items:center;gap:12px;
-    font-family:'IBM Plex Mono',monospace;font-size:24px;font-weight:600;letter-spacing:.01em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:24px;font-weight:600;letter-spacing:.01em;
     color:var(--ink);text-transform:none;margin-bottom:16px;
   }
   .stat-eyebrow::before{content:"";width:28px;height:2px;background:var(--lime);flex-shrink:0;}
@@ -686,7 +687,7 @@
   }
   .stat-source{
     display:inline-flex;align-items:center;gap:6px;margin-top:20px;
-    font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.03em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:12px;letter-spacing:.03em;
     color:var(--ink-faint);text-transform:uppercase;
     border-top:1px solid var(--line);padding-top:16px;
   }
@@ -733,7 +734,7 @@
   .testi-who .tag{display:block;margin-top:3px;font-size:13px;color:var(--ink-soft);}
   .testi-source-tag{
     display:inline-flex;align-items:center;gap:5px;flex-shrink:0;
-    font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.02em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:11.5px;letter-spacing:.02em;
     color:var(--ink-faint);text-transform:uppercase;
   }
   .testi-source-tag i{font-size:16px;color:var(--ink-faint);}
@@ -783,7 +784,7 @@
     display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 30px;border-bottom:1px solid var(--line);padding-bottom:20px;
   }
   .faq-tab{
-    font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.03em;
+    font-family:'IBM Plex Mono','Pretendard',sans-serif;font-size:12px;letter-spacing:.03em;
     background:none;border:1px solid var(--line);border-radius:20px;padding:8px 16px;
     color:var(--ink-soft);cursor:pointer;transition:background .15s,border-color .15s,color .15s;
     white-space:nowrap;
