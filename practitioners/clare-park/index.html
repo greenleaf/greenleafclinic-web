@@ -1383,6 +1383,50 @@ body {
     </div>
   </div>
 
+  <style>
+    .cp-trust-grid{display:grid;grid-template-columns:repeat(4,1fr);}
+    .cp-trust-item{padding:0 1.75rem;border-right:1px solid var(--line);}
+    .cp-trust-item:first-child{padding-left:0;}
+    .cp-trust-item:last-child{border-right:none;padding-right:0;}
+    .cp-trust-item h3{font-family:'Mulish',sans-serif;font-weight:600;font-size:16.5px;color:var(--ink);margin:14px 0 8px;}
+    .cp-trust-item p{font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin:0;}
+    @media (max-width:880px){
+      .cp-trust-grid{grid-template-columns:repeat(2,1fr);row-gap:2rem;}
+      .cp-trust-item:nth-child(2n){border-right:none;}
+      .cp-trust-item:nth-child(1),.cp-trust-item:nth-child(2){border-bottom:1px solid var(--line);padding-bottom:1.75rem;}
+      .cp-trust-item:nth-child(3){padding-left:0;}
+    }
+    @media (max-width:560px){
+      .cp-trust-grid{grid-template-columns:1fr;row-gap:1.75rem;}
+      .cp-trust-item{border-right:none !important;padding-left:0 !important;padding-right:0 !important;border-bottom:1px solid var(--line);padding-bottom:1.75rem !important;}
+      .cp-trust-item:last-child{border-bottom:none;}
+    }
+  </style>
+  <section style="background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <div class="wrap cp-trust-grid" style="padding-top:2.75rem;padding-bottom:2.75rem;">
+      <div class="cp-trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EB7055" stroke-width="1.6"><path d="M2 12h4l3-9 4 18 3-9h6"/></svg>
+        <h3>The body pain interpreter</h3>
+        <p>Reading the pattern behind your pain, not just the spot.</p>
+      </div>
+      <div class="cp-trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EB7055" stroke-width="1.6"><path d="M12 2v20M6 6l12 12M18 6L6 18"/></svg>
+        <h3>Gentle technique</h3>
+        <p>Fine needles, explained before they're placed.</p>
+      </div>
+      <div class="cp-trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EB7055" stroke-width="1.6"><path d="M17 20h5v-1a4 4 0 00-3-3.87M9 20H4v-1a4 4 0 013-3.87m5-4a3 3 0 100-6 3 3 0 000 6zm6 1a3 3 0 100-6 3 3 0 000 6zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>
+        <h3>Whole-family care</h3>
+        <p>Children, teens, women, and older adults, under one roof.</p>
+      </div>
+      <div class="cp-trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EB7055" stroke-width="1.6"><path d="M12 20h9M12 4h9M4 4h.01M4 12h.01M4 20h.01M8 4l4 4-4 4"/></svg>
+        <h3>Practical, everyday guidance</h3>
+        <p>Real answers for between visits — not a lecture.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="bio-band bio-band-gray">
   <div class="main">
 
