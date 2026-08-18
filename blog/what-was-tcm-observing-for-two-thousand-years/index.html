@@ -268,6 +268,7 @@
      ============================================================ */
   .site-footer{background:var(--paper);padding:64px 0 0;}
   .footer-headline{text-align:center;margin-bottom:40px;}
+  .footer-dash{width:32px;height:2px;background:var(--lime);margin:0 auto 18px;}
   .footer-headline h2{font-family:'Fraunces',serif;font-weight:500;font-size:30px;margin:0;}
   .footer-top{
     display:grid;grid-template-columns:340px minmax(0,1fr) auto;
@@ -276,10 +277,10 @@
   .footer-visit{display:contents;}
   .footer-map-small{
     width:340px;height:220px;flex-shrink:0;border-radius:var(--radius);
-    overflow:hidden;border:1px solid var(--line);position:relative;
+    overflow:hidden;border:1px solid var(--line);position:relative;background:var(--paper);
   }
   .footer-map-small iframe{
-    width:100%;height:100%;border:0;display:block;filter:grayscale(1) contrast(1.05);
+    width:100%;height:100%;border:0;display:block;filter:grayscale(.55) sepia(.22) saturate(1.3) contrast(1.02);
   }
   .footer-map-pin{
     position:absolute;left:50%;top:50%;
@@ -292,6 +293,7 @@
   .footer-visit-info p{color:var(--ink-soft);font-size:14.5px;line-height:1.85;margin:0 0 18px;}
   .footer-visit-info a{color:var(--ink-soft);text-decoration:none;}
   .footer-visit-info a:hover{color:var(--lime-deep);}
+  .footer-icon{width:15px;height:15px;color:var(--warm-deep);vertical-align:-3px;margin-right:4px;}
 
   .footer-links{display:flex;flex-direction:column;gap:10px;width:180px;flex-shrink:0;padding-top:4px;text-align:right;align-items:flex-end;}
   .footer-links h4{font-family:'IBM Plex Sans',sans-serif;font-weight:600;font-size:15px;margin:0 0 6px;color:var(--ink);}
@@ -300,13 +302,15 @@
 
   .footer-social{display:flex;gap:10px;}
   .footer-social a{
-    width:38px;height:38px;border-radius:10px;background:var(--ink-faint);color:#fff;
-    display:flex;align-items:center;justify-content:center;text-decoration:none;transition:background .15s;
+    width:38px;height:38px;border-radius:10px;color:#fff;
+    display:flex;align-items:center;justify-content:center;text-decoration:none;transition:filter .15s;
   }
-  .footer-social a:hover{background:var(--lime-deep);}
+  .footer-social a.fb{background:#8FA262;}
+  .footer-social a.ig{background:#B08268;}
+  .footer-social a.yt{background:#CC564B;}
+  .footer-social a:hover{filter:brightness(1.12);}
   .footer-social svg{width:18px;height:18px;fill:currentColor;}
-
-  @media (max-width:860px){
+@media (max-width:860px){
     .footer-top{grid-template-columns:1fr;gap:32px;}
     .footer-visit{display:grid;grid-template-columns:220px 1fr;gap:32px;}
     .footer-visit-info{max-width:none;}
@@ -568,7 +572,7 @@
           <div class="dropdown">
             <a href="/greenleafclinic-web/cases/">Case Reports</a>
             <a href="/greenleafclinic-web/blog/">Blog</a>
-            <a href="https://www.youtube.com/c/GreenleafAcupunctureHerbClinicVancouver" target="_blank" rel="noopener">Youtube</a>
+            <a class="yt" href="https://www.youtube.com/c/GreenleafAcupunctureHerbClinicVancouver" target="_blank" rel="noopener">Youtube</a>
           </div>
         </li>
         <li><a href="/greenleafclinic-web/contact/">Contact</a></li>
@@ -801,6 +805,7 @@
 
 <section class="site-footer" id="visit-us">
   <div class="wrap footer-headline">
+    <div class="footer-dash"></div>
     <h2>Located in the Heart of Vancouver Downtown</h2>
   </div>
 
@@ -817,15 +822,15 @@
         <p>
           Unit 1455 – 409 Granville Street, Vancouver, BC V6C 1T2<br>
           * Buzzer #1455 after 6pm &amp; weekends<br><br>
-          Phone: <a href="tel:6043220293">604.322.0293</a> &nbsp;·&nbsp; E-mail: <a href="mailto:info@greenleafclinic.ca">info@greenleafclinic.ca</a><br>
+          <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Phone: <a href="tel:6043220293">604.322.0293</a> &nbsp;·&nbsp; <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>E-mail: <a href="mailto:info@greenleafclinic.ca">info@greenleafclinic.ca</a><br>
           Monday – Friday: 9:30am – 7:00pm<br>
           Saturday, Sunday &amp; Holiday: Closed
         </p>
         <div class="footer-social">
-          <a href="https://www.facebook.com/Greenleafclinic2007/" aria-label="Facebook" target="_blank" rel="noopener">
+          <a class="fb" href="https://www.facebook.com/Greenleafclinic2007/" aria-label="Facebook" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.91h2.54V9.86c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22C18.34 21.24 22 17.08 22 12.06Z"/></svg>
           </a>
-          <a href="https://www.instagram.com/greenleafclinic.ca/" aria-label="Instagram" target="_blank" rel="noopener">
+          <a class="ig" href="https://www.instagram.com/greenleafclinic.ca/" aria-label="Instagram" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M12 2.2c2.72 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.55.55.89 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.07.06 1.4.06 4.12s-.01 3.05-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76 4.9 4.9 0 0 1-1.76 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.4.06-4.12.06s-3.05-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.21 15.05 2.2 14.72 2.2 12s.01-3.05.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76A4.9 4.9 0 0 1 5.64 2.53c.64-.25 1.37-.42 2.43-.47C8.95 2.21 9.28 2.2 12 2.2Zm0 1.8c-2.67 0-2.99.01-4.04.06-.87.04-1.34.18-1.65.3-.42.16-.71.36-1.02.67-.31.31-.5.6-.67 1.02-.12.31-.26.78-.3 1.65-.05 1.05-.06 1.37-.06 4.04s.01 2.99.06 4.04c.04.87.18 1.34.3 1.65.16.42.36.71.67 1.02.31.31.6.5 1.02.67.31.12.78.26 1.65.3 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.87-.04 1.34-.18 1.65-.3.42-.16.71-.36 1.02-.67.31-.31.5-.6.67-1.02.12-.31.26-.78.3-1.65.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.87-.18-1.34-.3-1.65a2.6 2.6 0 0 0-.67-1.02 2.6 2.6 0 0 0-1.02-.67c-.31-.12-.78-.26-1.65-.3-1.05-.05-1.37-.06-4.04-.06Zm0 3.7a4.3 4.3 0 1 1 0 8.6 4.3 4.3 0 0 1 0-8.6Zm0 1.8a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm4.48-2.03a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
           </a>
           <a href="https://www.youtube.com/c/GreenleafAcupunctureHerbClinicVancouver" aria-label="YouTube" target="_blank" rel="noopener">
