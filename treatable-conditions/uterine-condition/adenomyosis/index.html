@@ -216,6 +216,7 @@
     border-bottom:1px solid var(--line);transition:background .12s,color .12s;
   }
   .cond-item:last-child > a{border-bottom:none;}
+  .cond-item:not(:last-child) > a{border-bottom:1px solid var(--line) !important;}
   .cond-item > a:hover{background:var(--lime-soft);color:var(--lime-deep);}
   .cond-item.has-sub > a::after{
     content:"";width:5px;height:5px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
