@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케이스 60: 손목 통증, 사실은 팔 전체의 문제일 수 있다 | 그린리프 치료 사례</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9RQQ9V05F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E9RQQ9V05F');
+</script>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-warm: #FAFAF6;
+    --lime: #B5CF37;
+    --lime-soft: #EEF3D8;
+    --salmon: #EB7055;
+    --salmon-soft: #FCEAE4;
+    --ink: #22261A;
+    --text-2: #5B6152;
+    --text-3: #8B9180;
+    --border: #E7E7DE;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', 'Pretendard', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  a { color: inherit; text-decoration: none; }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 32px; border-bottom: 1px solid var(--border);
+  }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.02em; }
+  .brand span { color: var(--lime); }
+  .back-link {
+    font-size: 13px; color: var(--text-2); font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .back-link:hover { color: var(--ink); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
+  h1 {
+    font-size: 30px; font-weight: 800; line-height: 1.45; letter-spacing: -0.01em;
+    margin: 0 0 20px;
+  }
+  .meta-row { display: flex; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
+  .badge { font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; }
+  .badge.weeks { color: var(--salmon); background: var(--salmon-soft); }
+  .badge.cat { color: #4A5A18; background: var(--lime-soft); }
+  article { font-size: 16.5px; line-height: 1.9; color: #363B2B; }
+  article p { margin: 0 0 22px; }
+  article strong { font-weight: 700; color: var(--ink); }
+  article h2.case-head {
+    display: flex; align-items: baseline; gap: 12px;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink);
+    line-height: 1.45; margin: 52px 0 20px;
+  }
+  article h2.case-head::before {
+    content: ''; flex-shrink: 0; width: 20px; height: 3px; border-radius: 2px;
+    background: var(--salmon); margin-top: 12px;
+  }
+  article h2.case-head:first-of-type { margin-top: 40px; }
+  article ul { margin: 0 0 22px; padding-left: 20px; }
+  article li { margin-bottom: 10px; }
+  article hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  article em { color: var(--text-2); font-size: 14.5px; line-height: 1.75; }
+  .section-head {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--salmon); margin: 8px 0 16px; display: block;
+  }
+  .herb-table { width: 100%; border-collapse: collapse; margin: 0 0 22px; font-size: 15px; }
+  .herb-table thead th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-3); font-weight: 700; padding: 0 16px 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .herb-table td {
+    padding: 16px 16px 16px 0; border-bottom: 1px solid var(--border);
+    vertical-align: top; line-height: 1.7; color: #363B2B;
+  }
+  .herb-table tr:last-child td { border-bottom: none; }
+  .herb-table td:first-child {
+    width: 160px; font-weight: 800; color: var(--ink); white-space: nowrap;
+  }
+  .herb-table .pinyin {
+    display: block; font-size: 12.5px; font-weight: 500; color: var(--text-3);
+    margin-top: 2px; white-space: normal;
+  }
+  .cta {
+    max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; text-align: center;
+  }
+  .cta-box {
+    background: var(--bg-warm); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 24px; text-align: center;
+  }
+  .cta-box p { font-size: 16px; font-weight: 700; margin: 0 0 18px; }
+  .cta-box a {
+    display: inline-block; background: var(--salmon); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 13px 28px; border-radius: 100px;
+  }
+  footer { text-align: center; padding: 24px; font-size: 12.5px; color: var(--text-3); border-top: 1px solid var(--border); }
+  @media (max-width: 640px) {
+    .topbar { padding: 16px 20px; }
+    main { padding: 40px 20px 24px; }
+    h1 { font-size: 24px; }
+    article { font-size: 15.5px; }
+    article h2.case-head { font-size: 17.5px; margin: 40px 0 16px; }
+    .herb-table thead { display: none; }
+    .herb-table, .herb-table tbody, .herb-table tr, .herb-table td { display: block; width: auto; }
+    .herb-table tr { padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .herb-table td { padding: 2px 0; border-bottom: none; white-space: normal; }
+    .herb-table td:first-child { margin-bottom: 6px; }
+  }
+
+  .floating-cta {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--salmon); color: #fff; font-weight: 700; font-size: 14px;
+    padding: 14px 22px; border-radius: 100px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    text-decoration: none;
+  }
+  .floating-cta:hover { background: #d85f42; }
+  .floating-cta svg { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .floating-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="../index.html">그린리프 <span>치료 사례</span></a>
+    <a class="back-link" href="../index.html">&larr; 전체 사례 보기</a>
+  </div>
+  <main>
+    <div class="eyebrow"><span class="dot"></span>통증</div>
+    <h1>손목 통증, 사실은 팔 전체의 문제일 수 있다</h1>
+    <div class="meta-row">
+      <span class="badge weeks">2주간 2회 방문 만에 상당한 호전</span>
+      <span class="badge cat">통증</span>
+    </div>
+    <article>
+      <p>문을 열려고 열쇠를 돌리는 순간, 손목에서 찌릿한 통증이 올라옵니다. 하루에도 몇 번씩 반복되는 동작인데, 그때마다 통증이 발목을 잡습니다. 잠을 자고 일어나도 손목은 욱신거림이 가시지 않고, 컵을 들거나 문고리를 돌리는 아주 사소한 동작에서도 신경이 곤두섭니다. 이 환자분이 겪고 있던 통증은 바로 이런 모습이었습니다.</p>
+      <p>손목이 아프면 대부분 손목 자체에 문제가 있다고 생각하기 쉽습니다. 하지만 실제로는 손목 통증의 원인이 팔꿈치, 어깨, 심지어 목까지 이어지는 하나의 연결된 사슬 어딘가에 있는 경우가 훨씬 많습니다. 이번 케이스는 바로 그 점을 잘 보여줍니다.</p>
+      <h2 class="case-head">손목만 짚었다면 놓쳤을 것들</h2>
+      <p>첫 진료에서 손목을 짚어보는 것만으로 끝나지 않았습니다. 손목에서 시작해 팔뚝, 팔꿈치, 어깨, 그리고 목까지 손끝으로 하나하나 눌러가며 어디가 유독 뭉쳐 있고 어디를 누르면 통증이 재현되는지 확인하는 과정이 이어졌습니다. 이렇게 짚어나가다 보면 정작 환자분 본인도 인지하지 못했던 긴장된 지점들이 어깨나 목 쪽에서 함께 발견되는 경우가 많습니다. 손목이 아프다고 손목만 들여다봤다면, 이런 연결고리는 그대로 지나쳤을 것입니다.</p>
+      <h2 class="case-head">손목은 혼자 움직이지 않는다</h2>
+      <p>손목을 움직이는 근육과 힘줄은 사실 손목 관절 안에서 시작되는 것이 아니라, 팔꿈치를 지나 위팔, 어깨, 그리고 목에서 나오는 신경으로부터 이어져 내려옵니다. 목이나 어깨 주변의 신경이 눌리거나 근육이 긴장되어 있으면, 그 영향이 팔을 타고 내려가 결국 손목에서 통증이나 불편감으로 나타날 수 있습니다. 열쇠를 돌릴 때마다 느꼈던 그 날카로운 통증도, 사실은 손목 관절 자체보다 사슬의 윗부분 어딘가에서 눌리거나 긴장된 신호가 손목까지 흘러내려온 결과였을 가능성이 큽니다.</p>
+      <h2 class="case-head">침이 지나가고, 뜨거운 돌이 그 위를 덮을 때</h2>
+      <p>치료는 손목 한 군데에 머무르지 않았습니다. 팔 전체, 어깨, 목까지 사슬을 따라 침이 놓였고, 치료가 끝난 뒤에는 따뜻하게 데워진 돌이 그 위를 지그시 눌러주었습니다. 침으로 눌려 있던 지점들이 열리고 나면, 뒤이은 스톤 마사지의 온기가 그 자리에 스며들며 근육이 한 겹씩 풀려나가는 듯한 이완감을 느끼게 됩니다. 2주 간격으로 두 번의 방문을 거치는 동안 이 과정이 동일하게 반복되었고, 그사이 매일같이 욱신거리던 통증이 조금씩 잦아들었습니다.</p>
+      <h2 class="case-head">일상에서의 관리도 함께</h2>
+      <p>손목은 하루에도 수없이 사용하는 관절인 만큼, 치료 후에도 꾸준한 관리가 중요합니다. 평소 손목에 부담을 줄여주는 스트레칭과 움직임 습관을 함께 챙기는 것이 재발을 막는 데 큰 도움이 됩니다.</p>
+      <h2 class="case-head">통증이 있는 곳과 원인이 있는 곳은 다를 수 있다</h2>
+      <p>손목이 아프다고 해서 반드시 손목 자체에만 문제가 있는 것은 아닙니다. 통증이 느껴지는 부위와 실제 원인이 있는 부위가 다를 수 있다는 점을 염두에 두고, 팔 전체를 하나의 연결된 흐름으로 바라보는 접근이 회복을 앞당기는 열쇠가 될 수 있습니다.</p>
+      <hr />
+      <span class="section-head">이 처방에 쓰인 약재</span>
+      <p>이 케이스는 침 치료 및 스톤 마사지로 진행되어 별도로 사용된 한약재는 없습니다.</p>
+      <hr />
+      <span class="section-head">이 케이스에 쓰인 혈자리</span>
+      <table class="herb-table">
+      <thead><tr><th>혈자리</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>양지(陽池)<span class="pinyin">TE4</span></td><td>손목 관절 자체의 움직임과 국소 순환을 개선합니다.</td></tr>
+      <tr><td>외관(外關)<span class="pinyin">TE5</span></td><td>팔뚝과 손목을 잇는 신경·근막 라인을 이완시켜 사슬 전체의 긴장을 낮춥니다.</td></tr>
+      <tr><td>곡지(曲池)<span class="pinyin">LI11</span></td><td>팔꿈치 부위의 긴장을 풀어 팔 전체로 이어지는 흐름을 원활하게 합니다.</td></tr>
+      <tr><td>견우(肩髃)<span class="pinyin">LI15</span></td><td>어깨 관절 주변의 긴장을 완화하여 사슬 상부의 부담을 줄입니다.</td></tr>
+      <tr><td>풍지(風池)<span class="pinyin">GB20</span></td><td>목 주변 신경 뿌리 부위의 긴장을 이완시켜 사슬 최상단의 원인을 함께 다룹니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <p><em>이 글은 실제 진료 사례를 바탕으로 하되, 환자의 개인정보 보호를 위해 이름과 세부 정보를 각색했습니다. 같은 증상이라도 사람마다 원인과 몸 상태가 다르기 때문에 처방 또한 달라질 수 있습니다. 이 글은 건강 정보 제공을 목적으로 할 뿐 의학적 진단이나 치료를 대신하지 않으며, 증상이 있으시다면 반드시 전문가와 상담하시기 바랍니다.</em></p>
+    </article>
+  </main>
+  <div class="cta">
+    <div class="cta-box">
+      <p>내 증상도 비슷한 패턴일까요?</p>
+      <a href="https://greenleafacuclinic.janeapp.com/" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-60-kr', 'category': 'pain'});">상담 예약하기</a>
+    </div>
+  </div>
+  <footer>그린리프 한의원 — 밴쿠버 다운타운</footer>
+  <a class="floating-cta" href="https://greenleafacuclinic.janeapp.com/" target="_blank" rel="noopener" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-60-kr', 'category': 'pain'});">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    예약하기
+  </a>
+</body>
+</html>
