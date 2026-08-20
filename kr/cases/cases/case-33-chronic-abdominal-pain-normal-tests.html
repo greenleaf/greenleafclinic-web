@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케이스 33: 산부인과 검사에서는 이상이 없었던 만성 복통 | 그린리프 치료 사례</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9RQQ9V05F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E9RQQ9V05F');
+</script>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-warm: #FAFAF6;
+    --lime: #B5CF37;
+    --lime-soft: #EEF3D8;
+    --salmon: #EB7055;
+    --salmon-soft: #FCEAE4;
+    --ink: #22261A;
+    --text-2: #5B6152;
+    --text-3: #8B9180;
+    --border: #E7E7DE;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', 'Pretendard', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  a { color: inherit; text-decoration: none; }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 32px; border-bottom: 1px solid var(--border);
+  }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.02em; }
+  .brand span { color: var(--lime); }
+  .back-link {
+    font-size: 13px; color: var(--text-2); font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .back-link:hover { color: var(--ink); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
+  h1 {
+    font-size: 30px; font-weight: 800; line-height: 1.45; letter-spacing: -0.01em;
+    margin: 0 0 20px;
+  }
+  .meta-row { display: flex; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
+  .badge { font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; }
+  .badge.weeks { color: var(--salmon); background: var(--salmon-soft); }
+  .badge.cat { color: #4A5A18; background: var(--lime-soft); }
+  article { font-size: 16.5px; line-height: 1.9; color: #363B2B; }
+  article p { margin: 0 0 22px; }
+  article strong { font-weight: 700; color: var(--ink); }
+  article h2.case-head {
+    display: flex; align-items: baseline; gap: 12px;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink);
+    line-height: 1.45; margin: 52px 0 20px;
+  }
+  article h2.case-head::before {
+    content: ''; flex-shrink: 0; width: 20px; height: 3px; border-radius: 2px;
+    background: var(--salmon); margin-top: 12px;
+  }
+  article h2.case-head:first-of-type { margin-top: 40px; }
+  article ul { margin: 0 0 22px; padding-left: 20px; }
+  article li { margin-bottom: 10px; }
+  article hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  article em { color: var(--text-2); font-size: 14.5px; line-height: 1.75; }
+  .section-head {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--salmon); margin: 8px 0 16px; display: block;
+  }
+  .herb-table { width: 100%; border-collapse: collapse; margin: 0 0 22px; font-size: 15px; }
+  .herb-table thead th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-3); font-weight: 700; padding: 0 16px 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .herb-table td {
+    padding: 16px 16px 16px 0; border-bottom: 1px solid var(--border);
+    vertical-align: top; line-height: 1.7; color: #363B2B;
+  }
+  .herb-table tr:last-child td { border-bottom: none; }
+  .herb-table td:first-child {
+    width: 160px; font-weight: 800; color: var(--ink); white-space: nowrap;
+  }
+  .herb-table .pinyin {
+    display: block; font-size: 12.5px; font-weight: 500; color: var(--text-3);
+    margin-top: 2px; white-space: normal;
+  }
+  .cta {
+    max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; text-align: center;
+  }
+  .cta-box {
+    background: var(--bg-warm); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 24px; text-align: center;
+  }
+  .cta-box p { font-size: 16px; font-weight: 700; margin: 0 0 18px; }
+  .cta-box a {
+    display: inline-block; background: var(--salmon); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 13px 28px; border-radius: 100px;
+  }
+  footer { text-align: center; padding: 24px; font-size: 12.5px; color: var(--text-3); border-top: 1px solid var(--border); }
+  @media (max-width: 640px) {
+    .topbar { padding: 16px 20px; }
+    main { padding: 40px 20px 24px; }
+    h1 { font-size: 24px; }
+    article { font-size: 15.5px; }
+    article h2.case-head { font-size: 17.5px; margin: 40px 0 16px; }
+    .herb-table thead { display: none; }
+    .herb-table, .herb-table tbody, .herb-table tr, .herb-table td { display: block; width: auto; }
+    .herb-table tr { padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .herb-table td { padding: 2px 0; border-bottom: none; white-space: normal; }
+    .herb-table td:first-child { margin-bottom: 6px; }
+  }
+
+  .floating-cta {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--salmon); color: #fff; font-weight: 700; font-size: 14px;
+    padding: 14px 22px; border-radius: 100px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    text-decoration: none;
+  }
+  .floating-cta:hover { background: #d85f42; }
+  .floating-cta svg { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .floating-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="../index.html">그린리프 <span>치료 사례</span></a>
+    <a class="back-link" href="../index.html">&larr; 전체 사례 보기</a>
+  </div>
+  <main>
+    <div class="eyebrow"><span class="dot"></span>자궁 질환 · 통증</div>
+    <h1>산부인과 검사에서는 이상이 없었던 만성 복통</h1>
+    <div class="meta-row">
+      <span class="badge weeks">18주 만에 호전</span>
+      <span class="badge cat">자궁 질환 · 통증</span>
+    </div>
+    <article>
+      <h2 class="case-head">산부인과 검사에서는 이상이 없었던 만성 복통</h2>
+      <p>이 환자는 1년 넘게 지속된 복통으로 여러 산부인과 검사를 받았지만 특별한 이상이 발견되지 않았고, 피임약도 효과가 없었다. 검사에서 이상이 없다는 결과는 안심이 되는 소식일 수도 있지만, 동시에 통증의 원인을 알 수 없어 답답함을 남기기도 한다.</p>
+      <p>문진에서 드러난 건 손발이 차갑고, 평소에는 땀이 거의 없다가 긴장하면 손발에만 땀이 나는 패턴이었다. 이는 자율신경계가 만성적으로 긴장 상태에 있으면서 말단부의 순환이 원활하지 못하다는 신호다. 이런 순환 저하는 복부의 혈류에도 영향을 미쳐 뚜렷한 구조적 원인 없이도 반복적인 복통을 일으킬 수 있다. 검사 결과가 정상이라고 해서 통증이 가짜인 것은 아니다. 다만 그 원인이 영상이나 혈액검사로는 잘 잡히지 않는 순환과 자율신경의 영역에 있었을 뿐이다.</p>
+      <h2 class="case-head">통증이 멈추지 않던 지점, 순환 문제 너머의 또 다른 층</h2>
+      <p>치료를 시작하자 통증이 눈에 띄게 줄고 손발도 서서히 따뜻해지기 시작했다. 그런데 어느 시점부터 더 이상 뚜렷한 진전이 없었다. 순환을 데워주는 약재를 더하자 다시 호전이 나타났지만, 이번에도 통증이 완전히 사라지지는 않았다. 남아있는 통증은 오른쪽 아랫배의 한 지점에 고정되어 있었고, 배란기가 되면 다시 살짝 아파오는 패턴을 보였다.</p>
+      <p>이 두 가지 단서, 즉 통증이 한 지점에 고정되어 있다는 점과 배란 주기와 맞물려 나타난다는 점은 단순한 순환 저하만으로는 설명되지 않는, 골반 내 혈류가 국소적으로 정체된 상태가 남아있다는 신호였다. 순환을 데우는 접근에 골반 내 정체된 혈류를 풀어주는 약재를 더하자, 그동안 남아있던 마지막 통증까지 완전히 사라졌다.</p>
+      <h2 class="case-head">여러 층의 문제가 겹쳐 있을 때, 하나씩 벗겨내며 접근하기</h2>
+      <p>이 케이스가 주는 원칙은 명확하다. 만성 통증이 어느 정도는 좋아지다가 특정 지점에서 더 이상 진전이 없을 때, 그 시점이 바로 또 다른 층의 문제가 숨어 있다는 신호일 수 있다. 이 환자의 경우 자율신경의 만성 긴장이라는 첫 번째 층을 풀어주자 대부분의 통증이 가라앉았지만, 그 아래에 골반 내 국소적인 혈류 정체라는 두 번째 층이 남아 있었다. 한 지점에 고정된 통증, 생리 주기와 맞물린 통증 패턴은 이런 숨겨진 층을 찾아내는 중요한 단서가 된다. 여러 패턴이 겹쳐 있는 경우, 처음부터 모든 것을 한 번에 잡아내지 못하더라도 단계적으로 층을 벗겨가며 접근하면 결국 근본적인 회복에 이를 수 있다.</p>
+      <hr />
+      <span class="section-head">이 처방에 쓰인 약재</span>
+      <p>이 케이스는 순환을 다스리는 처방에 골반 내 혈류를 푸는 약재를 단계적으로 더하며 회복됐습니다.</p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>시호<span class="pinyin">Chai Hu</span></td><td>자율신경의 긴장을 풀어 복부 전반의 통증을 완화합니다.</td></tr>
+      <tr><td>작약<span class="pinyin">Bai Shao</span></td><td>복부 근육의 긴장과 당기는 통증을 부드럽게 풀어줍니다.</td></tr>
+      <tr><td>계지<span class="pinyin">Gui Zhi</span></td><td>말단부까지 혈액순환을 도와 손발의 냉감을 개선합니다.</td></tr>
+      <tr><td>부자<span class="pinyin">Fu Zi</span></td><td>몸을 데우는 힘을 더해 순환이 약한 체질의 통증을 근본적으로 다스립니다.</td></tr>
+      <tr><td>목단피·도인<span class="pinyin">Mu Dan Pi, Tao Ren</span></td><td>골반 내 정체된 혈류를 풀어 국소적으로 남아있던 통증을 해소합니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <span class="section-head">이 케이스에 쓰인 혈자리</span>
+      <table class="herb-table">
+      <thead><tr><th>혈자리</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>삼음교(三陰交)<span class="pinyin">SP6</span></td><td>하복부 순환을 조절하고 부인과적 통증을 완화합니다.</td></tr>
+      <tr><td>혈해(血海)<span class="pinyin">SP10</span></td><td>정체된 혈류를 풀어 골반 내 순환을 돕습니다.</td></tr>
+      <tr><td>관원(關元)<span class="pinyin">CV4</span></td><td>하복부를 데워 냉감으로 인한 통증을 완화합니다.</td></tr>
+      <tr><td>귀래(歸來)<span class="pinyin">ST29</span></td><td>아랫배의 국소적인 통증을 직접적으로 다스립니다.</td></tr>
+      <tr><td>태충(太衝)<span class="pinyin">LR3</span></td><td>간 경락을 통해 전신의 긴장과 통증을 완화합니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <p><em>이 글은 실제 진료 사례를 바탕으로 하되, 환자의 개인정보 보호를 위해 이름과 세부 정보를 각색했습니다. 같은 증상이라도 사람마다 원인과 몸 상태가 다르기 때문에 처방 또한 달라질 수 있습니다. 이 글은 건강 정보 제공을 목적으로 할 뿐 의학적 진단이나 치료를 대신하지 않으며, 증상이 있으시다면 반드시 전문가와 상담하시기 바랍니다.</em></p>
+    </article>
+  </main>
+  <div class="cta">
+    <div class="cta-box">
+      <p>내 증상도 비슷한 패턴일까요?</p>
+      <a href="https://greenleafacuclinic.janeapp.com/" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-33-kr', 'category': 'uterine_conditions_pain'});">상담 예약하기</a>
+    </div>
+  </div>
+  <footer>그린리프 한의원 — 밴쿠버 다운타운</footer>
+  <a class="floating-cta" href="https://greenleafacuclinic.janeapp.com/" target="_blank" rel="noopener" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-33-kr', 'category': 'uterine_conditions_pain'});">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    예약하기
+  </a>
+</body>
+</html>

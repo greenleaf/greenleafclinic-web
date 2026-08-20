@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케이스 38: 트라우마 치료 중 갑자기 찾아온 공황발작, 놓치고 있던 단서 | 그린리프 치료 사례</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9RQQ9V05F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E9RQQ9V05F');
+</script>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-warm: #FAFAF6;
+    --lime: #B5CF37;
+    --lime-soft: #EEF3D8;
+    --salmon: #EB7055;
+    --salmon-soft: #FCEAE4;
+    --ink: #22261A;
+    --text-2: #5B6152;
+    --text-3: #8B9180;
+    --border: #E7E7DE;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', 'Pretendard', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  a { color: inherit; text-decoration: none; }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 32px; border-bottom: 1px solid var(--border);
+  }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.02em; }
+  .brand span { color: var(--lime); }
+  .back-link {
+    font-size: 13px; color: var(--text-2); font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .back-link:hover { color: var(--ink); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
+  h1 {
+    font-size: 30px; font-weight: 800; line-height: 1.45; letter-spacing: -0.01em;
+    margin: 0 0 20px;
+  }
+  .meta-row { display: flex; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
+  .badge { font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; }
+  .badge.weeks { color: var(--salmon); background: var(--salmon-soft); }
+  .badge.cat { color: #4A5A18; background: var(--lime-soft); }
+  article { font-size: 16.5px; line-height: 1.9; color: #363B2B; }
+  article p { margin: 0 0 22px; }
+  article strong { font-weight: 700; color: var(--ink); }
+  article h2.case-head {
+    display: flex; align-items: baseline; gap: 12px;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink);
+    line-height: 1.45; margin: 52px 0 20px;
+  }
+  article h2.case-head::before {
+    content: ''; flex-shrink: 0; width: 20px; height: 3px; border-radius: 2px;
+    background: var(--salmon); margin-top: 12px;
+  }
+  article h2.case-head:first-of-type { margin-top: 40px; }
+  article ul { margin: 0 0 22px; padding-left: 20px; }
+  article li { margin-bottom: 10px; }
+  article hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  article em { color: var(--text-2); font-size: 14.5px; line-height: 1.75; }
+  .section-head {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--salmon); margin: 8px 0 16px; display: block;
+  }
+  .herb-table { width: 100%; border-collapse: collapse; margin: 0 0 22px; font-size: 15px; }
+  .herb-table thead th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-3); font-weight: 700; padding: 0 16px 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .herb-table td {
+    padding: 16px 16px 16px 0; border-bottom: 1px solid var(--border);
+    vertical-align: top; line-height: 1.7; color: #363B2B;
+  }
+  .herb-table tr:last-child td { border-bottom: none; }
+  .herb-table td:first-child {
+    width: 160px; font-weight: 800; color: var(--ink); white-space: nowrap;
+  }
+  .herb-table .pinyin {
+    display: block; font-size: 12.5px; font-weight: 500; color: var(--text-3);
+    margin-top: 2px; white-space: normal;
+  }
+  .cta {
+    max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; text-align: center;
+  }
+  .cta-box {
+    background: var(--bg-warm); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 24px; text-align: center;
+  }
+  .cta-box p { font-size: 16px; font-weight: 700; margin: 0 0 18px; }
+  .cta-box a {
+    display: inline-block; background: var(--salmon); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 13px 28px; border-radius: 100px;
+  }
+  footer { text-align: center; padding: 24px; font-size: 12.5px; color: var(--text-3); border-top: 1px solid var(--border); }
+  @media (max-width: 640px) {
+    .topbar { padding: 16px 20px; }
+    main { padding: 40px 20px 24px; }
+    h1 { font-size: 24px; }
+    article { font-size: 15.5px; }
+    article h2.case-head { font-size: 17.5px; margin: 40px 0 16px; }
+    .herb-table thead { display: none; }
+    .herb-table, .herb-table tbody, .herb-table tr, .herb-table td { display: block; width: auto; }
+    .herb-table tr { padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .herb-table td { padding: 2px 0; border-bottom: none; white-space: normal; }
+    .herb-table td:first-child { margin-bottom: 6px; }
+  }
+
+  .floating-cta {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--salmon); color: #fff; font-weight: 700; font-size: 14px;
+    padding: 14px 22px; border-radius: 100px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    text-decoration: none;
+  }
+  .floating-cta:hover { background: #d85f42; }
+  .floating-cta svg { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .floating-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="../index.html">그린리프 <span>치료 사례</span></a>
+    <a class="back-link" href="../index.html">&larr; 전체 사례 보기</a>
+  </div>
+  <main>
+    <div class="eyebrow"><span class="dot"></span>정신 건강</div>
+    <h1>트라우마 치료 중 갑자기 찾아온 공황발작, 놓치고 있던 단서</h1>
+    <div class="meta-row">
+      <span class="badge weeks">8주 만에 호전</span>
+      <span class="badge cat">정신 건강</span>
+    </div>
+    <article>
+      <h2 class="case-head">트라우마 진단은 명확했지만, 처방은 곧바로 통하지 않았다</h2>
+      <p>이 환자는 근무 중 겪은 사고 목격 이후 극심한 불안과 우울에 시달리고 있었다. 진단은 어렵지 않아 보였다. 흉복부 전반에 걸친 압통과 뚜렷한 트라우마 반응은 전형적인 PTSD 패턴을 가리키고 있었다. 그래서 트라우마 반응을 직접 다스리는 처방을 먼저 시도했다.</p>
+      <p>그런데 사흘 뒤, 증상은 나아지지 않았고 오히려 피로감만 극심해졌다. 이는 중요한 신호였다. 겉으로 드러난 심리적 진단이 아무리 명확해 보여도, 몸이 그 처방에 반응하지 않는다면 그 진단이 전체 그림의 일부에 불과할 수 있다는 뜻이다.</p>
+      <h2 class="case-head">피로부터 다스렸지만, 한 달 후 찾아온 공황발작</h2>
+      <p>몸이 먼저 보내는 신호를 따라 이번에는 극심한 피로 자체를 다스리는 방향으로 접근을 바꾸었다. 기력을 보강하는 처방과 침 치료를 병행하자 환자는 한 달 가까이 꾸준히 좋아졌다. 그런데 순조롭게 회복되고 있던 어느 날, 예상치 못한 공황발작이 찾아왔다.</p>
+      <p>이 지점에서 처방을 완전히 새로 짜야 하는지 고민이 깊어질 수밖에 없었다. 하지만 때로는 처방을 통째로 바꾸기보다, 지금까지 놓친 단서가 없는지 다시 살펴보는 것이 더 정확한 답일 수 있다.</p>
+      <h2 class="case-head">혀와 아랫배가 보여주고 있던, 놓치고 있던 단서</h2>
+      <p>환자의 상태를 다시 면밀히 살펴보는 과정에서 결정적인 단서가 드러났다. 아랫배의 압통, 마르고 거친 입술, 그리고 혀의 색이 붉고 어두운 것은 모두 몸 안의 혈류가 국소적으로 정체되어 있다는 신호였다. 이 신호는 처음 진찰 당시에도 이미 존재하고 있었지만, 트라우마와 피로라는 뚜렷한 증상에 가려 놓치고 있었던 것이다.</p>
+      <p>기존 처방에 정체된 혈류를 풀어주는 약재를 더하자 변화는 놀랄 만큼 빨랐다. 하루 12시간을 자야 버틸 수 있던 환자가 8시간 수면으로 회복되었고, 집중력 저하 증상도 눈에 띄게 줄었으며, 무엇보다 공황발작이 다시 나타나지 않았다. 입술색과 피부 결까지 함께 좋아진 것은, 이 혈류 정체가 단순히 국소적인 문제가 아니라 전신의 회복력에도 영향을 미치고 있었다는 걸 보여준다.</p>
+      <h2 class="case-head">정신과적 증상 뒤에 숨어 있는 순환의 문제를 놓치지 않는 것</h2>
+      <p>이 케이스가 주는 원칙은 분명하다. 트라우마나 우울 같은 정신과적 증상이 뚜렷하게 보인다고 해서 그것이 전체 그림이라고 단정해서는 안 된다. 몸이 처방에 반응하지 않거나 오히려 악화될 때는, 그 아래에 순환이나 혈류와 관련된 또 다른 층이 숨어 있을 수 있다. 이 환자의 회복은 결국 아랫배의 압통과 입술, 혀라는 몸이 이미 보내고 있던 신호를 알아차리는 데서 시작되었다.</p>
+      <hr />
+      <span class="section-head">이 처방에 쓰인 약재</span>
+      <p>이 케이스는 처방을 두 차례 조정하며 회복됐습니다.</p>
+      <p><strong>피로와 트라우마 반응을 함께 다스리며 시작한 처방</strong></p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>황기<span class="pinyin">Huang Qi</span></td><td>극심한 피로와 기력 저하를 보강합니다.</td></tr>
+      <tr><td>산조인<span class="pinyin">Suan Zao Ren</span></td><td>마음을 편안하게 하여 수면의 질을 높입니다.</td></tr>
+      <tr><td>당귀<span class="pinyin">Dang Gui</span></td><td>혈을 보충하며 전신의 순환을 돕습니다.</td></tr>
+      </tbody>
+      </table>
+      <p><strong>놓쳤던 혈류 정체를 다스리기 위해 더한 약재</strong></p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>목단피<span class="pinyin">Mu Dan Pi</span></td><td>정체된 혈류를 풀어 국소적인 순환 문제를 해소합니다.</td></tr>
+      <tr><td>도인<span class="pinyin">Tao Ren</span></td><td>혈류의 정체를 풀어 순환을 개선하고 회복을 돕습니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <span class="section-head">이 케이스에 쓰인 혈자리</span>
+      <table class="herb-table">
+      <thead><tr><th>혈자리</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>신문(神門)<span class="pinyin">HT7</span></td><td>불안하고 트라우마로 인한 마음의 동요를 진정시킵니다.</td></tr>
+      <tr><td>내관(內關)<span class="pinyin">PC6</span></td><td>공황 증상과 가슴의 답답함을 완화합니다.</td></tr>
+      <tr><td>혈해(血海)<span class="pinyin">SP10</span></td><td>정체된 혈류를 풀어 순환을 돕습니다.</td></tr>
+      <tr><td>삼음교(三陰交)<span class="pinyin">SP6</span></td><td>하복부 순환을 조절하고 전신의 회복을 돕습니다.</td></tr>
+      <tr><td>족삼리(足三里)<span class="pinyin">ST36</span></td><td>전반적인 기력과 체력 회복을 뒷받침합니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <p><em>이 글은 실제 진료 사례를 바탕으로 하되, 환자의 개인정보 보호를 위해 이름과 세부 정보를 각색했습니다. 같은 증상이라도 사람마다 원인과 몸 상태가 다르기 때문에 처방 또한 달라질 수 있습니다. 이 글은 건강 정보 제공을 목적으로 할 뿐 의학적 진단이나 치료를 대신하지 않으며, 증상이 있으시다면 반드시 전문가와 상담하시기 바랍니다.</em></p>
+    </article>
+  </main>
+  <div class="cta">
+    <div class="cta-box">
+      <p>내 증상도 비슷한 패턴일까요?</p>
+      <a href="https://greenleafacuclinic.janeapp.com/" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-38-kr', 'category': 'mental_health'});">상담 예약하기</a>
+    </div>
+  </div>
+  <footer>그린리프 한의원 — 밴쿠버 다운타운</footer>
+  <a class="floating-cta" href="https://greenleafacuclinic.janeapp.com/" target="_blank" rel="noopener" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-38-kr', 'category': 'mental_health'});">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    예약하기
+  </a>
+</body>
+</html>
