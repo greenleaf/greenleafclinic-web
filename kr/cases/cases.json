@@ -362,5 +362,76 @@
     ],
     "weeks": "3주",
     "kw_en": "짜증 불안 극심한피로 과다생리출혈 추위탐 exhaustion heavy bleeding irritability"
+  },
+  {
+    "slug": "case-40-full-body-hives-thirst-heat",
+    "title": "몸 전체를 뒤덮은 두드러기, 갈증과 열감에서 실마리를 찾다",
+    "summary": "몇 달째 이어진 전신 두드러기가, 꿀 섭취로 재발하고 속쓰림까지 겹치며 혈관과 점막까지 번진 열성 염증이었음을 확인하고 10주 만에 완전히 회복된 사례.",
+    "cat": "피부 질환",
+    "weeks": "10주",
+    "kw_en": "두드러기 전신발진 가려움 갈증 더위 속쓰림 hives full body thirst heat"
+  },
+  {
+    "slug": "case-41-bedwetting-college-student-returns",
+    "title": "10년 전 야뇨증 소년, 대학생이 되어 다시 찾아오다",
+    "summary": "10년 전 열이 많은 체질로 야뇨증과 산만함을 치료받았던 소년이, 대학생이 되어 짜증과 가슴 답답함으로 다시 찾아와 같은 체질 경향으로 빠르게 회복된 사례.",
+    "cat": [
+      "정신 건강",
+      "소아 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "야뇨증 ADHD 산만함 짜증 가슴답답함 열성체질 bedwetting college student returns"
+  },
+  {
+    "slug": "case-42-anxiety-fixed-point-abdominal-pain",
+    "title": "불안과 함께 온 오른쪽 아랫배 통증, 한 곳에 머무는 통증이 알려준 것",
+    "summary": "불안과 함께 온 오른쪽 아랫배 통증이 전신 긴장을 풀어줘도 남아있었던 사례. 통증이 한 지점에 고정된다는 단서로 국소 염증 접근으로 전환해 완전히 해소됐다.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "불안 오른쪽아랫배통증 설사 국소염증 고정통증 anxiety fixed point abdominal pain"
+  },
+  {
+    "slug": "case-43-frequent-urination-decade-sexual-activity",
+    "title": "10년 넘은 빈뇨, 관계 후에만 심해지는 이유",
+    "summary": "10년 넘게 이어진 야간 빈뇨가 특정 활동 후에만 심해지던 사례. 처방 방향은 맞았지만 반응이 더뎌 순환을 돕는 약재를 더해 4주 만에 회복됐다.",
+    "cat": "남성 건강",
+    "weeks": "4주",
+    "kw_en": "빈뇨 야간뇨 손발냉증 불안 순환저하 frequent urination men sexual activity"
+  },
+  {
+    "slug": "case-44-quick-tempered-achy-bellied-child",
+    "title": "자주 짜증 내고 배도 아픈 아이, 긴장이 풀리자 배변도 편해지다",
+    "summary": "짜증이 많고 변비와 복통이 있던 미취학 아이가, 배 근육의 긴장을 풀어주는 처방으로 배변과 성격 모두 4주 만에 좋아진 사례.",
+    "cat": [
+      "소아 질환",
+      "소화기 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "소아 짜증 변비 복통 배근육긴장 식욕부진 quick tempered child bowel"
+  },
+  {
+    "slug": "case-45-dry-cough-lingered-three-months",
+    "title": "가래 없이 석 달 가까이 이어진 아이의 기침",
+    "summary": "가래 없는 마른기침이 석 달 가까이 이어진 아이의 사례. 점막을 적셔주는 처방만으로는 부족했고, 만성 염증 반응까지 함께 다스리며 3주 만에 회복됐다.",
+    "cat": [
+      "소아 질환",
+      "이비인후과"
+    ],
+    "weeks": "3주",
+    "kw_en": "소아 마른기침 가래없음 감기후기침 기관지건조 dry cough child three months"
+  },
+  {
+    "slug": "case-46-heat-prone-child-phlegmy-cough",
+    "title": "열감을 타는 아이의 가래 기침, 한 가지 처방으로 부족했던 이유",
+    "summary": "열이 잘 오르는 체질의 아이가 가래 낀 기침이 잘 낫지 않던 사례. 기관지를 여는 처방에 열을 식히는 접근을 더해 3주 만에 회복됐다.",
+    "cat": [
+      "소아 질환",
+      "이비인후과"
+    ],
+    "weeks": "3주",
+    "kw_en": "소아 가래기침 열성체질 감기후기침 형제자매 heat prone child phlegmy cough"
   }
 ]
