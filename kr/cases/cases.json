@@ -521,5 +521,126 @@
     ],
     "weeks": "",
     "kw_en": "난임 과민성대장증후군 저혈압 손발냉증 디스크 IVF infertility IBS low blood pressure spinal"
+  },
+  {
+    "slug": "case-57-stress-headaches-brain-fog",
+    "title": "스트레스성 두통과 브레인포그",
+    "summary": "스트레스로 소화 기능이 먼저 흔들리고, 그로 인한 수분 정체가 두통과 멍한 느낌으로 이어진 3년간의 관리 사례.",
+    "cat": "통증",
+    "weeks": "",
+    "kw_en": "스트레스두통 브레인포그 소화기능저하 수분정체 stress headache brain fog"
+  },
+  {
+    "slug": "case-58-cervicogenic-dizziness-neck-tension",
+    "title": "귀가 아니라 목이 원인이었던 어지러움",
+    "summary": "회전성이 아닌 불안정감형 어지러움이, 귀나 뇌가 아니라 목 근육의 과긴장에서 비롯됐음을 확인하고 침 치료만으로 다음 날부터 호전된 사례.",
+    "cat": "이비인후과",
+    "weeks": "3주",
+    "kw_en": "어지러움 목근육긴장 경성어지럼증 불안정감 cervicogenic dizziness neck tension"
+  },
+  {
+    "slug": "case-59-occipital-nerve-compression-head-pain",
+    "title": "극심한 두통, 근육 긴장이 아니라 눌린 신경이었다",
+    "summary": "며칠씩 이어지는 날카롭고 극심한 두통이, 근육 긴장이 아니라 후두신경 압박에서 비롯됐음을 확인하고 2주 만에 크게 호전된 사례.",
+    "cat": "통증",
+    "weeks": "2주",
+    "kw_en": "극심한두통 후두신경압박 날카로운통증 occipital nerve compression head pain"
+  },
+  {
+    "slug": "case-60-wrist-pain-whole-arm-chain",
+    "title": "손목 통증, 사실은 팔 전체의 문제일 수 있다",
+    "summary": "손목 통증의 원인이 손목이 아니라 팔꿈치·어깨·목까지 이어지는 사슬에 있었음을 확인하고, 침과 스톤 마사지로 2주 만에 크게 호전된 사례.",
+    "cat": "통증",
+    "weeks": "2주",
+    "kw_en": "손목통증 팔전체사슬 어깨목연결 스톤마사지 wrist pain whole arm chain"
+  },
+  {
+    "slug": "case-61-summer-heat-erectile-dysfunction",
+    "title": "유독 여름을 못 견디는 몸, 발기부전으로 이어지다",
+    "summary": "더위와 갈증을 유독 못 견디던 몸에 쌓인 열이, 임신을 시도하던 초여름 발기부전으로 이어졌던 사례. 한 달간의 한약 치료로 열을 식히며 함께 회복됐다.",
+    "cat": [
+      "남성 건강",
+      "난임"
+    ],
+    "weeks": "4주",
+    "kw_en": "발기부전 여름더위 갈증 체열과다 summer heat erectile dysfunction"
+  },
+  {
+    "slug": "case-62-erectile-dysfunction-depression-liver-heat",
+    "title": "우울감을 동반한 발기부전, 몸속 열이 원인이었다",
+    "summary": "술을 마신 날 함께 심해지던 발기부전과 우울감이, 간에서 과도하게 만들어지는 열에서 비롯됐음을 확인하고 3개월에 걸쳐 함께 호전된 사례.",
+    "cat": [
+      "남성 건강",
+      "정신 건강"
+    ],
+    "weeks": "12주",
+    "kw_en": "발기부전 우울감 간열 음주 erectile dysfunction depression liver heat"
+  },
+  {
+    "slug": "case-63-edema-bloating-erectile-dysfunction",
+    "title": "무겁고 붓는 몸, 그 흐름의 끝에서 나타난 발기부전",
+    "summary": "부종, 더부룩함, 불면 끝에 나타난 발기부전이, 위장관 점막 기능 저하로 인한 수분 정체와 염증에서 비롯됐음을 확인하고 3개월에 걸쳐 함께 호전된 사례.",
+    "cat": [
+      "남성 건강",
+      "소화기 질환"
+    ],
+    "weeks": "12주",
+    "kw_en": "발기부전 전신부종 더부룩함 불면 수분정체 edema bloating erectile dysfunction"
+  },
+  {
+    "slug": "case-64-post-accident-headache-brain-fog-glymphatic",
+    "title": "교통사고 후 두통과 브레인포그, 뇌의 노폐물 배출 시스템이 막히면 생기는 일",
+    "summary": "교통사고 후 목 근육 긴장이 뇌의 노폐물 배출 경로(글림프계)를 압박해 생긴 두통과 브레인포그가, 목 근육 트리거포인트 치료로 회복된 사례.",
+    "cat": "통증",
+    "weeks": "12주",
+    "kw_en": "교통사고 두통 브레인포그 글림프계 목근육긴장 post accident headache brain fog glymphatic"
+  },
+  {
+    "slug": "case-65-arm-tingling-scalene-syndrome",
+    "title": "팔 저림과 목 통증, 사각근 사이에 눌린 신경 때문이었다",
+    "summary": "팔 저림과 목 통증이 사각근 사이에 눌린 신경 다발 때문이었음을 확인하고, 정밀한 자침으로 3주 만에 함께 호전된 사례.",
+    "cat": "통증",
+    "weeks": "3주",
+    "kw_en": "팔저림 목통증 사각근증후군 신경압박 arm tingling scalene syndrome"
+  },
+  {
+    "slug": "case-66-restricted-jaw-opening-pterygoid",
+    "title": "입이 갑자기 잘 벌어지지 않을 때, 뼈 안쪽 깊은 근육이 원인이었다",
+    "summary": "갑자기 입이 잘 벌어지지 않는 개구장애가, 손으로 닿기 힘든 익돌근의 과긴장 때문이었음을 확인하고 전침 치료로 3주 만에 호전된 사례.",
+    "cat": "통증",
+    "weeks": "3주",
+    "kw_en": "개구장애 턱관절 익돌근 전침치료 restricted jaw opening pterygoid"
+  },
+  {
+    "slug": "case-67-shoulder-ligament-coracoacromial-restriction",
+    "title": "브래지어를 풀 수 없게 만든 인대의 문제",
+    "summary": "특정 동작에서만 걸리던 어깨 통증이 근육이 아니라 오구견봉인대 자체의 문제였음을 확인하고, 인대와 회전근개를 함께 치료해 3주 만에 회복된 사례.",
+    "cat": "통증",
+    "weeks": "3주",
+    "kw_en": "어깨통증 오구견봉인대 회전근개 동작제한 shoulder ligament coracoacromial restriction"
+  },
+  {
+    "slug": "case-68-shoulder-catching-subacromial-space",
+    "title": "팔을 들어 올릴 때 걸리는 느낌, 손이 닿지 않는 그 틈이 문제였다",
+    "summary": "팔을 들 때마다 같은 지점에서 걸리던 증상이, 손으로 닿을 수 없는 견봉하공간 자체의 문제였음을 확인하고 직접 자침해 1주 만에 크게 호전된 사례.",
+    "cat": "통증",
+    "weeks": "3주",
+    "kw_en": "어깨통증 견봉하공간 회전근개 걸림현상 shoulder catching subacromial space"
+  },
+  {
+    "slug": "case-69-volleyball-shoulder-supraspinatus-injury",
+    "title": "배구를 하다 다친 어깨, 스스로는 못 들어도 남이 들어주면 올라가는 이유",
+    "summary": "배구 스파이크 중 다친 극상근 손상으로 능동적으로는 팔을 들 수 없던 증상이, 침과 부항 치료로 3주 만에 회복된 사례.",
+    "cat": "통증",
+    "weeks": "3주",
+    "kw_en": "어깨부상 극상근손상 배구 야간통 volleyball shoulder supraspinatus injury"
+  },
+  {
+    "slug": "case-70-tennis-elbow-chef-lateral-epicondylitis",
+    "title": "테니스를 치지 않아도 생기는 테니스 엘보, 잘 낫지 않는 진짜 이유",
+    "summary": "칼질을 반복하는 요리사에게 생긴 외측상과염(테니스 엘보)이, 특수침으로 힘줄의 유착 조직을 직접 풀어주며 5주 만에 회복된 사례.",
+    "cat": "통증",
+    "weeks": "5주",
+    "kw_en": "테니스엘보 외측상과염 요리사 특수침 tennis elbow lateral epicondylitis chef"
   }
 ]
