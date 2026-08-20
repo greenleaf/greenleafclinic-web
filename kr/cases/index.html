@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Greenleaf Case Reports — Real Patients, Real Treatment Stories</title>
+<title>그린리프 치료 사례 — 실제 환자, 실제 치료 이야기</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -550,14 +550,14 @@
 </nav>
 
   <div class="hero">
-    <h1>You're not the first person with this problem.</h1>
-    <p>Every case here follows one real patient — what they came in with, why the usual approach didn't work, and what actually helped. Search by symptom, or browse by condition.</p>
+    <h1>이런 증상, 나만 겪는 게 아닙니다.</h1>
+    <p>여기 실린 각 사례는 실제 환자 한 분 한 분의 이야기입니다. 어떤 증상으로 오셨는지, 왜 기존 방법으로는 해결되지 않았는지, 그리고 무엇이 실제로 도움이 되었는지를 담았습니다. 증상으로 검색하거나 질환별로 둘러보세요.</p>
   </div>
 
   <div class="search-wrap">
     <div class="search-box">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input id="q" type="text" placeholder="Try a symptom — e.g. insomnia, stomach, headache">
+      <input id="q" type="text" placeholder="증상으로 검색해보세요 — 예: 불면, 소화불량, 두통">
     </div>
   </div>
 
@@ -567,21 +567,21 @@
       <div class="result-count" id="resultCount"></div>
       <div id="list"></div>
       <div class="empty-state" id="emptyState" style="display:none;">
-        <p>No cases match that search yet. Try a different word.</p>
+        <p>검색어와 일치하는 사례가 없습니다. 다른 단어로 검색해보세요.</p>
       </div>
     </div>
   </div>
 
   <section class="principle">
     <div class="principle-box">
-      <p class="big">See exactly how we think through each case.</p>
-      <p class="small">We're here to show you we understand why you're worried — and exactly how we approach it. Every case on this site is a real patient, described the way they described themselves.</p>
+      <p class="big">한 사례 한 사례를 어떻게 진단하고 접근하는지 그대로 보여드립니다.</p>
+      <p class="small">환자분들이 무엇을 걱정하시는지, 저희가 그것을 어떻게 이해하고 치료로 연결하는지를 있는 그대로 보여드리고자 합니다. 이 페이지의 모든 사례는 실제 환자분이며, 본인이 표현한 방식 그대로 담았습니다.</p>
     </div>
   </section>
 
   <section class="cta">
-    <p>Wondering if your symptoms follow a similar pattern?</p>
-    <a class="button" href="https://greenleafacuclinic.janeapp.com/">Book a Consultation</a>
+    <p>내 증상도 비슷한 패턴일까요?</p>
+    <a class="button" href="https://greenleafacuclinic.janeapp.com/">상담 예약하기</a>
   </section>
 
 <section class="site-footer" id="visit-us">
@@ -694,8 +694,8 @@
 
 <script>
 const CATEGORY_ORDER = [
-  "Mental Health","Fertility","Uterine Conditions","Pain","Digestive Issues",
-  "Men's Health","Skin Conditions","Pediatrics","Cancer & Chemotherapy","ENT (Ear, Nose & Throat)"
+  "정신 건강","난임","자궁 질환","통증","소화기 질환",
+  "남성 건강","피부 질환","소아 질환","항암 부작용","이비인후과"
 ];
 
 let cases = [];
@@ -705,10 +705,10 @@ const PAGE_SIZE = 5;
 
 async function loadCases(){
   try {
-    const res = await fetch('/greenleafclinic-web/cases/cases.json?v=' + Date.now(), { cache: 'no-store' });
+    const res = await fetch('cases.json?v=' + Date.now(), { cache: 'no-store' });
     cases = await res.json();
   } catch(e) {
-    document.getElementById('list').innerHTML = '<div class="empty-state"><p>Could not load cases.json. This page needs to be served over http (e.g. via GitHub Pages or a local server), not opened directly as a file.</p></div>';
+    document.getElementById('list').innerHTML = '<div class="empty-state"><p>사례 데이터를 불러올 수 없습니다. 이 페이지는 GitHub Pages 등 http 환경에서 열어야 정상적으로 표시됩니다.</p></div>';
     return;
   }
   // Support old bookmarked/shared links like reports.html?cat=...&q=...
@@ -731,7 +731,7 @@ function renderFilters(){
   const present = CATEGORY_ORDER.filter(c => countFor(c) > 0);
   const empty = CATEGORY_ORDER.filter(c => countFor(c) === 0);
 
-  let html = `<button class="filter-btn ${active==='All'?'active':''}" data-cat="All">All <span class="count">${cases.length}</span></button>`;
+  let html = `<button class="filter-btn ${active==='All'?'active':''}" data-cat="All">전체 <span class="count">${cases.length}</span></button>`;
   html += present.map(c => `<button class="filter-btn ${active===c?'active':''}" data-cat="${c}">${c} <span class="count">${countFor(c)}</span></button>`).join('');
   if (empty.length){
     html += '<div class="filter-divider"></div>';
@@ -757,7 +757,7 @@ function renderList(){
   const emptyEl = document.getElementById('emptyState');
   const countEl = document.getElementById('resultCount');
 
-  countEl.textContent = filtered.length ? `${filtered.length} case${filtered.length===1?'':'s'}` : '';
+  countEl.textContent = filtered.length ? `사례 ${filtered.length}건` : '';
 
   if (!filtered.length){
     listEl.innerHTML = '';
@@ -768,10 +768,10 @@ function renderList(){
 
   const toShow = filtered.slice(0, visibleCount);
   let html = toShow.map(c => `
-    <a class="case-row" href="/greenleafclinic-web/cases/cases/${c.slug}.html">
+    <a class="case-row" href="cases/${c.slug}.html">
       <div class="case-title-row">
         <span class="case-title">${c.title}</span>
-        <span class="weeks-badge">Recovered in ${c.weeks}</span>
+        <span class="weeks-badge">${c.weeks} 만에 호전</span>
       </div>
       <div class="case-summary">${c.summary}</div>
       <div class="case-cat">${Array.isArray(c.cat) ? c.cat.join(' · ') : c.cat}</div>
@@ -780,7 +780,7 @@ function renderList(){
 
   if (filtered.length > visibleCount){
     const remaining = filtered.length - visibleCount;
-    html += `<button class="load-more-btn" id="loadMoreBtn">Show ${Math.min(PAGE_SIZE, remaining)} more</button>`;
+    html += `<button class="load-more-btn" id="loadMoreBtn">${Math.min(PAGE_SIZE, remaining)}개 더 보기</button>`;
   }
   listEl.innerHTML = html;
 
