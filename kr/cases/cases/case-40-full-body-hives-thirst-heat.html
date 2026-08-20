@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케이스 40: 몸 전체를 뒤덮은 두드러기, 갈증과 열감에서 실마리를 찾다 | 그린리프 치료 사례</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9RQQ9V05F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E9RQQ9V05F');
+</script>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-warm: #FAFAF6;
+    --lime: #B5CF37;
+    --lime-soft: #EEF3D8;
+    --salmon: #EB7055;
+    --salmon-soft: #FCEAE4;
+    --ink: #22261A;
+    --text-2: #5B6152;
+    --text-3: #8B9180;
+    --border: #E7E7DE;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', 'Pretendard', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  a { color: inherit; text-decoration: none; }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 32px; border-bottom: 1px solid var(--border);
+  }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.02em; }
+  .brand span { color: var(--lime); }
+  .back-link {
+    font-size: 13px; color: var(--text-2); font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .back-link:hover { color: var(--ink); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
+  h1 {
+    font-size: 30px; font-weight: 800; line-height: 1.45; letter-spacing: -0.01em;
+    margin: 0 0 20px;
+  }
+  .meta-row { display: flex; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
+  .badge { font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; }
+  .badge.weeks { color: var(--salmon); background: var(--salmon-soft); }
+  .badge.cat { color: #4A5A18; background: var(--lime-soft); }
+  article { font-size: 16.5px; line-height: 1.9; color: #363B2B; }
+  article p { margin: 0 0 22px; }
+  article strong { font-weight: 700; color: var(--ink); }
+  article h2.case-head {
+    display: flex; align-items: baseline; gap: 12px;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink);
+    line-height: 1.45; margin: 52px 0 20px;
+  }
+  article h2.case-head::before {
+    content: ''; flex-shrink: 0; width: 20px; height: 3px; border-radius: 2px;
+    background: var(--salmon); margin-top: 12px;
+  }
+  article h2.case-head:first-of-type { margin-top: 40px; }
+  article ul { margin: 0 0 22px; padding-left: 20px; }
+  article li { margin-bottom: 10px; }
+  article hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  article em { color: var(--text-2); font-size: 14.5px; line-height: 1.75; }
+  .section-head {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--salmon); margin: 8px 0 16px; display: block;
+  }
+  .herb-table { width: 100%; border-collapse: collapse; margin: 0 0 22px; font-size: 15px; }
+  .herb-table thead th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-3); font-weight: 700; padding: 0 16px 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .herb-table td {
+    padding: 16px 16px 16px 0; border-bottom: 1px solid var(--border);
+    vertical-align: top; line-height: 1.7; color: #363B2B;
+  }
+  .herb-table tr:last-child td { border-bottom: none; }
+  .herb-table td:first-child {
+    width: 160px; font-weight: 800; color: var(--ink); white-space: nowrap;
+  }
+  .herb-table .pinyin {
+    display: block; font-size: 12.5px; font-weight: 500; color: var(--text-3);
+    margin-top: 2px; white-space: normal;
+  }
+  .cta {
+    max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; text-align: center;
+  }
+  .cta-box {
+    background: var(--bg-warm); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 24px; text-align: center;
+  }
+  .cta-box p { font-size: 16px; font-weight: 700; margin: 0 0 18px; }
+  .cta-box a {
+    display: inline-block; background: var(--salmon); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 13px 28px; border-radius: 100px;
+  }
+  footer { text-align: center; padding: 24px; font-size: 12.5px; color: var(--text-3); border-top: 1px solid var(--border); }
+  @media (max-width: 640px) {
+    .topbar { padding: 16px 20px; }
+    main { padding: 40px 20px 24px; }
+    h1 { font-size: 24px; }
+    article { font-size: 15.5px; }
+    article h2.case-head { font-size: 17.5px; margin: 40px 0 16px; }
+    .herb-table thead { display: none; }
+    .herb-table, .herb-table tbody, .herb-table tr, .herb-table td { display: block; width: auto; }
+    .herb-table tr { padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .herb-table td { padding: 2px 0; border-bottom: none; white-space: normal; }
+    .herb-table td:first-child { margin-bottom: 6px; }
+  }
+
+  .floating-cta {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--salmon); color: #fff; font-weight: 700; font-size: 14px;
+    padding: 14px 22px; border-radius: 100px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    text-decoration: none;
+  }
+  .floating-cta:hover { background: #d85f42; }
+  .floating-cta svg { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .floating-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="../index.html">그린리프 <span>치료 사례</span></a>
+    <a class="back-link" href="../index.html">&larr; 전체 사례 보기</a>
+  </div>
+  <main>
+    <div class="eyebrow"><span class="dot"></span>피부 질환</div>
+    <h1>몸 전체를 뒤덮은 두드러기, 갈증과 열감에서 실마리를 찾다</h1>
+    <div class="meta-row">
+      <span class="badge weeks">10주 만에 호전</span>
+      <span class="badge cat">피부 질환</span>
+    </div>
+    <article>
+      <h2 class="case-head">온몸을 뒤덮은 두드러기, 몇 달째 낫지 않는 이유</h2>
+      <p>여름이 끝나갈 무렵부터 시작된 두드러기가 몇 달째 이어지고 있었습니다. 온몸 곳곳에 발진이 올라오고, 간지러움이 심해 일상생활이 힘들 정도였습니다. 진찰을 해보니 물을 많이 찾고, 땀을 많이 흘리고, 더위를 유난히 타는 체질이었습니다. 이런 특징은 몸속에 열이 많이 쌓여 있다는 신호로, 단순히 피부 표면의 문제가 아니라 몸 전체의 열 균형이 무너져 있다는 것을 보여주었습니다.</p>
+      <h2 class="case-head">열을 식히는 것만으로는 부족했던 이유</h2>
+      <p>체내에 열이 많이 쌓인 체질에 쓰는 대표적인 접근이 있었지만, 간지러움이 워낙 심해서 열을 식히는 접근만으로는 충분하지 않겠다고 판단했습니다. 그래서 피부의 가려움증을 함께 다스릴 수 있는 처방을 더해 병행했습니다. 이 조합으로 여러 주간 안정적으로 호전이 이어졌습니다.</p>
+      <h2 class="case-head">자연식품이라 안심했던 꿀, 다시 불을 지피다</h2>
+      <p>치료 중 체열이 높은 체질에는 설탕과 술을 피해야 한다고 당부했는데, 환자는 이를 잘 지키다가 어느 날 꿀을 먹고 증상이 다시 살짝 나빠졌습니다. "자연에서 온 것이니 괜찮을 줄 알았다"는 이야기를 들었는데, 이 경험은 체열이 높은 체질에서는 당의 종류를 가리지 않고 몸에 열을 더할 수 있다는 것을 보여주는 흥미로운 사례였습니다. 꿀을 끊고 다시 처방을 이어가자 증상은 다시 안정을 찾았습니다.</p>
+      <h2 class="case-head">예상치 못한 곳에서 나타난 단서, 속쓰림</h2>
+      <p>몇 달 후 특별한 음식 문제도 없는데 증상이 다시 나빠지는 시기가 있었습니다. 다시 꼼꼼히 살펴보니, 최근 속쓰림이 심해졌다는 사실을 발견했습니다. 오래도록 항히스타민제를 복용해 온 것이 영향을 주었을 가능성도 있었습니다. 이 지점에서 단순히 피부 조직 표면에 국한된 염증을 넘어, 염증 반응이 혈관벽의 투과성을 높이고 혈장 단계까지 영향을 미치고 있다는 신호로 받아들였습니다. 피부와 위 점막에 동시에 증상이 나타난 것은, 국소 조직 수준을 넘어 혈류를 타고 전신을 순환하는 염증 매개물질이 관여하고 있다는 뜻이었습니다.</p>
+      <h2 class="case-head">혈관과 점막까지 번진 염증을 함께 다스리자 나타난 회복</h2>
+      <p>기존 처방의 방향은 유지하되, 조직에 국한된 염증뿐 아니라 혈관과 점막까지 퍼진 염증 반응을 함께 가라앉힐 수 있는 처방으로 바꾸었습니다. 이 처방으로 3주를 복용한 뒤 피부는 발병 전 상태로 돌아왔고, 땀도 많이 줄었으며, 속쓰림도 함께 사라졌습니다. 겉으로 드러난 피부 증상 하나에만 집중했다면 놓쳤을 변화였습니다.</p>
+      <h2 class="case-head">피부 질환, 겉만 보지 않고 몸 전체의 신호를 읽어야 하는 이유</h2>
+      <p>이 케이스는 만성적인 피부 증상이 단순히 피부 표면의 국소 염증이 아니라, 혈관과 점막까지 이어지는 전신적인 염증 반응에서 비롯될 수 있다는 것을 잘 보여줍니다. 초반에 반응이 좋았던 처방이 이유 없이 다시 나빠질 때는, 놓치고 있던 몸의 다른 신호(이 경우엔 속쓰림)가 없는지 살펴보는 것이 중요합니다. 겉으로 보이는 증상 하나에만 매달리지 않고, 몸 전체의 염증 반응 범위를 함께 읽어내는 것이 만성 피부 질환 치료의 핵심입니다.</p>
+      <hr />
+      <span class="section-head">이 처방에 쓰인 약재</span>
+      <p>이 처방은 다음 약재를 중심으로 구성되었습니다:</p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>석고<span class="pinyin">Shi Gao</span></td><td>몸속에 쌓인 열을 강하게 식혀주는 핵심 약재입니다.</td></tr>
+      <tr><td>지모<span class="pinyin">Zhi Mu</span></td><td>석고와 함께 작용하며 진액을 보호하면서 열을 내립니다.</td></tr>
+      <tr><td>생지황<span class="pinyin">Sheng Di Huang</span></td><td>체내 수분을 보충하고 혈관 내 염증성 열을 식혀줍니다.</td></tr>
+      <tr><td>현삼<span class="pinyin">Xuan Shen</span></td><td>건조해진 몸에 수분을 채워주고 염증성 열감을 가라앉힙니다.</td></tr>
+      <tr><td>맥문동<span class="pinyin">Mai Men Dong</span></td><td>진액 부족으로 인한 갈증과 건조함을 완화합니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <span class="section-head">이 케이스에 쓰인 혈자리</span>
+      <table class="herb-table">
+      <thead><tr><th>혈자리</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>곡지(曲池)<span class="pinyin">LI11</span></td><td>피부 열감과 가려움증 완화를 위해 활용됩니다.</td></tr>
+      <tr><td>혈해(血海)<span class="pinyin">SP10</span></td><td>혈관 및 조직의 염증성 열을 식히고 피부 순환을 돕기 위해 활용됩니다.</td></tr>
+      <tr><td>삼음교(三陰交)<span class="pinyin">SP6</span></td><td>진액 보충과 전신 균형을 돕기 위해 활용됩니다.</td></tr>
+      <tr><td>합곡(合谷)<span class="pinyin">LI4</span></td><td>표면의 열을 발산시키기 위해 활용됩니다.</td></tr>
+      <tr><td>족삼리(足三里)<span class="pinyin">ST36</span></td><td>소화 기능을 지지하고 전신 회복력을 돕기 위해 활용됩니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <p><em>이 글은 실제 진료 사례를 바탕으로 하되, 환자의 개인정보 보호를 위해 이름과 세부 정보를 각색했습니다. 같은 증상이라도 사람마다 원인과 몸 상태가 다르기 때문에 처방 또한 달라질 수 있습니다. 이 글은 건강 정보 제공을 목적으로 할 뿐 의학적 진단이나 치료를 대신하지 않으며, 증상이 있으시다면 반드시 전문가와 상담하시기 바랍니다.</em></p>
+    </article>
+  </main>
+  <div class="cta">
+    <div class="cta-box">
+      <p>내 증상도 비슷한 패턴일까요?</p>
+      <a href="https://greenleafacuclinic.janeapp.com/" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-40-kr', 'category': 'skin_conditions'});">상담 예약하기</a>
+    </div>
+  </div>
+  <footer>그린리프 한의원 — 밴쿠버 다운타운</footer>
+  <a class="floating-cta" href="https://greenleafacuclinic.janeapp.com/" target="_blank" rel="noopener" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-40-kr', 'category': 'skin_conditions'});">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    예약하기
+  </a>
+</body>
+</html>
