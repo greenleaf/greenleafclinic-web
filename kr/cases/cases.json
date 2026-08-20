@@ -54,5 +54,73 @@
     "cat": "소화기 질환",
     "weeks": "5주",
     "kw_en": "완경 설사 하지불안증후군 다리떨림 새벽각성 건조피부 diarrhea restless legs menopause"
+  },
+  {
+    "slug": "case-08-blocked-nose-and-breathless-mornings",
+    "title": "코막힘과 아침마다 숨이 가빴던 증상, 한 겹씩 벗겨지듯 사라지다",
+    "summary": "석 달째 이어진 코막힘과 눈 주위 압박감, 그리고 7년째 함께해 온 COPD성 호흡곤란이 순서대로 풀린 이야기.",
+    "cat": "이비인후과",
+    "weeks": "4주",
+    "kw_en": "코막힘 축농증 눈압박 두통 COPD 호흡곤란 건조피부 야간땀 콧물 nasal congestion breathless"
+  },
+  {
+    "slug": "case-09-burping-that-wouldnt-stop",
+    "title": "멈추지 않던 트림, 그 안에 숨어 있던 공황 발작",
+    "summary": "식사만 하면 이어지던 트림과 복부팽만, 설사가 불안감과 공황발작으로 번진 사례.",
+    "cat": "정신 건강",
+    "weeks": "12주",
+    "kw_en": "트림 복부팽만 설사 불안 공황발작 눈물 안면홍조 멀미 스트레스 커피 burping panic"
+  },
+  {
+    "slug": "case-10-racing-heart-and-irregular-period-after-miscarriage",
+    "title": "유산 후 불안, 심장 두근거림, 그리고 불규칙해진 생리",
+    "summary": "유산 후 잦고 심한 출혈과 함께 찾아온 불안감과 두근거림이, 기력 보충이 아니라 긴장을 풀어주면서 풀린 사례.",
+    "cat": [
+      "자궁 질환",
+      "난임"
+    ],
+    "weeks": "3주",
+    "kw_en": "유산 소파술 부정출혈 불안 심장두근거림 빈혈 어지러움 복부팽만 miscarriage anxiety racing heart"
+  },
+  {
+    "slug": "case-11-twenty-sleepless-nights-depression",
+    "title": "20일간의 불면, 그리고 뒤이어 찾아온 우울감",
+    "summary": "20일간 이어진 불면 끝에 찾아온 깊은 우울감과 높은 맥박이, 몸속에 쌓인 열을 내리면서 함께 가라앉은 사례.",
+    "cat": "정신 건강",
+    "weeks": "9주",
+    "kw_en": "불면 우울증 무기력 맥박 빠른심박수 야간땀 묽은변 잦은소변 번아웃 depression high pulse"
+  },
+  {
+    "slug": "case-12-five-years-of-insomnia",
+    "title": "5년째 이어진 불면, 유방암 치료 후 더 심해지다",
+    "summary": "5년째 이어진 불면증이 유방암 치료 이후 더 심해진 사례, 긴장을 풀어주는 시스템과 수분 분배를 함께 조절해 호전.",
+    "cat": [
+      "정신 건강",
+      "항암 부작용"
+    ],
+    "weeks": "10주",
+    "kw_en": "불면증 유방암 치료 입마름 잦은소변 묽은변 가슴답답 안구건조 어깨통증 다리저림 insomnia breast cancer"
+  },
+  {
+    "slug": "case-13-anxiety-palpitations-and-heartburn",
+    "title": "세 가지 증상, 15년, 그리고 하나의 숨은 원인",
+    "summary": "불안, 15년 된 심장 두근거림, 10년 넘은 속쓰림이 모두 위장에 쌓인 하나의 열에서 비롯됐던 사례.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "8주",
+    "kw_en": "불안 심장두근거림 속쓰림 역류성식도염 안면홍조 변비 아침메스꺼움 건강염려 anxiety palpitations heartburn"
+  },
+  {
+    "slug": "case-14-racing-heart-and-nausea-in-crowds",
+    "title": "쇼핑몰에서 시작된 심장 두근거림과 메스꺼움",
+    "summary": "붐비는 곳에서 시작된 공황성 두근거림과 메스꺼움, 체할까 봐 두려워하던 마음이 실제 소화불량으로 이어졌던 사례.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "12주",
+    "kw_en": "공황발작 메스꺼움 구토 소화불량 체함 두려움 붐비는곳 멀미 냉증 실신 panic nausea fear of choking"
   }
 ]
