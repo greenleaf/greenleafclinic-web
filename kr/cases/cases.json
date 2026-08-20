@@ -252,5 +252,115 @@
     ],
     "weeks": "5주",
     "kw_en": "우울증 불면 자살사고 흉부답답함 소화불량 복식호흡 depression insomnia chest tightness"
+  },
+  {
+    "slug": "case-29-anxiety-shows-up-in-the-gut",
+    "title": "불안과 트라우마, 그리고 하루 네다섯 번의 설사",
+    "summary": "트라우마 이후의 불안이 장, 순환, 근육까지 동시에 흔들어놓았던 사례. 몸의 순환 경로를 열어주자 장부터 순서대로 회복됐다.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "불안 트라우마 설사 복부팽만 손발냉증 두통 손끝경련 anxiety trauma diarrhea gut"
+  },
+  {
+    "slug": "case-30-nighttime-incontinence-childhood-trauma",
+    "title": "야간뇨실금과 어린 시절의 트라우마",
+    "summary": "9살 때의 트라우마와 함께 시작된 야간뇨실금이, 체내 수분 정체와 놀람 반응을 함께 다스리며 일주일 만에 호전된 사례.",
+    "cat": "정신 건강",
+    "weeks": "3주",
+    "kw_en": "야간뇨실금 어린시절트라우마 전신부종 압통 불안 우울감 incontinence childhood trauma"
+  },
+  {
+    "slug": "case-31-ibs-eczema-heat-trapped",
+    "title": "과민성대장증후군, 습진, 그리고 몸 안에 쌓인 열",
+    "summary": "장, 피부, 신경계에서 각각 나타난 변비·습진·불안이, 몸 안에 쌓인 하나의 열에서 비롯됐음을 확인하고 함께 풀어준 사례.",
+    "cat": [
+      "소화기 질환",
+      "피부 질환"
+    ],
+    "weeks": "3주",
+    "kw_en": "과민성대장증후군 변비 습진 가려움 불안 더위 갈증 IBS eczema heat"
+  },
+  {
+    "slug": "case-32-insomnia-after-chemotherapy",
+    "title": "항암 치료 이후 찾아온 불면과 마른 몸",
+    "summary": "림프종 항암 치료 후 고갈된 체내 수분과 진액이 불면의 뿌리였음을 확인하고, 진액을 채워 갈증-수면-체력 순으로 회복된 사례.",
+    "cat": [
+      "정신 건강",
+      "항암 부작용"
+    ],
+    "weeks": "7주",
+    "kw_en": "항암치료 불면 진액고갈 야간발한 갈증 체력저하 insomnia chemotherapy"
+  },
+  {
+    "slug": "case-33-chronic-abdominal-pain-normal-tests",
+    "title": "산부인과 검사에서는 이상이 없었던 만성 복통",
+    "summary": "1년 넘게 이어진 만성 복통이, 자율신경 긴장과 골반 내 국소 혈류 정체라는 두 겹의 문제를 단계적으로 풀며 18주 만에 완전히 해소된 사례.",
+    "cat": [
+      "자궁 질환",
+      "통증"
+    ],
+    "weeks": "18주",
+    "kw_en": "만성복통 산부인과검사정상 손발냉증 배란통 골반혈류정체 chronic abdominal pain normal tests"
+  },
+  {
+    "slug": "case-34-sensitive-nervous-system-allergy",
+    "title": "알레르기 뒤에 숨어 있던 예민한 신경계",
+    "summary": "눈, 코 알레르기 뒤에 숨어 있던 감각 예민성을 함께 다스리고, 피부의 미세한 변화를 단서 삼아 처방을 정교하게 조정한 소아 사례.",
+    "cat": [
+      "소아 질환",
+      "이비인후과",
+      "피부 질환"
+    ],
+    "weeks": "6주",
+    "kw_en": "알레르기 비염 눈가려움 소아 감각예민 냄새예민 불면 식욕부진 allergy sensitive nervous system child"
+  },
+  {
+    "slug": "case-35-ibs-fear-of-colon-cancer",
+    "title": "대장암 걱정으로 이어진 과민성 장 증상",
+    "summary": "대장암을 걱정하게 만든 반복적 복통과 설사가, 실은 자율신경계의 만성 긴장에서 비롯됐음을 확인하고 복부와 흉부를 함께 다스려 회복된 사례.",
+    "cat": [
+      "소화기 질환",
+      "정신 건강"
+    ],
+    "weeks": "5주",
+    "kw_en": "과민성대장증후군 대장암걱정 복통 설사 트림 가슴답답함 IBS colon cancer fear"
+  },
+  {
+    "slug": "case-36-swelling-foggy-head-sleepless-nights",
+    "title": "멍한 머리와 불면 뒤에 숨어 있던 부종",
+    "summary": "멍한 머리, 불면, 무덤덤한 감정 뒤에 숨어 있던 전신 부종을 확인하고, 소변량을 지표 삼아 순환을 풀어주자 허리 통증까지 함께 사라진 사례.",
+    "cat": "정신 건강",
+    "weeks": "3주",
+    "kw_en": "멍한머리 브레인포그 불면 전신부종 압통 허리통증 foggy head insomnia swelling"
+  },
+  {
+    "slug": "case-37-knee-pain-not-the-joint",
+    "title": "다른 치료로 낫지 않던 무릎 통증, 관절이 아니라 부종이었다",
+    "summary": "여러 차례 침 치료에도 낫지 않던 무릎 통증이, 관절이 아니라 전신 부종이 원인이었음을 확인하고 순환을 개선해 수면까지 함께 좋아진 사례.",
+    "cat": "통증",
+    "weeks": "4주",
+    "kw_en": "무릎통증 관절 부종 침치료무반응 수면장애 knee pain not the joint swelling"
+  },
+  {
+    "slug": "case-38-panic-attack-mid-treatment",
+    "title": "트라우마 치료 중 갑자기 찾아온 공황발작, 놓치고 있던 단서",
+    "summary": "전형적인 PTSD 처방이 통하지 않다가 회복 중 공황발작이 재발한 사례. 아랫배 압통과 혀의 색이라는 놓친 단서를 찾아 혈류 정체를 함께 풀며 해결됐다.",
+    "cat": "정신 건강",
+    "weeks": "8주",
+    "kw_en": "PTSD 트라우마 공황발작 극심한피로 혈류정체 아랫배압통 panic attack missed clue circulation"
+  },
+  {
+    "slug": "case-39-exhaustion-heavy-bleeding-irritability",
+    "title": "짜증과 불안 뒤에 있던 극심한 피로와 출혈",
+    "summary": "스트레스성으로 보였던 짜증과 불안이 실은 극심한 피로와 과다 생리출혈에서 비롯된 사례. 긴장을 풀기보다 기혈을 채워주자 피로와 출혈이 함께 회복됐다.",
+    "cat": [
+      "자궁 질환",
+      "정신 건강"
+    ],
+    "weeks": "3주",
+    "kw_en": "짜증 불안 극심한피로 과다생리출혈 추위탐 exhaustion heavy bleeding irritability"
   }
 ]
