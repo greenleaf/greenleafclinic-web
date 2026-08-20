@@ -433,5 +433,93 @@
     ],
     "weeks": "3주",
     "kw_en": "소아 가래기침 열성체질 감기후기침 형제자매 heat prone child phlegmy cough"
+  },
+  {
+    "slug": "case-48-fertility-support-natural-conception-chemical-pregnancy-recovery",
+    "title": "난임 침 치료 후 자연 임신, 이후 화학적 유산 회복과 순산까지",
+    "summary": "침 치료만으로 자연 임신에 성공한 뒤, 화학적 유산을 겪고도 한 달 만에 다시 임신해 둘째까지 건강하게 출산한 여정.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "난임 침치료 자연임신 화학적유산 산후조리 fertility acupuncture natural conception"
+  },
+  {
+    "slug": "case-50-dysmenorrhea-headaches-swelling-two-pregnancies",
+    "title": "생리통·두통·부종을 동반한 난임, 3개월 치료 후 두 번의 순조로운 임신",
+    "summary": "심한 생리통, 두통, 부종을 동반한 난임이 3개월 치료 후 자연 임신으로 이어지고, 3년 뒤 둘째도 한 달 만에 임신에 성공한 사례.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "12주",
+    "kw_en": "난임 생리통 두통 부종 자연임신 두번째임신 dysmenorrhea headaches swelling pregnancy"
+  },
+  {
+    "slug": "case-51-endometriosis-period-pain-healthy-delivery",
+    "title": "자궁내막증과 심한 생리통을 동반한 난임, 3개월 만의 통증 소실과 건강한 출산",
+    "summary": "자궁내막증으로 인한 극심한 생리통과 난임이 3개월 만에 통증 없이 회복되고, 1년 반의 치료 끝에 건강한 출산으로 이어진 사례.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "12주",
+    "kw_en": "자궁내막증 생리통 난임 유착 임신 순산 endometriosis period pain healthy delivery"
+  },
+  {
+    "slug": "case-52-miscarriage-ivf-healthy-delivery",
+    "title": "유산의 순간부터 IVF, 그리고 건강한 출산까지 함께한 여정",
+    "summary": "유산 처치 직전 찾아온 환자가 조직 배출 전후 단계별 치료와 IVF 준비를 거쳐, 26주 넘게 임신을 유지하며 건강하게 출산한 여정.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "",
+    "kw_en": "유산 처치 IVF 자궁내막회복 임신 출산 miscarriage IVF healthy delivery"
+  },
+  {
+    "slug": "case-53-ivf-fibroids-placental-blood-flow-preeclampsia-36-weeks",
+    "title": "자궁근종을 안고 시작한 시험관 임신, 태반 혈류 위기와 임신중독증을 넘어 36주 만에 만난 딸",
+    "summary": "자궁근종을 안고 시작한 IVF 임신이 태반 혈류 위기와 임신중독증이라는 두 번의 고비를 매일 치료로 넘기고, 36주에 건강한 딸을 만난 사례.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "2주",
+    "kw_en": "자궁근종 IVF 태반혈류 임신중독증 전자간증 36주출산 fibroids placental blood flow preeclampsia"
+  },
+  {
+    "slug": "case-54-recurrent-pregnancy-loss-acupuncture-only-twins",
+    "title": "반복되는 유산과 난임, 침 치료만으로 되찾은 균형과 쌍둥이 출산",
+    "summary": "두 번의 유산과 IVF 실패를 겪은 환자가, 체열이 높은 체질을 침 치료만으로 다스려 쌍둥이 임신과 출산에 성공한 사례.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "",
+    "kw_en": "반복유산 난임 IVF실패 체열 침치료 쌍둥이 recurrent pregnancy loss acupuncture only twins"
+  },
+  {
+    "slug": "case-55-infertility-arrhythmia-digestive-period-pain-herbal-only",
+    "title": "난임과 부정맥, 소화불량, 극심한 생리통까지 — 원거리 한약 치료만으로 이룬 임신",
+    "summary": "근육 과긴장, 수분 정체, 자궁근종성 생리통이 겹친 난임 환자가, 원거리로 인해 한약 치료만으로 두 층의 처방을 병행해 임신에 성공한 사례.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "",
+    "kw_en": "난임 부정맥 소화불량 생리통 자궁근종 한약만 infertility arrhythmia digestive period pain herbal only"
+  },
+  {
+    "slug": "case-56-infertility-ibs-low-blood-pressure-spinal-history-ivf",
+    "title": "난임, 과민성대장증후군, 저혈압, 그리고 어릴 적 디스크의 그림자 — 근본부터 데운 치료 끝의 임신과 순산",
+    "summary": "과민성대장증후군, 저혈압, 손발냉증에 어릴 적 디스크 병력까지 겹친 난임 환자가, 자율신경과 순환을 함께 데우는 치료로 IVF 임신과 순산에 성공한 사례.",
+    "cat": [
+      "난임",
+      "소화기 질환"
+    ],
+    "weeks": "",
+    "kw_en": "난임 과민성대장증후군 저혈압 손발냉증 디스크 IVF infertility IBS low blood pressure spinal"
   }
 ]

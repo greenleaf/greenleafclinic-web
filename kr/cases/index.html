@@ -771,7 +771,7 @@ function renderList(){
     <a class="case-row" href="cases/${c.slug}.html">
       <div class="case-title-row">
         <span class="case-title">${c.title}</span>
-        <span class="weeks-badge">${c.weeks} 만에 호전</span>
+        ${c.weeks ? `<span class="weeks-badge">${c.weeks} 만에 호전</span>` : ''}
       </div>
       <div class="case-summary">${c.summary}</div>
       <div class="case-cat">${Array.isArray(c.cat) ? c.cat.join(' · ') : c.cat}</div>
