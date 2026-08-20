@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케이스 27: 비행기에서 시작된 공황, 좁은 공간마다 반복되던 두려움 | 그린리프 치료 사례</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9RQQ9V05F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E9RQQ9V05F');
+</script>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-warm: #FAFAF6;
+    --lime: #B5CF37;
+    --lime-soft: #EEF3D8;
+    --salmon: #EB7055;
+    --salmon-soft: #FCEAE4;
+    --ink: #22261A;
+    --text-2: #5B6152;
+    --text-3: #8B9180;
+    --border: #E7E7DE;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', 'Pretendard', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  a { color: inherit; text-decoration: none; }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 32px; border-bottom: 1px solid var(--border);
+  }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.02em; }
+  .brand span { color: var(--lime); }
+  .back-link {
+    font-size: 13px; color: var(--text-2); font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .back-link:hover { color: var(--ink); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
+  h1 {
+    font-size: 30px; font-weight: 800; line-height: 1.45; letter-spacing: -0.01em;
+    margin: 0 0 20px;
+  }
+  .meta-row { display: flex; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
+  .badge { font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; }
+  .badge.weeks { color: var(--salmon); background: var(--salmon-soft); }
+  .badge.cat { color: #4A5A18; background: var(--lime-soft); }
+  article { font-size: 16.5px; line-height: 1.9; color: #363B2B; }
+  article p { margin: 0 0 22px; }
+  article strong { font-weight: 700; color: var(--ink); }
+  article h2.case-head {
+    display: flex; align-items: baseline; gap: 12px;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink);
+    line-height: 1.45; margin: 52px 0 20px;
+  }
+  article h2.case-head::before {
+    content: ''; flex-shrink: 0; width: 20px; height: 3px; border-radius: 2px;
+    background: var(--salmon); margin-top: 12px;
+  }
+  article h2.case-head:first-of-type { margin-top: 40px; }
+  article ul { margin: 0 0 22px; padding-left: 20px; }
+  article li { margin-bottom: 10px; }
+  article hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  article em { color: var(--text-2); font-size: 14.5px; line-height: 1.75; }
+  .section-head {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--salmon); margin: 8px 0 16px; display: block;
+  }
+  .herb-table { width: 100%; border-collapse: collapse; margin: 0 0 22px; font-size: 15px; }
+  .herb-table thead th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-3); font-weight: 700; padding: 0 16px 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .herb-table td {
+    padding: 16px 16px 16px 0; border-bottom: 1px solid var(--border);
+    vertical-align: top; line-height: 1.7; color: #363B2B;
+  }
+  .herb-table tr:last-child td { border-bottom: none; }
+  .herb-table td:first-child {
+    width: 160px; font-weight: 800; color: var(--ink); white-space: nowrap;
+  }
+  .herb-table .pinyin {
+    display: block; font-size: 12.5px; font-weight: 500; color: var(--text-3);
+    margin-top: 2px; white-space: normal;
+  }
+  .cta {
+    max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; text-align: center;
+  }
+  .cta-box {
+    background: var(--bg-warm); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 24px; text-align: center;
+  }
+  .cta-box p { font-size: 16px; font-weight: 700; margin: 0 0 18px; }
+  .cta-box a {
+    display: inline-block; background: var(--salmon); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 13px 28px; border-radius: 100px;
+  }
+  footer { text-align: center; padding: 24px; font-size: 12.5px; color: var(--text-3); border-top: 1px solid var(--border); }
+  @media (max-width: 640px) {
+    .topbar { padding: 16px 20px; }
+    main { padding: 40px 20px 24px; }
+    h1 { font-size: 24px; }
+    article { font-size: 15.5px; }
+    article h2.case-head { font-size: 17.5px; margin: 40px 0 16px; }
+    .herb-table thead { display: none; }
+    .herb-table, .herb-table tbody, .herb-table tr, .herb-table td { display: block; width: auto; }
+    .herb-table tr { padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .herb-table td { padding: 2px 0; border-bottom: none; white-space: normal; }
+    .herb-table td:first-child { margin-bottom: 6px; }
+  }
+
+  .floating-cta {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--salmon); color: #fff; font-weight: 700; font-size: 14px;
+    padding: 14px 22px; border-radius: 100px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    text-decoration: none;
+  }
+  .floating-cta:hover { background: #d85f42; }
+  .floating-cta svg { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .floating-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="../index.html">그린리프 <span>치료 사례</span></a>
+    <a class="back-link" href="../index.html">&larr; 전체 사례 보기</a>
+  </div>
+  <main>
+    <div class="eyebrow"><span class="dot"></span>정신 건강</div>
+    <h1>비행기에서 시작된 공황, 좁은 공간마다 반복되던 두려움</h1>
+    <div class="meta-row">
+      <span class="badge weeks">11주 만에 호전</span>
+      <span class="badge cat">정신 건강</span>
+    </div>
+    <article>
+      <h2 class="case-head">여행을 사랑하던 사람이 여행을 두려워하게 되다</h2>
+      <p>밴쿠버로 오는 비행기 안. 갑자기 심장이 세차게 뛰고 가슴이 답답해졌습니다. 스무 살 후반의 이 유학생에게 그 순간은 단순한 해프닝이 아니었습니다. 그날 이후로 차를 타고 멀리 가거나 엘리베이터처럼 좁은 공간에 들어서기만 해도 똑같은 증상이 되살아났습니다. 여행을 그토록 좋아하던 사람이, 이제 다시는 여행을 갈 수 없게 될까 봐 두려워하고 있었습니다.</p>
+      <p>손발이 차고 추위를 많이 타면서도 긴장하면 얼굴이 쉽게 붉어지는 체질이었습니다. 마르고 여성스러운 인상에 안색은 창백했고, 걱정이 많고 잘 놀라며 완벽주의 성향까지 있었습니다. 겁 많고 예민한 신경계가 비행기라는 하나의 사건을 계기로 완전히 경계 태세에 들어간 모습이었습니다.</p>
+      <h2 class="case-head">3주간 서서히 좋아졌지만, 완전히 사라지지 않은 증상</h2>
+      <p>신경을 진정시키고 놀란 마음을 가라앉히는 처방으로 치료를 시작했습니다. 3주에 걸쳐 매주 조금씩 나아졌습니다. 심계가 줄고, 불안감도 덜해지고, 잠도 더 잘 자게 되었습니다. 그런데 딱 거기까지였습니다. 가슴 답답함은 여전했고, 심계도 일주일에 두어 번씩은 계속 나타났습니다.</p>
+      <h2 class="case-head">얼마 전 비슷한 사례에서 얻은 교훈을 적용하다</h2>
+      <p>바로 이 지점이 낯익었습니다. 얼마 전 거의 같은 패턴을 보였던 환자가 있었습니다. 신경을 진정시키는 처방으로 절반쯤 나아진 뒤 더 이상 진전이 없었고, 완전히 다른 방향의 처방으로 바꾸고 나서야 회복이 마무리됐던 경험이었습니다. 그 기억을 떠올리며, 이번에도 처방을 통째로 바꿔보기로 했습니다. 신경의 흥분을 가라앉히는 뼈대는 유지하되, 혈류를 함께 조절하고 근육의 긴장까지 풀어주는 처방으로 전환한 것입니다.</p>
+      <h2 class="case-head">로키산맥과 LA 여행에서 증명된 회복</h2>
+      <p>일주일 만에 차이가 뚜렷하게 나타났습니다. 이전 처방으로 3주를 써도 나아지지 않던 정체가 이 새로운 처방 앞에서는 눈에 띄게 풀렸습니다. 다시 일주일 후, 두근거림은 완전히 사라졌고 가슴 답답함도 거의 느껴지지 않았습니다. 그리고 또 일주일이 지나자, 모든 증상이 완전히 자취를 감췄습니다.</p>
+      <p>가장 확실한 증거는 그다음에 나왔습니다. 5주간 같은 처방을 유지하는 동안 이 환자는 로키산맥 여행과 LA 여행을 다녀왔습니다. 장시간의 비행과 버스 이동이 이어졌지만 아무 문제도 일어나지 않았습니다. 비행기에서 시작된 두려움이, 결국 비행기 여행으로 완전히 마무리된 셈입니다.</p>
+      <h2 class="case-head">마무리하며</h2>
+      <p>이 케이스는 앞선 사례에서 얻은 경험이 다음 환자에게 그대로 이어진다는 것을 보여줍니다. 신경을 진정시키는 처방이 절반의 회복에서 멈출 때, 답은 같은 처방을 더 오래 쓰는 것이 아니라 혈류와 근육의 긴장까지 함께 다스리는 방향으로 시야를 넓히는 데 있었습니다. 한 환자에게서 배운 것이 다음 환자의 회복을 앞당길 수 있다는 사실이, 이 일을 계속하게 만드는 이유 중 하나입니다.</p>
+      <hr />
+      <span class="section-head">이 처방에 쓰인 약재</span>
+      <p>이 케이스는 처방의 뼈대를 완전히 바꾸면서 회복이 마무리됐습니다.</p>
+      <p><strong>1단계 처방 (신경 진정, 3주)</strong></p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>시호<span class="pinyin">Chai Hu</span></td><td>스트레스로 인한 자율신경 긴장을 완화합니다.</td></tr>
+      <tr><td>용골<span class="pinyin">Long Gu</span></td><td>놀람으로 들뜬 신경을 가라앉히는 광물성 약재입니다.</td></tr>
+      <tr><td>모려(굴 껍질)<span class="pinyin">Mu Li</span></td><td>불안감과 예민함을 진정시킵니다.</td></tr>
+      <tr><td>계지<span class="pinyin">Gui Zhi</span></td><td>표면의 순환을 돕습니다.</td></tr>
+      <tr><td>복령<span class="pinyin">Fu Ling</span></td><td>체내 수분 대사와 정서적 긴장을 함께 조절합니다.</td></tr>
+      </tbody>
+      </table>
+      <p><strong>2단계 처방 (신경 진정 + 혈류 조절 + 근육 이완, 최종 처방)</strong></p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>시호<span class="pinyin">Chai Hu</span></td><td>자율신경 긴장을 완화합니다.</td></tr>
+      <tr><td>감초<span class="pinyin">Gan Cao</span></td><td>전체 처방을 조화롭게 이어줍니다.</td></tr>
+      <tr><td>복령·백출<span class="pinyin">Fu Ling, Bai Zhu</span></td><td>체내 수분 대사를 조절하고 전해질 불균형을 바로잡습니다.</td></tr>
+      <tr><td>천궁·당귀<span class="pinyin">Chuan Xiong, Dang Gui</span></td><td>말초 혈류를 개선해 손발 냉증과 순환 저하를 함께 다스립니다.</td></tr>
+      <tr><td>작약·후박<span class="pinyin">Bai Shao, Hou Po</span></td><td>근육의 경련과 긴장, 명치 부위의 답답함을 풀어줍니다.</td></tr>
+      <tr><td>조구등<span class="pinyin">Gou Teng</span></td><td>뇌혈관 확장 작용과 진정 작용으로 신경의 과흥분을 가라앉힙니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <span class="section-head">이 케이스에 쓰인 혈자리</span>
+      <table class="herb-table">
+      <thead><tr><th>혈자리</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>내관(內關)<span class="pinyin">PC6</span></td><td>가슴 두근거림과 불안감을 다스리는 핵심 자리입니다.</td></tr>
+      <tr><td>태충(太衝)<span class="pinyin">LR3</span></td><td>신경계의 긴장과 반응성을 완화합니다.</td></tr>
+      <tr><td>삼음교(三陰交)<span class="pinyin">SP6</span></td><td>혈류와 자율신경의 균형을 함께 조절합니다.</td></tr>
+      <tr><td>백회(百會)<span class="pinyin">GV20</span></td><td>정신을 안정시키고 불안감을 가라앉힙니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <p><em>이 글은 실제 진료 사례를 바탕으로 하되, 환자의 개인정보 보호를 위해 이름과 세부 정보를 각색했습니다. 같은 증상이라도 사람마다 원인과 몸 상태가 다르기 때문에 처방 또한 달라질 수 있습니다. 이 글은 건강 정보 제공을 목적으로 할 뿐 의학적 진단이나 치료를 대신하지 않으며, 증상이 있으시다면 반드시 전문가와 상담하시기 바랍니다.</em></p>
+    </article>
+  </main>
+  <div class="cta">
+    <div class="cta-box">
+      <p>내 증상도 비슷한 패턴일까요?</p>
+      <a href="https://greenleafacuclinic.janeapp.com/" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-27-kr', 'category': 'mental_health'});">상담 예약하기</a>
+    </div>
+  </div>
+  <footer>그린리프 한의원 — 밴쿠버 다운타운</footer>
+  <a class="floating-cta" href="https://greenleafacuclinic.janeapp.com/" target="_blank" rel="noopener" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-27-kr', 'category': 'mental_health'});">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    예약하기
+  </a>
+</body>
+</html>
