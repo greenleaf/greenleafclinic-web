@@ -187,5 +187,70 @@
     ],
     "weeks": "7주",
     "kw_en": "복부팽만 가스 피로 우울 심장두근거림 복부근육긴장 침치료 bloating depression muscle tension"
+  },
+  {
+    "slug": "case-22-diarrhea-after-meat",
+    "title": "고기만 먹으면 시작되는 복통과 설사",
+    "summary": "몇 년째 고기만 먹으면 복통과 설사로 이어지던 IBS가, 신경계 이완이 아니라 장 점막의 열성 염증을 직접 다스리면서 풀린 사례.",
+    "cat": "소화기 질환",
+    "weeks": "5주",
+    "kw_en": "과민성대장증후군 IBS 복통 설사 고기 스트레스 더위 갈증 두근거림 diarrhea meat digestive heat"
+  },
+  {
+    "slug": "case-23-seven-years-diarrhea-bloating",
+    "title": "7년째 이어진 설사와 복부 팽만감, 조용한 성격 뒤에 가려졌던 진짜 신호",
+    "summary": "7년째 이어진 설사와 복부 팽만감이, 조용하고 내향적인 성격에 얽매이지 않고 몸의 신호를 따라 처방을 세 차례 조정하며 풀린 사례.",
+    "cat": [
+      "소화기 질환",
+      "정신 건강"
+    ],
+    "weeks": "6주",
+    "kw_en": "만성설사 복부팽만 복직근압통 내향적 조용한성격 스트레스 seven years diarrhea bloating quiet temperament"
+  },
+  {
+    "slug": "case-24-elevator-claustrophobia-heartburn",
+    "title": "엘리베이터를 탈 수 없게 된 남자, 그리고 낫지 않던 속쓰림",
+    "summary": "폐쇄공포증과 심한 속쓰림이 가슴의 열과 담을 풀어주는 처방으로 대부분 호전됐지만, 약재 하나를 더하고서야 속쓰림까지 완전히 해결된 사례.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "8주",
+    "kw_en": "폐쇄공포증 엘리베이터 속쓰림 제산제 전중압통 두근거림 claustrophobia elevator heartburn"
+  },
+  {
+    "slug": "case-25-fatigue-bloating-diarrhea",
+    "title": "3-4년째 이어진 피로, 복부 팽만감, 설사",
+    "summary": "몸 위쪽은 열이 몰리고 아래쪽은 차가운 상반된 신호를, 하나의 처방으로 함께 다스려 대변, 팽만감, 피로가 순서대로 풀린 사례.",
+    "cat": "소화기 질환",
+    "weeks": "4주",
+    "kw_en": "만성피로 복부팽만 설사 상열하한 갈증 무른변 냉증 fatigue bloating diarrhea upper heat lower cold"
+  },
+  {
+    "slug": "case-26-anxiety-panic-loud-noise",
+    "title": "큰 소리에 놀란 후 시작된 불안과 공황",
+    "summary": "큰 소리에 놀란 뒤 시작된 불안과 심장 두근거림이, 여러 차례 응급실행을 거친 끝에 처방의 뼈대를 완전히 바꾸면서 회복된 사례.",
+    "cat": "정신 건강",
+    "weeks": "12주",
+    "kw_en": "불안 공황발작 놀람 심장두근거림 응급실 이명 우울감 anxiety panic loud noise startle"
+  },
+  {
+    "slug": "case-27-panic-on-a-plane",
+    "title": "비행기에서 시작된 공황, 좁은 공간마다 반복되던 두려움",
+    "summary": "비행기에서 시작된 공황과 폐쇄공포가, 신경 진정 처방으로 절반만 나아지다가 혈류와 근육 긴장까지 함께 다스리며 완전히 회복된 사례.",
+    "cat": "정신 건강",
+    "weeks": "11주",
+    "kw_en": "공황발작 비행기 폐쇄공포증 손발냉증 심장두근거림 여행 panic attack plane claustrophobia travel"
+  },
+  {
+    "slug": "case-28-depression-insomnia-chest-tightness",
+    "title": "평생 이어진 우울과 불면, 밥을 먹을 때마다 답답해지던 가슴",
+    "summary": "평생 이어진 우울과 불면 뒤에 숨어 있던 진짜 원인이, 식사 후 시작되는 흉부 답답함이라는 신체 신호를 따라가며 풀린 사례.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "5주",
+    "kw_en": "우울증 불면 자살사고 흉부답답함 소화불량 복식호흡 depression insomnia chest tightness"
   }
 ]
