@@ -642,5 +642,26 @@
     "cat": "통증",
     "weeks": "5주",
     "kw_en": "테니스엘보 외측상과염 요리사 특수침 tennis elbow lateral epicondylitis chef"
+  },
+  {
+    "slug": "case-47-four-years-ttc-remote-herbs-ivf-success",
+    "title": "4년의 임신 시도와 두 번의 인공수정 실패, 그리고 첫 체외수정을 바꾼 한약 치료",
+    "summary": "난소낭종 수술 후 4년간 임신을 시도하던 환자가, 토론토에서 원거리로 진행한 한약 치료만으로 첫 체외수정 이식에 성공해 건강하게 출산한 사례.",
+    "cat": [
+      "난임"
+    ],
+    "weeks": "16주",
+    "kw_en": "난임 난소낭종 수술 인공수정실패 체외수정성공 원거리한약 fertility ovarian cyst surgery IUI failed IVF success remote herbs"
+  },
+  {
+    "slug": "case-49-failed-transfer-acupuncture-successful-second-transfer",
+    "title": "원인 불명의 착상 실패와 자궁내막증 진단, 두 번째 이식을 성공으로 이끈 단 하나의 변화",
+    "summary": "원인 불명의 첫 배아 이식 실패와 자궁내막증 진단 이후, 침 치료 하나만 새로 추가해 두 번째 이식에 성공하고 건강하게 출산한 사례.",
+    "cat": [
+      "난임",
+      "자궁 질환"
+    ],
+    "weeks": "8주",
+    "kw_en": "난임 착상실패 자궁내막증 침치료 체외수정 이식성공 infertility failed transfer endometriosis acupuncture successful transfer"
   }
 ]
