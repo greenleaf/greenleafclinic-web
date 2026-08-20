@@ -6,5 +6,53 @@
     "cat": "소화기 질환",
     "weeks": "3주",
     "kw_en": "소화불량 속쓰림 역류 나비 파닥거림 잦은 소변 불안 걱정 불면 입술 건조 쓴맛 stomach indigestion"
+  },
+  {
+    "slug": "case-02-hot-and-cold-flashes-after-menopause",
+    "title": "완경 이후 시작된 불안과 우울, 그리고 번갈아 찾아온 열감과 오한",
+    "summary": "완경 후 번갈아 나타난 열감과 오한, 그리고 뒤이어 찾아온 이유 없는 불안과 우울감.",
+    "cat": "자궁 질환",
+    "weeks": "6주",
+    "kw_en": "완경 열감 오한 불안 우울 식은땀 갈증 변비 hot flash cold flash menopause anxiety"
+  },
+  {
+    "slug": "case-03-waking-up-every-night-for-two-years",
+    "title": "2년째 계속된 불면, 그리고 원인 모를 두피 가려움",
+    "summary": "2년간 이어진 얕은 잠과 잦은 뒤척임, 그리고 함께 심해진 두피 가려움과 비듬.",
+    "cat": "정신 건강",
+    "weeks": "4주",
+    "kw_en": "불면 수면장애 두피 가려움 비듬 부종 잦은 소변 스트레스 insomnia itchy scalp"
+  },
+  {
+    "slug": "case-04-insomnia-and-anger-after-a-car-accident",
+    "title": "교통사고 이후 시작된 불면과 분노",
+    "summary": "교통사고 이후 심해진 불면과 두근거림, 그리고 운전할 때마다 치밀어 오르는 분노.",
+    "cat": "정신 건강",
+    "weeks": "6주",
+    "kw_en": "불면 분노 짜증 두근거림 교통사고 트라우마 식은땀 insomnia anger car accident trauma"
+  },
+  {
+    "slug": "case-05-headaches-cold-hands-that-never-warmed-up",
+    "title": "매일 이어진 두통과 소화불량, 그리고 좀처럼 따뜻해지지 않던 손발",
+    "summary": "거의 매일 찾아오는 두통과 잦은 체함, 그리고 늘 차가웠던 손발과 심한 생리통.",
+    "cat": "통증",
+    "weeks": "6주",
+    "kw_en": "두통 소화불량 손발냉증 생리통 불면 스트레스 headache cold hands digestive"
+  },
+  {
+    "slug": "case-06-panic-attacks-that-start-in-the-stomach",
+    "title": "늘 배 속에서부터 시작되던 공황 발작",
+    "summary": "위통, 가스, 설사로 시작되는 공황 발작과 아침마다 찾아오는 불안감.",
+    "cat": "정신 건강",
+    "weeks": "3주",
+    "kw_en": "공황장애 불안 배 속 위통 가스 설사 아침 불안 panic attack stomach anxiety"
+  },
+  {
+    "slug": "case-07-diarrhea-and-restless-legs-after-menopause",
+    "title": "완경 후 시작된 설사, 그리고 7년째 이어진 하지불안증후군",
+    "summary": "완경 이후 만성 설사로 바뀐 배변 습관, 그리고 7년째 밤마다 떨리는 다리.",
+    "cat": "소화기 질환",
+    "weeks": "5주",
+    "kw_en": "완경 설사 하지불안증후군 다리떨림 새벽각성 건조피부 diarrhea restless legs menopause"
   }
 ]
