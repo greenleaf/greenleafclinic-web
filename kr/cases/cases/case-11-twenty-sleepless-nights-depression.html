@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>케이스 11: 20일간의 불면, 그리고 뒤이어 찾아온 우울감 | 그린리프 치료 사례</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9RQQ9V05F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E9RQQ9V05F');
+</script>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --bg-warm: #FAFAF6;
+    --lime: #B5CF37;
+    --lime-soft: #EEF3D8;
+    --salmon: #EB7055;
+    --salmon-soft: #FCEAE4;
+    --ink: #22261A;
+    --text-2: #5B6152;
+    --text-3: #8B9180;
+    --border: #E7E7DE;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', 'Pretendard', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+  a { color: inherit; text-decoration: none; }
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 32px; border-bottom: 1px solid var(--border);
+  }
+  .brand { font-weight: 800; font-size: 15px; letter-spacing: 0.02em; }
+  .brand span { color: var(--lime); }
+  .back-link {
+    font-size: 13px; color: var(--text-2); font-weight: 600;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .back-link:hover { color: var(--ink); }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--lime); }
+  h1 {
+    font-size: 30px; font-weight: 800; line-height: 1.45; letter-spacing: -0.01em;
+    margin: 0 0 20px;
+  }
+  .meta-row { display: flex; gap: 8px; margin-bottom: 40px; flex-wrap: wrap; }
+  .badge { font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 100px; }
+  .badge.weeks { color: var(--salmon); background: var(--salmon-soft); }
+  .badge.cat { color: #4A5A18; background: var(--lime-soft); }
+  article { font-size: 16.5px; line-height: 1.9; color: #363B2B; }
+  article p { margin: 0 0 22px; }
+  article strong { font-weight: 700; color: var(--ink); }
+  article h2.case-head {
+    display: flex; align-items: baseline; gap: 12px;
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em; color: var(--ink);
+    line-height: 1.45; margin: 52px 0 20px;
+  }
+  article h2.case-head::before {
+    content: ''; flex-shrink: 0; width: 20px; height: 3px; border-radius: 2px;
+    background: var(--salmon); margin-top: 12px;
+  }
+  article h2.case-head:first-of-type { margin-top: 40px; }
+  article ul { margin: 0 0 22px; padding-left: 20px; }
+  article li { margin-bottom: 10px; }
+  article hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  article em { color: var(--text-2); font-size: 14.5px; line-height: 1.75; }
+  .section-head {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--salmon); margin: 8px 0 16px; display: block;
+  }
+  .herb-table { width: 100%; border-collapse: collapse; margin: 0 0 22px; font-size: 15px; }
+  .herb-table thead th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-3); font-weight: 700; padding: 0 16px 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .herb-table td {
+    padding: 16px 16px 16px 0; border-bottom: 1px solid var(--border);
+    vertical-align: top; line-height: 1.7; color: #363B2B;
+  }
+  .herb-table tr:last-child td { border-bottom: none; }
+  .herb-table td:first-child {
+    width: 160px; font-weight: 800; color: var(--ink); white-space: nowrap;
+  }
+  .herb-table .pinyin {
+    display: block; font-size: 12.5px; font-weight: 500; color: var(--text-3);
+    margin-top: 2px; white-space: normal;
+  }
+  .cta {
+    max-width: 680px; margin: 0 auto; padding: 32px 24px 80px; text-align: center;
+  }
+  .cta-box {
+    background: var(--bg-warm); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 24px; text-align: center;
+  }
+  .cta-box p { font-size: 16px; font-weight: 700; margin: 0 0 18px; }
+  .cta-box a {
+    display: inline-block; background: var(--salmon); color: #fff; font-weight: 700;
+    font-size: 14px; padding: 13px 28px; border-radius: 100px;
+  }
+  footer { text-align: center; padding: 24px; font-size: 12.5px; color: var(--text-3); border-top: 1px solid var(--border); }
+  @media (max-width: 640px) {
+    .topbar { padding: 16px 20px; }
+    main { padding: 40px 20px 24px; }
+    h1 { font-size: 24px; }
+    article { font-size: 15.5px; }
+    article h2.case-head { font-size: 17.5px; margin: 40px 0 16px; }
+    .herb-table thead { display: none; }
+    .herb-table, .herb-table tbody, .herb-table tr, .herb-table td { display: block; width: auto; }
+    .herb-table tr { padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .herb-table td { padding: 2px 0; border-bottom: none; white-space: normal; }
+    .herb-table td:first-child { margin-bottom: 6px; }
+  }
+
+  .floating-cta {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--salmon); color: #fff; font-weight: 700; font-size: 14px;
+    padding: 14px 22px; border-radius: 100px; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    text-decoration: none;
+  }
+  .floating-cta:hover { background: #d85f42; }
+  .floating-cta svg { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .floating-cta { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="../index.html">그린리프 <span>치료 사례</span></a>
+    <a class="back-link" href="../index.html">&larr; 전체 사례 보기</a>
+  </div>
+  <main>
+    <div class="eyebrow"><span class="dot"></span>정신 건강</div>
+    <h1>20일간의 불면, 그리고 뒤이어 찾아온 우울감</h1>
+    <div class="meta-row">
+      <span class="badge weeks">9주 만에 호전</span>
+      <span class="badge cat">정신 건강</span>
+    </div>
+    <article>
+      <h2 class="case-head">잠들지 못한 20일</h2>
+      <p>40대 남성이 진료실에 앉아 있었습니다. 표정에는 지친 기색이 역력했습니다.</p>
+      <p>미국에서 일하던 시절, 스트레스가 극에 달했습니다. 20일 동안 잠을 이루지 못하다가 결국 응급실에 실려가 주사를 맞고서야 겨우 잠들 수 있었다고 했습니다. 그날 이후로 깊은 우울감이 자리를 잡았습니다. 일에 대한 의욕은 완전히 사라졌습니다. 결국 잠시 쉬어가기로 하고 캐나다로 건너왔습니다.</p>
+      <p>그런데 쉬어도 나아지지 않았습니다. 아침에 눈을 뜨는 순간과 밤에 잠들기 전, 하루 중 가장 우울한 두 순간이 매일 반복됐습니다. 맥박은 원래 110을 넘겼다가 요즘은 100 정도로 유지되고 있었습니다. 처음 내원했을 때 심박수는 101, 혈압은 116/79였습니다.</p>
+      <p>체격이 크고 열이 많아 이불을 차고 자는 편이었습니다. 땀도 매우 많이 흘렸고, 심장은 자주 두근거렸습니다. 소화는 괜찮았지만 대변은 늘 묽었고, 밤에도 소변 때문에 두세 번씩 깼습니다.</p>
+      <h2 class="case-head">뇌가 가장 싫어하는 것</h2>
+      <p>컴퓨터를 오래 쓰다 보면 CPU에 열이 오릅니다. 그러면 팬이 돌기 시작하고, 그래도 안 되면 속도 자체를 늦춰버립니다. 뇌도 비슷합니다. 뇌는 우리 몸에서 열에 가장 예민한 장기입니다. 어떤 이유로든 체열이 올라가면, 뇌는 그걸 가장 먼저 알아차리고 경고 신호를 보냅니다.</p>
+      <p>그 경고 신호 중 하나가 바로 우울감입니다. 의욕이 사라지고, 몸이 가라앉고, 움직이기 싫어지는 상태. 이건 마음이 약해서가 아니라, 뇌가 "지금은 열을 식히는 데 집중해야 하니 다른 데 에너지 쓰지 말라"고 보내는 신호에 가깝습니다.</p>
+      <p>이 환자의 경우, 몸에 열이 많고 땀을 많이 흘리고 맥박이 계속 높게 유지되는 것 모두 같은 방향을 가리키고 있었습니다. 체열이 정상 범위를 넘어서 있었고, 뇌는 그 신호를 계속 우울감이라는 형태로 내보내고 있었던 겁니다.</p>
+      <h2 class="case-head">열을 만드는 공장</h2>
+      <p>그렇다면 이 열은 어디서 오는 걸까요. 이 환자의 경우는 간이었습니다.</p>
+      <p>간은 보통 해독하는 장기로만 알려져 있지만, 사실 몸에서 열을 가장 많이 만들어내는 공장이기도 합니다. 스트레스가 극심하거나 몸의 균형이 무너지면, 이 공장이 필요 이상으로 열을 만들어내기 시작합니다. 그렇게 만들어진 비정상적인 열이 뇌까지 올라가 계속 경고 신호를 울리게 하는 것이었습니다.</p>
+      <p>그래서 치료의 방향은 분명했습니다. 간에서 과도하게 만들어지는 열을 낮춰주는 것. 그 열을 식혀주는 대표적인 재료가 치자였고, 침자리로는 간의 열을 내리는 자리를 함께 썼습니다.</p>
+      <h2 class="case-head">체열과 열병은 다르다</h2>
+      <p>여기서 한 가지 꼭 구분해야 할 게 있습니다. 이 "체열이 높다"는 건 감기나 몸살처럼 열이 나는 열병(fever)과는 다릅니다. 체온계로 재면 정상으로 나올 수도 있습니다. 몸 안쪽, 특히 간과 같은 장기에서 만들어지는 열이 축적되어 신경계와 순환계를 계속 자극하는 상태에 가깝습니다.</p>
+      <p>이 구분이 특히 중요한 이유는, 서양의학적 틀에서는 이런 상태를 잘 짚어내지 못하기 때문입니다. 체온을 재봐도 정상이고, 감염의 증거도 없으니 "열이 있다"는 말 자체가 낯설게 들립니다. 하지만 맥박이 계속 높게 유지되고, 땀이 많고, 더위를 타고, 우울감이 반복되는 것 모두 이 몸 안의 열과 맞닿아 있는 증상들이었습니다.</p>
+      <h2 class="case-head">맥박 75, 우울감이 사라지다</h2>
+      <p>간에서 만들어지는 열을 낮추는 방향으로 치료를 이어가자, 우울함이 확실히 줄었다는 이야기를 듣기 시작했습니다.</p>
+      <p>이후 방문에서는 환자 스스로도 변화를 느낄 만큼 우울감이 계속 줄어들고 있었습니다. 그리고 맥박이 드디어 75로, 정상 범위에 들어왔습니다.</p>
+      <p>일주일 뒤, 맥박은 여전히 75였고, 우울감은 거의 느껴지지 않는다고 했습니다. 그날로 치료를 마무리했습니다.</p>
+      <p>체열이 낮아지자, 뇌의 경고음도 함께 꺼졌습니다.</p>
+      <hr />
+      <span class="section-head">이 처방에 쓰인 약재</span>
+      <p>이 처방은 다음 약재를 중심으로 구성되었습니다:</p>
+      <table class="herb-table">
+      <thead><tr><th>약재</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>치자(梔子)<span class="pinyin">Zhi Zi</span></td><td>간에서 과도하게 만들어지는 열을 내려주는 대표적인 약재입니다. 몸의 체열이 높고 맥박이 빠르며 열감이 많은 체질에 주로 씁니다.</td></tr>
+      <tr><td>박하(薄荷)·연교(連翹)<span class="pinyin">Bo He, Lian Qiao</span></td><td>가볍고 위로 흩어지는 성질을 지녀, 열기를 몸 겉으로 발산시키는 것을 돕습니다.</td></tr>
+      <tr><td>향부자(香附子)<span class="pinyin">Xiang Fu Zi</span></td><td>지나치게 흥분된 신경을 가라앉히는 역할을 합니다.</td></tr>
+      <tr><td>강황(姜黃)·대황(大黃)<span class="pinyin">Jiang Huang, Da Huang</span></td><td>소량으로 몸 안의 순환을 도와 전체적인 균형을 잡아줍니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <span class="section-head">이 케이스에 쓰인 혈자리</span>
+      <table class="herb-table">
+      <thead><tr><th>혈자리</th><th>역할</th></tr></thead>
+      <tbody>
+      <tr><td>행간(行間)<span class="pinyin">LR2</span></td><td>간에서 만들어지는 열을 내리는 대표적인 혈자리입니다.</td></tr>
+      <tr><td>신문(神門)·내관(內關)<span class="pinyin">HT7, PC6</span></td><td>두근거리는 심장을 가라앉히고 불안감을 줄여줍니다.</td></tr>
+      <tr><td>백회(百會)<span class="pinyin">GV20</span></td><td>정신을 맑게 하고 우울감을 완화하는 데 씁니다.</td></tr>
+      </tbody>
+      </table>
+      <hr />
+      <p><em>이 글은 실제 진료 사례를 바탕으로 하되, 환자의 개인정보 보호를 위해 이름과 세부 정보를 각색했습니다. 같은 증상이라도 사람마다 원인과 몸 상태가 다르기 때문에 처방 또한 달라질 수 있습니다. 이 글은 건강 정보 제공을 목적으로 할 뿐 의학적 진단이나 치료를 대신하지 않으며, 증상이 있으시다면 반드시 전문가와 상담하시기 바랍니다.</em></p>
+    </article>
+  </main>
+  <div class="cta">
+    <div class="cta-box">
+      <p>내 증상도 비슷한 패턴일까요?</p>
+      <a href="https://greenleafacuclinic.janeapp.com/" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-11-kr', 'category': 'mental_health'});">상담 예약하기</a>
+    </div>
+  </div>
+  <footer>그린리프 한의원 — 밴쿠버 다운타운</footer>
+  <a class="floating-cta" href="https://greenleafacuclinic.janeapp.com/" target="_blank" rel="noopener" onclick="gtag('event', 'book_appointment_click', {'case_id': 'case-11-kr', 'category': 'mental_health'});">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    예약하기
+  </a>
+</body>
+</html>
