@@ -122,5 +122,70 @@
     ],
     "weeks": "12주",
     "kw_en": "공황발작 메스꺼움 구토 소화불량 체함 두려움 붐비는곳 멀미 냉증 실신 panic nausea fear of choking"
+  },
+  {
+    "slug": "case-15-stomach-fullness-during-job-search",
+    "title": "구직 중 가라앉지 않던 더부룩함",
+    "summary": "일자리를 구하며 심해진 명치 답답함과 더부룩함이, 위장관 점막의 흡수 기능을 되살리면서 2주 만에 풀린 사례.",
+    "cat": [
+      "소화기 질환",
+      "정신 건강"
+    ],
+    "weeks": "2주",
+    "kw_en": "더부룩함 명치답답 구직스트레스 얼굴열감 잦은소변 무른변 stomach fullness job search anxiety"
+  },
+  {
+    "slug": "case-16-two-years-of-itching-no-rash",
+    "title": "발진 없이 2년째 이어진 저림과 간지러움",
+    "summary": "발진 없이 2년째 반복된 피부 저림과 간지러움이, 표면 순환과 막혀 있던 발한을 함께 풀어주면서 사라진 사례.",
+    "cat": "피부 질환",
+    "weeks": "4주",
+    "kw_en": "피부저림 간지러움 발진없음 손발냉증 부종 어깨결림 생리통 itching tingling no rash"
+  },
+  {
+    "slug": "case-17-panic-symptoms-sweaty-rehearsal",
+    "title": "땀에 흠뻑 젖은 연습 이후 3년간 이어진 심계와 발한 이상",
+    "summary": "3년째 이어진 불안과 심장 두근거림이, 트라우마가 아니라 격렬한 발한 이후 흐트러진 몸의 발한 스위치 문제였던 사례.",
+    "cat": "정신 건강",
+    "weeks": "2주",
+    "kw_en": "불안 심장두근거림 발한이상 손떨림 이마무거움 트라우마 panic palpitations sweating switch"
+  },
+  {
+    "slug": "case-18-nausea-after-one-bad-night",
+    "title": "술 한잔 이후 한 달째 이어진 메스꺼움",
+    "summary": "심하게 토한 하룻밤 이후 한 달째 이어진 메스꺼움이, 단 두 가지 약재로 보름 만에 가라앉은 사례.",
+    "cat": "소화기 질환",
+    "weeks": "2주",
+    "kw_en": "메스꺼움 구토 식욕정상 체력저하 심장두근거림 nausea vomiting one bad night"
+  },
+  {
+    "slug": "case-19-indigestion-period-pain-hidden-problem",
+    "title": "3년째 이어진 소화불량과 생리통, 그 아래 숨어 있던 진짜 문제",
+    "summary": "소화불량과 생리통으로 시작된 치료가, 우연한 대화 속 단서를 거쳐 훨씬 오래된 복통·설사 문제를 찾아내고 해결한 사례.",
+    "cat": [
+      "소화기 질환",
+      "자궁 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "소화불량 복통 설사 생리통 손발냉증 스트레스 장경련 indigestion period pain hidden ibs"
+  },
+  {
+    "slug": "case-20-abdominal-pain-that-suddenly-spiked",
+    "title": "오랜 속쓰림과 팽만감, 그리고 갑자기 심해진 복통",
+    "summary": "오래된 속쓰림과 트림, 팽만감 끝에 갑자기 심해진 복통이, 스트레스로 인한 장의 긴장과 냉증을 함께 풀어주며 가라앉은 사례.",
+    "cat": "소화기 질환",
+    "weeks": "3주",
+    "kw_en": "속쓰림 트림 복부팽만 복통 변비 설사 손발냉증 야간통증 abdominal pain heartburn bloating"
+  },
+  {
+    "slug": "case-21-bloating-depression-muscle-tension",
+    "title": "1년째 이어진 복부 팽만감과 우울, 약으로는 다 풀리지 않던 근육의 긴장",
+    "summary": "1년째 이어진 복부 팽만감과 피로, 우울이 두 차례의 처방 조정과 마지막 침 치료를 거쳐 완전히 사라진 사례.",
+    "cat": [
+      "소화기 질환",
+      "정신 건강"
+    ],
+    "weeks": "7주",
+    "kw_en": "복부팽만 가스 피로 우울 심장두근거림 복부근육긴장 침치료 bloating depression muscle tension"
   }
 ]
