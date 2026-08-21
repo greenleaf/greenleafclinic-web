@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -422,8 +422,8 @@
   .r-meta .dot{width:3px;height:3px;border-radius:50%;background:var(--ink-faint);flex-shrink:0;}
   .r-meta svg{width:12px;height:12px;flex-shrink:0;}
 
-  .empty-state{display:none;padding:60px 0;}
-  .empty-state p{font-size:15px;color:var(--ink-soft);margin:0 0 4px;}
+  .empty-state{display:none;padding:60px 0;text-align:center;}
+  .empty-state p{font-size:13.5px;color:var(--ink-faint);line-height:1.7;margin:0 0 6px;}
   .empty-state a{color:var(--warm-deep);text-decoration:underline;text-underline-offset:2px;cursor:pointer;}
 
   .pagination{display:flex;align-items:center;justify-content:center;gap:6px;padding:28px 0 8px;}
@@ -594,12 +594,12 @@
 <div class="chapter-band chapter-paper">
   <section class="section testimonials-hero">
     <div class="wrap">
-      <span class="eyebrow">PATIENT REVIEWS</span>
-      <h1>What people say, once they've <em>actually been here.</em></h1>
-      <p>Every review below is a real patient, verified on Google — not picked to make a point. Search by symptom, or browse by condition.</p>
+      <span class="eyebrow">환자 후기</span>
+      <h1>직접 와본 사람들이 <em>남긴 말.</em></h1>
+      <p>구글에 올라온 후기를 번역하거나 골라내지 않고 원문 그대로 옮겼습니다.<br>증상으로 검색하거나 질환별로 살펴보세요.</p>
       <div class="search-bar">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="searchInput" placeholder="Try a symptom — e.g. insomnia, stomach, headache">
+        <input type="text" id="searchInput" placeholder="증상을 검색해보세요 — 예: 불면증, 소화불량, 두통">
       </div>
     </div>
   </section>
@@ -615,11 +615,11 @@
           <div id="list"></div>
           <div class="pagination" id="pagination"></div>
           <div class="empty-state" id="emptyState">
-            <p>No reviews match that search.</p>
-            <p><a id="clearLink">Clear filters</a> — or read all 483+ directly on Google.</p>
+            <p>검색 결과가 없습니다.</p>
+            <p>후기 원문은 영어로 작성되어 있어, 영문 키워드(insomnia, headache 등)로도 검색해보세요. <a id="clearLink">필터 초기화</a></p>
           </div>
           <div class="footnote">
-            381 of 465 reviews classified and shown here — everything with any written text at all, sorted into a category. The other 84 were star-only ratings with no text to build a card from.
+            총 465개 리뷰 중 글이 포함된 381개를 분류해 정리했습니다. 나머지 84개는 별점만 있고 글이 없는 후기입니다.
           </div>
         </main>
       </div>
@@ -749,6 +749,101 @@
     "Overall Experience","Staff & Front Desk","Clinic & Facility","Other Practitioners","Other"
   ];
 
+  const CATEGORY_LABELS = {
+    "Mental Health": "정신건강",
+    "Fertility": "난임",
+    "Uterine Conditions": "자궁질환",
+    "Pain": "통증",
+    "Digestive Issues": "소화기",
+    "Men's Health": "남성건강",
+    "Skin Conditions": "피부질환",
+    "Pediatrics": "소아",
+    "Cancer & Chemotherapy": "항암 부작용",
+    "ENT": "눈, 코, 입, 귀",
+    "Overall Experience": "전반적인 경험",
+    "Staff & Front Desk": "직원 및 데스크",
+    "Clinic & Facility": "시설 및 환경",
+    "Other Practitioners": "다른 원장님",
+    "Other": "기타"
+  };
+  function catLabel(cat){ return cat === 'All' ? '전체' : (CATEGORY_LABELS[cat] || cat); }
+
+  const PRACTITIONER_LABELS = { "Dr. Na": "나병진 원장", "Dr. Clare": "박동주 선생님", "Clare": "박동주 선생님" };
+  function practitionerLabel(p){ return PRACTITIONER_LABELS[p] || p; }
+
+  const KR_SEARCH_MAP = {
+    '두통': ['headache','migraine','head pain'],
+    '편두통': ['migraine'],
+    '허리': ['back pain','lower back','sciatica','back'],
+    '허리디스크': ['disc','herniated','sciatica'],
+    '좌골신경통': ['sciatica'],
+    '목': ['neck'],
+    '거북목': ['neck','posture'],
+    '어깨': ['shoulder','frozen shoulder','rotator'],
+    '오십견': ['frozen shoulder'],
+    '무뚞': ['knee'],
+    '팔꿉치': ['elbow','tennis elbow'],
+    '손목': ['wrist','carpal'],
+    '발목': ['ankle','foot','plantar'],
+    '퇱': ['tmj','jaw'],
+    '안면마비': ['bell','facial palsy','facial paralysis'],
+    '통증': ['pain','ache','sore'],
+    '교통사고': ['icbc','car accident','accident','whiplash'],
+    '불면': ['insomnia','sleep','sleeping','slept'],
+    '불면증': ['insomnia','sleep'],
+    '불안': ['anxiety','anxious','panic'],
+    '우울': ['depress','depression'],
+    '스트레스': ['stress','burnout'],
+    '공황': ['panic'],
+    '피로': ['fatigue','tired','exhausted','energy'],
+    '소화': ['digest','digestion','stomach','indigestion'],
+    '소화불량': ['indigestion','bloating','digest'],
+    '위': ['stomach','gastric'],
+    '변비': ['constipation','bowel'],
+    '과민성대장': ['ibs','bowel'],
+    '역류': ['reflux','acid'],
+    '난임': ['fertility','ivf','iui','conceive','conception','pregnan'],
+    '임신': ['pregnan','conceive','fertility'],
+    '생리': ['menstrual','period','cramps','cycle'],
+    '생리통': ['menstrual','cramps','period pain'],
+    '자궁': ['uterine','uterus','fibroid','endometrio'],
+    '갱년기': ['menopause','hot flash','perimenopause'],
+    '피부': ['skin','acne','eczema','rash','psoriasis'],
+    '여드름': ['acne'],
+    '아토피': ['eczema','atopic'],
+    '안면침': ['facial acupuncture','cosmetic','face'],
+    '이명': ['tinnitus','ringing'],
+    '비염': ['sinus','rhinitis','allerg','congestion'],
+    '알레르기': ['allerg'],
+    '어지럼': ['dizzy','dizziness','vertigo'],
+    '눈': ['eye','dry eye','vision'],
+    '침': ['acupuncture','needle'],
+    '침치료': ['acupuncture'],
+    '부항': ['cupping'],
+    '뚸': ['moxa','moxibustion'],
+    '한약': ['herb','herbal','tea','decoction'],
+    '추나': ['massage','adjustment','manual'],
+    '도침': ['acupotomy'],
+    '소아': ['child','kid','son','daughter','pediatric'],
+    '남성': ['prostate','erectile','male'],
+    '체중': ['weight','lose weight'],
+    '보험': ['insurance','icbc','msp','extended health']
+  };
+
+  function expandQuery(q){
+    const raw = q.trim().toLowerCase();
+    if (!raw) return [];
+    const terms = [raw];
+    if (/[\uAC00-\uD7A3]/.test(raw)) {
+      Object.keys(KR_SEARCH_MAP).forEach(function (k) {
+        if (raw.indexOf(k) !== -1 || k.indexOf(raw) !== -1) {
+          KR_SEARCH_MAP[k].forEach(function (en) { terms.push(en); });
+        }
+      });
+    }
+    return terms;
+  }
+
   const sidebar = document.getElementById('sidebar');
   const list = document.getElementById('list');
   const searchInput = document.getElementById('searchInput');
@@ -777,7 +872,7 @@
       const el = document.createElement('div');
       el.className = 'sb-item' + (cat === activeCategory ? ' active' : '');
       const n = cat === 'All' ? REVIEWS.length : counts[cat];
-      el.innerHTML = '<span>' + cat + '</span><span class="n">' + n + '</span>';
+      el.innerHTML = '<span>' + catLabel(cat) + '</span><span class="n">' + n + '</span>';
       el.addEventListener('click', () => { activeCategory = cat; currentPage = 1; render(); });
       sidebar.appendChild(el);
     });
@@ -804,11 +899,11 @@
         ${r.badge ? `<span class="r-badge">${r.badge}</span>` : ''}
       </div>
       <p class="r-desc">${shortHtml}</p>
-      ${hasMore ? `<button type="button" class="r-readmore">Read full review</button>` : ''}
+      ${hasMore ? `<button type="button" class="r-readmore">후기 전문 보기</button>` : ''}
       <div class="r-meta">
-        <span class="cat">${r.categories.join(' / ')}</span>
+        <span class="cat">${r.categories.map(catLabel).join(' / ')}</span>
         <span class="dot"></span>
-        <span>${r.practitioner}</span>
+        <span>${practitionerLabel(r.practitioner)}</span>
         <span class="dot"></span>
         <span style="display:inline-flex;align-items:center;gap:4px;"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.35 11.1h-9.17v2.73h6.51c-.33 3.81-3.5 5.44-6.5 5.44C8.36 19.27 5 16.25 5 12s3.36-7.27 7.19-7.27c3.09 0 4.9 1.97 4.9 1.97L19 4.72S16.56 2 12.19 2C6.42 2 2.03 6.8 2.03 12s4.39 10 10.16 10c5.35 0 9.25-3.67 9.25-9.09 0-1.15-.09-1.81-.09-1.81Z"/></svg> Google</span>
       </div>`;
@@ -820,7 +915,7 @@
       btn.addEventListener('click', () => {
         expanded = !expanded;
         descEl.innerHTML = expanded ? fullHtml : shortHtml;
-        btn.textContent = expanded ? 'Show less' : 'Read full review';
+        btn.textContent = expanded ? '접기' : '후기 전문 보기';
       });
     }
 
@@ -861,11 +956,11 @@
   }
 
   function render(){
-    const q = searchInput.value.trim().toLowerCase();
+    const terms = expandQuery(searchInput.value);
     const filtered = REVIEWS.filter(r => {
       const inCategory = activeCategory === 'All' || r.categories.includes(activeCategory);
       const haystack = (r.title + ' ' + r.quote + ' ' + r.categories.join(' ') + ' ' + r.practitioner).toLowerCase();
-      const inSearch = q === '' || haystack.includes(q);
+      const inSearch = terms.length === 0 || terms.some(t => haystack.includes(t));
       return inCategory && inSearch;
     });
 
@@ -883,7 +978,7 @@
     pagination.style.display = hasResults ? 'flex' : 'none';
     emptyState.style.display = hasResults ? 'none' : 'block';
     resultsMeta.textContent = hasResults
-      ? `Showing ${pageItems.length} of ${filtered.length} reviews`
+      ? `${filtered.length}개 중 ${pageItems.length}개 표시`
       : '';
   }
 
