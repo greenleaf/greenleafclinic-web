@@ -1619,5 +1619,39 @@
   update();
 })();
 </script>
+
+<script>
+(function(){
+  // problem tabs
+  var tabs = document.querySelectorAll('.ptab');
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.classList.remove('active'); });
+      document.querySelectorAll('.ppanel').forEach(function(p){ p.classList.remove('active'); });
+      tab.classList.add('active');
+      var panel = document.getElementById(tab.dataset.panel);
+      if(panel){ panel.classList.add('active'); }
+    });
+  });
+
+  // timeline tabs
+  var tlTabs = document.querySelectorAll('.tl-tab');
+  tlTabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tlTabs.forEach(function(t){ t.classList.remove('active'); });
+      document.querySelectorAll('.tl-panel').forEach(function(p){ p.classList.remove('active'); });
+      tab.classList.add('active');
+      var panel = document.getElementById(tab.dataset.tl);
+      if(panel){ panel.classList.add('active'); }
+    });
+  });
+
+  // faq accordion
+  document.querySelectorAll('.faq-q').forEach(function(q){
+    q.addEventListener('click', function(){ q.parentElement.classList.toggle('open'); });
+  });
+
+})();
+</script>
 </body>
 </html>
