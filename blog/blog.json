@@ -9,6 +9,33 @@
   ],
   "posts": [
     {
+      "slug": "healing-after-miscarriage",
+      "title": "Healing After Miscarriage",
+      "excerpt": "Compassionate support for healing after miscarriage through acupuncture and herbal medicine — how treatment supports physical, hormonal, and emotional recovery.",
+      "category": "Fertility & Women's Health",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/blog/healing-after-miscarriage/"
+    },
+    {
+      "slug": "taichong-lr3-what-we-know-is-not-everything",
+      "title": "Taichong (LR3, 太衝): What We Know Is Not Everything",
+      "excerpt": "Classical texts reveal Taichong's true value: beyond simple Qi circulation to the power of resuscitation in cases of organ failure and structural collapse.",
+      "category": "Acupuncture & TCM Theory",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/blog/taichong-lr3-what-we-know-is-not-everything/"
+    },
+    {
+      "slug": "facial-acupuncture-for-sleep",
+      "title": "Tired but Wired? How Facial Acupuncture Restores Deep Sleep",
+      "excerpt": "How facial acupuncture for rest calms an overactive nervous system — the neuroscience, the TCM facial diagnosis map, and at-home rituals to support deep sleep.",
+      "category": "Patient Care Tips",
+      "author": "Dr. Na",
+      "date": null,
+      "url": "/blog/facial-acupuncture-for-sleep/"
+    },
+    {
       "slug": "what-is-qi",
       "title": "What is Qi (氣)? Understanding the core concept in Traditional Chinese Medicine",
       "excerpt": "Weak Qi means decreased metabolism, Stagnant Qi means stress and autonomic imbalance — a plain-language guide to how TCM practitioners actually use the idea of Qi in the clinic.",
