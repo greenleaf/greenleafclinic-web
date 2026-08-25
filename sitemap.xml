@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://greenleafclinic.ca/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/about/clinic-info/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/clinic-info/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/clinic-info/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/clinic-info/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/about/treatment-method/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/treatment-method/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/treatment-method/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/treatment-method/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/3-pressure-points-to-curb-cravings/</loc>
@@ -351,409 +363,715 @@
   <url>
     <loc>https://greenleafclinic.ca/cases/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/cases/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/contact/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/contact/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/icbc-claims/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/icbc-claims/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/icbc-claims/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/icbc-claims/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/</loc>
+    <loc>https://kr.greenleafclinic.ca/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/about/clinic-info/</loc>
+    <loc>https://kr.greenleafclinic.ca/about/clinic-info/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/clinic-info/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/clinic-info/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/clinic-info/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/about/treatment-method/</loc>
+    <loc>https://kr.greenleafclinic.ca/about/treatment-method/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/treatment-method/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/treatment-method/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/treatment-method/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/blog/</loc>
+    <loc>https://kr.greenleafclinic.ca/blog/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/cases/</loc>
+    <loc>https://kr.greenleafclinic.ca/cases/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/cases/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/cases/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/contact/</loc>
+    <loc>https://kr.greenleafclinic.ca/contact/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/contact/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/icbc-claims/</loc>
+    <loc>https://kr.greenleafclinic.ca/icbc-claims/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/icbc-claims/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/icbc-claims/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/icbc-claims/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/practitioners/clare-park/</loc>
+    <loc>https://kr.greenleafclinic.ca/practitioners/clare-park/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/clare-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/practitioners/dr-na/</loc>
+    <loc>https://kr.greenleafclinic.ca/practitioners/dr-na/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/dr-na/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/testimonials/</loc>
+    <loc>https://kr.greenleafclinic.ca/testimonials/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/testimonials/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/allergies/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/allergies/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/allergies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/cancer/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/cancer/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/cancer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/digestive/crohns-disease/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/digestive/gastritis/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/gastritis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/digestive/gerd/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/gerd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/digestive/ibs/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/ibs/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/digestive/ulcerative-colitis/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/ent-eye/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/ent-eye/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/ent-eye/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/facial-mts/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/facial-mts/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/facial-mts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/fertility/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/fertility/conditions-after-birth/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/fertility/conditions-during-pregnancy/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/fertility/ivf-support/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/ivf-support/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mens-wellness/erectile-dysfunction/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mens-wellness/prostate-health/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/addiction/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/addiction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/adhd/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/adhd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/anxiety/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/anxiety/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/depression/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/depression/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/insomnia/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/insomnia/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/ocd/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/ocd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/mental-health/tic-disorder/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/ankle-foot-pain/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/back-pain-sciatica/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/bells-palsy/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/bells-palsy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/elbow-pain/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/elbow-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/headache/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/headache/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/headache/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/knee-pain/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/knee-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/neck-pain/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/neck-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/shoulder-pain/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/tmj/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/tmj/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pain/wrist-finger-pain/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/pediatrics/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/pediatrics/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pediatrics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/skin-conditions/acne/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/acne/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/skin-conditions/eczema/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/skin-conditions/hives/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/hives/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/skin-conditions/psoriasis/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/urinary/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/urinary/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/urinary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/uterine-condition/adenomyosis/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/uterine-condition/endometriosis/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/uterine-condition/pcos/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/uterine-condition/uterine-fibroids/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
   </url>
   <url>
-    <loc>https://greenleafclinic.ca/kr/treatable-conditions/weight-loss/</loc>
+    <loc>https://kr.greenleafclinic.ca/treatable-conditions/weight-loss/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/weight-loss/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/practitioners/clare-park/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/clare-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/practitioners/dr-na/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/dr-na/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/testimonials/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/testimonials/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/allergies/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/allergies/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/cancer/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/cancer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/gerd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/ibs/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/ent-eye/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/ent-eye/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/facial-mts/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/facial-mts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/depression/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/headache/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/headache/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/tmj/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pediatrics/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pediatrics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/urinary/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/urinary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/weight-loss/</loc>
     <lastmod>2026-08-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/weight-loss/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
   </url>
 </urlset>
