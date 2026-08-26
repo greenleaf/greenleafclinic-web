@@ -26,8 +26,12 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css"></noscript>
 <style>
   :root{
     --bg:#F7F5EE;
@@ -833,7 +837,7 @@
 <body>
 <nav class="nav">
   <div class="wrap nav-wrap">
-    <a class="logo" href="#top"><img src="/greenleaf-logo.png" alt="Greenleaf Acupuncture & Herb Clinic"></a>
+    <a class="logo" href="#top"><img src="/greenleaf-logo.png" alt="Greenleaf Acupuncture & Herb Clinic" width="177" height="52"></a>
 
     <div class="nav-mobile-bar">
       <a href="/about/clinic-info/" class="nav-persistent">About Us</a>
@@ -1000,9 +1004,24 @@
 </script>
 
 <header class="video-hero">
-  <video autoplay muted loop playsinline preload="metadata" poster="hero-poster.jpg">
-    <source src="hero_background2.mp4" type="video/mp4">
-  </video>
+  <video id="heroVideo" autoplay muted loop playsinline preload="none" poster="hero-poster.jpg"></video>
+  <script>
+  (function(){
+    var v = document.getElementById('heroVideo');
+    if(!v) return;
+    var conn = navigator.connection || navigator.webkitConnection || navigator.mozConnection;
+    var saveData = conn && conn.saveData;
+    var slowType = conn && /2g/.test(conn.effectiveType || '');
+    var isSmall = window.matchMedia('(max-width: 640px)').matches;
+    if(!isSmall && !saveData && !slowType){
+      var s = document.createElement('source');
+      s.src = 'hero_background2.mp4';
+      s.type = 'video/mp4';
+      v.appendChild(s);
+      v.load();
+    }
+  })();
+  </script>
   <div class="wrap video-hero-content">
     <span class="eyebrow">New to acupuncture in Vancouver, or been let down before</span>
     <h1>You'll understand every needle before it goes in.</h1>
@@ -1027,7 +1046,7 @@
       </div>
       <div class="stat-item stat-item-badge">
         <div class="stat-num-row">
-          <img class="stat-badge-icon" src="bov-badge.png" alt="Best of Vancouver — Straight">
+          <img class="stat-badge-icon" src="bov-badge.png" alt="Best of Vancouver — Straight" width="100" height="95">
           <div class="stat-num">9<span class="unit">times</span></div>
         </div>
       </div>
@@ -1126,7 +1145,7 @@
     <!-- Dr. Na -->
     <div class="prac-card">
       <div class="prac-head">
-        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/dr-na-home.jpg" alt="Dr. Byoung Jin Na"></a>
+        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/dr-na-home.jpg" alt="Dr. Byoung Jin Na" width="700" height="738" loading="lazy"></a>
         <div class="prac-top">
           <div class="prac-role founder">Founder &amp; Director</div>
           <h3 class="prac-name"><a href="/practitioners/dr-na/" class="prac-name-link">Dr. Byoung Jin Na</a></h3>
@@ -1150,7 +1169,7 @@
     <!-- Clare Park -->
     <div class="prac-card">
       <div class="prac-head">
-        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/clare-park.jpg" alt="Clare Park"></a>
+        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/clare-park.jpg" alt="Clare Park" width="700" height="738" loading="lazy"></a>
         <div class="prac-top">
           <div class="prac-role">Acupuncturist</div>
           <h3 class="prac-name"><a href="/practitioners/clare-park/" class="prac-name-link">Clare Park</a></h3>
@@ -1636,7 +1655,7 @@
         <p>
           Unit 1455 – 409 Granville Street, Vancouver, BC V6C 1T2<br>
           * Buzzer #1455 after 6pm &amp; weekends<br><br>
-          <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Phone: <a href="tel:6043220293">604.322.0293</a><br><svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>E-mail: <a href="mailto:info@greenleafclinic.ca">info@greenleafclinic.ca</a><br>
+          <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Phone: <a href="tel:6043220293">604.322.0293</a><br><svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>E-mail: <a href="/cdn-cgi/l/email-protection#92fbfcf4fdd2f5e0f7f7fcfef7f3f4f1fefbfcfbf1bcf1f3"><span class="__cf_email__" data-cfemail="2d44434b426d4a5f48484341484c4b4e414443444e034e4c">[email&#160;protected]</span></a><br>
           Monday – Friday: 9:30am – 7:00pm<br>
           Saturday, Sunday &amp; Holiday: Closed
         </p>
@@ -1672,7 +1691,7 @@
 </section>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function(){
   var grid = document.getElementById('testiGrid');
   var dotsWrap = document.getElementById('testiDots');
