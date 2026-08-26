@@ -1,0 +1,41 @@
+# Greenleaf Acupuncture & Herb Clinic
+
+> Vancouver-based acupuncture and Chinese herbal medicine clinic located at 409 Granville Street (Unit 1455), downtown Vancouver, BC. Offers acupuncture, herbal medicine, and related treatments for pain, digestive, mental health, fertility, skin, and other conditions, with every treatment explained in plain language and backed by 70+ documented real patient case reports. Content is available in English (greenleafclinic.ca) and Korean (kr.greenleafclinic.ca).
+
+Phone: +1-604-322-0293
+Email: info@greenleafclinic.ca
+Hours: Monday-Friday, 9:30am-7:00pm (closed weekends and holidays)
+Booking: https://greenleafacuclinic.janeapp.com/
+
+## Clinic Info
+- [Hours, Fees & Insurance](https://greenleafclinic.ca/about/clinic-info/): Clinic hours, pricing, and insurance/ICBC billing info
+- [Treatment Method](https://greenleafclinic.ca/about/treatment-method/): How Greenleaf's acupuncture and herbal medicine approach works
+- [Contact](https://greenleafclinic.ca/contact/): Location, phone, and booking details
+- [ICBC Claims](https://greenleafclinic.ca/icbc-claims/): Car accident injury treatment and ICBC direct billing
+- [Testimonials](https://greenleafclinic.ca/testimonials/): Patient reviews
+- [Case Reports](https://greenleafclinic.ca/cases/): 70+ real patient case reports organized by condition
+
+## Practitioners
+- [Dr. Byoung Jin Na](https://greenleafclinic.ca/practitioners/dr-na/): Founder & Director, Registered Acupuncturist (R.Ac), 20 years of clinical experience treating chronic and complex conditions
+- [Clare (Dongjoo) Park](https://greenleafclinic.ca/practitioners/clare-park/): Registered Acupuncturist (R.Ac) focused on first-time patients, women's health, children, families, and cosmetic/skin acupuncture
+
+## Treatable Conditions
+- [Fertility & IVF Support](https://greenleafclinic.ca/treatable-conditions/fertility/): Fertility, IVF support, pregnancy and postpartum conditions
+- [Pain Conditions](https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/): Back, neck, shoulder, knee, ankle, elbow, wrist pain, headache, TMJ, Bell's palsy
+- [Digestive Conditions](https://greenleafclinic.ca/treatable-conditions/digestive/ibs/): IBS, GERD, gastritis, Crohn's disease, ulcerative colitis
+- [Mental Health](https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/): Anxiety, depression, insomnia, ADHD, OCD, addiction, tic disorder
+- [Uterine Conditions](https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/): PCOS, endometriosis, uterine fibroids, adenomyosis
+- [Skin Conditions](https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/): Acne, eczema, psoriasis, hives
+- [Men's Wellness](https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/): Erectile dysfunction, prostate health
+- [Weight Loss](https://greenleafclinic.ca/treatable-conditions/weight-loss/)
+- [Other Conditions](https://greenleafclinic.ca/treatable-conditions/allergies/): Allergies, cancer support, ENT/eye conditions, facial/MTS acupuncture, pediatrics, urinary conditions
+
+## Blog
+- [Notes from the Clinic](https://greenleafclinic.ca/blog/): 130+ articles on acupuncture, herbal medicine, and Traditional Chinese Medicine topics, written in plain language
+
+## Korean (한국어 콘텐츠)
+- [그린리프 한의원 (Korean homepage)](https://kr.greenleafclinic.ca/): Korean-language version of the site with the same clinic info, practitioners, treatable conditions, and blog content
+
+## Optional
+- [Sitemap](https://greenleafclinic.ca/sitemap.xml): Full list of all pages on the site
+
