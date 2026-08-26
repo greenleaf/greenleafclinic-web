@@ -26,10 +26,14 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT@2/fonts/variable/woff2/SUIT-Variable.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+<link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css"></noscript>
 <style>
   :root{
     --bg:#F7F5EE;
@@ -857,7 +861,7 @@
 <body>
 <nav class="nav">
   <div class="wrap nav-wrap">
-    <a class="logo" href="#top"><img src="/greenleaf-logo.png" alt="그린리프 한의원 (Greenleaf Acupuncture &amp; Herb Clinic)"></a>
+    <a class="logo" href="#top"><img src="/greenleaf-logo.png" alt="그린리프 한의원 (Greenleaf Acupuncture &amp; Herb Clinic)" width="177" height="52"></a>
 
     <div class="nav-mobile-bar">
       <a href="/kr/about/clinic-info/" class="nav-persistent">클리닉 소개</a>
@@ -1024,9 +1028,24 @@
 </script>
 
 <header class="video-hero">
-  <video autoplay muted loop playsinline preload="metadata" poster="/hero-poster.jpg">
-    <source src="/hero_background2.mp4" type="video/mp4">
-  </video>
+  <video id="heroVideo" autoplay muted loop playsinline preload="none" poster="/hero-poster.jpg"></video>
+  <script>
+  (function(){
+    var v = document.getElementById('heroVideo');
+    if(!v) return;
+    var conn = navigator.connection || navigator.webkitConnection || navigator.mozConnection;
+    var saveData = conn && conn.saveData;
+    var slowType = conn && /2g/.test(conn.effectiveType || '');
+    var isSmall = window.matchMedia('(max-width: 640px)').matches;
+    if(!isSmall && !saveData && !slowType){
+      var s = document.createElement('source');
+      s.src = '/hero_background2.mp4';
+      s.type = 'video/mp4';
+      v.appendChild(s);
+      v.load();
+    }
+  })();
+  </script>
   <div class="wrap video-hero-content">
     <span class="eyebrow">침도 한약도, 그냥 처방하지 않습니다</span>
     <h1>왜 이 치료인지, 납득하고 시작하세요</h1>
@@ -1051,7 +1070,7 @@
       </div>
       <div class="stat-item stat-item-badge">
         <div class="stat-num-row">
-          <img class="stat-badge-icon" src="/bov-badge.png" alt="Best of Vancouver — Straight">
+          <img class="stat-badge-icon" src="/bov-badge.png" alt="Best of Vancouver — Straight" width="100" height="95">
           <div class="stat-num">9<span class="unit">차례</span></div>
         </div>
       </div>
@@ -1135,7 +1154,7 @@
     <!-- Dr. Na -->
     <div class="prac-card">
       <div class="prac-head">
-        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/dr-na-home.jpg" alt="Dr. Byoung Jin Na"></a>
+        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/dr-na-home.jpg" alt="Dr. Byoung Jin Na" width="700" height="738" loading="lazy"></a>
         <div class="prac-top">
           <div class="prac-role founder">설립자 · 원장</div>
           <h3 class="prac-name"><a href="/kr/practitioners/dr-na/" class="prac-name-link">나병진 원장</a></h3>
@@ -1159,7 +1178,7 @@
     <!-- Clare Park -->
     <div class="prac-card">
       <div class="prac-head">
-        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/clare-park.jpg" alt="Clare Park"></a>
+        <a href="#practitioners" class="prac-photo"><img src="/assets/images/practitioners/clare-park.jpg" alt="Clare Park" width="700" height="738" loading="lazy"></a>
         <div class="prac-top">
           <div class="prac-role">한의사</div>
           <h3 class="prac-name"><a href="/kr/practitioners/clare-park/" class="prac-name-link">박동주 선생님</a></h3>
@@ -1673,7 +1692,7 @@
         <p>
           Unit 1455 – 409 Granville Street, Vancouver, BC V6C 1T2<br>
           * 오후 6시 이후 &amp; 주말에는 버저 #1455를 눌러주세요<br><br>
-          <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>전화: <a href="tel:6043220293">604.322.0293</a><br><svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>이메일: <a href="mailto:info@greenleafclinic.ca">info@greenleafclinic.ca</a><br>
+          <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>전화: <a href="tel:6043220293">604.322.0293</a><br><svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>이메일: <a href="/cdn-cgi/l/email-protection#4821262e27082f3a2d2d26242d292e2b242126212b662b29"><span class="__cf_email__" data-cfemail="1c75727a735c7b6e79797270797d7a7f707572757f327f7d">[email&#160;protected]</span></a><br>
           월요일 – 금요일: 오전 9:30 – 오후 7:00<br>
           토요일, 일요일 &amp; 공휴일: 휴무
         </p>
@@ -1709,7 +1728,7 @@
 </section>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function(){
   var grid = document.getElementById('testiGrid');
   var dotsWrap = document.getElementById('testiDots');
