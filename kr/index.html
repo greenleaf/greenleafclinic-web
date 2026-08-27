@@ -374,6 +374,9 @@
     transition:border-color .15s, transform .15s, box-shadow .15s;
   }
   .card:hover{border-color:var(--line);border-top-color:var(--lime-deep);transform:translateY(-2px);box-shadow:0 6px 16px rgba(24,24,24,.06);}
+  .card.card-accent{border-top-color:#C9503C;background:#FBEDE9;}
+  .card.card-accent .title{color:#A63E2E;}
+  .card.card-accent:hover{border-top-color:#A63E2E;}
   .card:focus-visible{outline:2px solid var(--lime);outline-offset:2px;}
   .card i{
     font-size:23.5px;color:var(--lime-deep);
@@ -1108,6 +1111,17 @@
     </div>
   </div>
 </div>
+
+<header class="hero">
+  <div class="wrap">
+    <h2>어떤 증상으로 찾아오셨나요?</h2>
+    <div class="search-bar">
+      <i class="ti ti-search"></i>
+      <input type="text" id="case-search-input" placeholder="증상을 검색해보세요 — 예: 불면증, 허리 통증, 소화불량" data-placeholder-full="증상을 검색해보세요 — 예: 불면증, 허리 통증, 소화불량" data-placeholder-short="증상 검색…" onkeydown="if(event.key==='Enter'){goSearchCases();}">
+      <button class="search-btn" onclick="goSearchCases()">증상 검색하기</button>
+    </div>
+  </div>
+</header>
 
 <section class="section" id="conditions" style="padding-top:14px;">
   <div class="wrap">
@@ -1932,6 +1946,421 @@
     {"@type":"Question","name":"Can I take herbal medicine alongside my prescription medications?","acceptedAnswer":{"@type":"Answer","text":"대부분의 경우 가능하지만, 구체적인 약재와 약물에 따라 다르며 일부 조합은 주의나 복용 시간 조정이 필요할 수 있습니다. 상담 시 현재 복용 중인 약물을 알려주시면, 상호작용을 고려해 한약 처방을 결정합니다."}}
   ]
 }
+<script>
+  // 증상 검색 -> 치료질환 페이지 이동 (매칭되는 항목이 없으면 카테고리 목록으로 이동)
+  window.CONDITION_SEARCH_MAP = [
+  {
+    "url": "/kr/treatable-conditions/allergies/",
+    "title": "알레르기",
+    "keywords": [
+      "알레르기",
+      "비염",
+      "꽃가루알레르기",
+      "재채기"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/cancer/",
+    "title": "항암 부작용",
+    "keywords": [
+      "항암",
+      "항암치료",
+      "항암부작용",
+      "화학요법"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/digestive/crohns-disease/",
+    "title": "크론병",
+    "keywords": [
+      "크론병",
+      "크론"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/digestive/gastritis/",
+    "title": "위염",
+    "keywords": [
+      "위염",
+      "속쓰림",
+      "위통",
+      "소화불량"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/digestive/gerd/",
+    "title": "역류성 식도염",
+    "keywords": [
+      "역류성식도염",
+      "역류성 식도염",
+      "gerd",
+      "위산역류",
+      "속쓰림"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/digestive/ibs/",
+    "title": "과민성대장증후군",
+    "keywords": [
+      "과민성대장증후군",
+      "ibs",
+      "복부팽만",
+      "소화불량",
+      "복통"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/digestive/ulcerative-colitis/",
+    "title": "궤양성 대장염",
+    "keywords": [
+      "궤양성대장염",
+      "궤양성 대장염",
+      "대장염"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/ent-eye/",
+    "title": "눈, 코, 입, 귀",
+    "keywords": [
+      "귀",
+      "코",
+      "목",
+      "눈",
+      "축농증",
+      "이명",
+      "안구건조",
+      "비염"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/facial-mts/",
+    "title": "안면침 & MTS",
+    "keywords": [
+      "안면침",
+      "mts",
+      "미용침",
+      "주름",
+      "동안침"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/fertility/",
+    "title": "난임",
+    "keywords": [
+      "난임",
+      "불임",
+      "임신준비",
+      "임신 준비"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/fertility/ivf-support/",
+    "title": "시험관 시술(IVF) 지원",
+    "keywords": [
+      "시험관",
+      "ivf",
+      "배아이식",
+      "인공수정"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/fertility/conditions-during-pregnancy/",
+    "title": "임신 중 증상",
+    "keywords": [
+      "임신",
+      "입덧",
+      "임산부",
+      "임신 중"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/fertility/conditions-after-birth/",
+    "title": "산후 증상",
+    "keywords": [
+      "산후",
+      "산후조리",
+      "출산 후 회복",
+      "산후관리"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mens-wellness/erectile-dysfunction/",
+    "title": "발기부전",
+    "keywords": [
+      "발기부전",
+      "남성기능"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mens-wellness/prostate-health/",
+    "title": "전립선 건강",
+    "keywords": [
+      "전립선",
+      "전립선염",
+      "전립선비대증"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/addiction/",
+    "title": "중독",
+    "keywords": [
+      "중독"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/adhd/",
+    "title": "ADHD",
+    "keywords": [
+      "adhd",
+      "주의력결핍",
+      "과잉행동장애"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/anxiety/",
+    "title": "불안장애",
+    "keywords": [
+      "불안",
+      "불안장애",
+      "공황장애",
+      "스트레스"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/depression/",
+    "title": "우울증",
+    "keywords": [
+      "우울증",
+      "우울감",
+      "우울"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/insomnia/",
+    "title": "불면증",
+    "keywords": [
+      "불면증",
+      "잠이 안와요",
+      "수면장애",
+      "불면"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/ocd/",
+    "title": "강박장애",
+    "keywords": [
+      "강박장애",
+      "ocd",
+      "강박"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/mental-health/tic-disorder/",
+    "title": "틱장애",
+    "keywords": [
+      "틱장애",
+      "틱"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/ankle-foot-pain/",
+    "title": "발목 & 발 통증",
+    "keywords": [
+      "발목통증",
+      "발목 통증",
+      "발 통증",
+      "족저근막염"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/back-pain-sciatica/",
+    "title": "허리 통증 / 좌골신경통",
+    "keywords": [
+      "허리통증",
+      "허리 통증",
+      "좌골신경통",
+      "요통"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/bells-palsy/",
+    "title": "안면마비 (벨마비)",
+    "keywords": [
+      "안면마비",
+      "벨마비"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/elbow-pain/",
+    "title": "팔꿈치 통증",
+    "keywords": [
+      "팔꿈치통증",
+      "팔꿈치 통증",
+      "테니스엘보"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/headache/",
+    "title": "두통",
+    "keywords": [
+      "두통",
+      "편두통"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/knee-pain/",
+    "title": "무릎 통증",
+    "keywords": [
+      "무릎통증",
+      "무릎 통증"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/neck-pain/",
+    "title": "목 통증",
+    "keywords": [
+      "목통증",
+      "목 통증",
+      "거북목"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/shoulder-pain/",
+    "title": "어깨 통증",
+    "keywords": [
+      "어깨통증",
+      "어깨 통증",
+      "오십견"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/tmj/",
+    "title": "턱관절(TMJ) 통증",
+    "keywords": [
+      "턱관절",
+      "tmj",
+      "턱통증",
+      "턱 통증"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pain/wrist-finger-pain/",
+    "title": "손목 & 손가락 통증",
+    "keywords": [
+      "손목통증",
+      "손가락통증",
+      "저림",
+      "손저림",
+      "손목터널증후군"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/pediatrics/",
+    "title": "소아 질환",
+    "keywords": [
+      "소아",
+      "아이",
+      "어린이",
+      "소아질환"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/skin-conditions/acne/",
+    "title": "여드름",
+    "keywords": [
+      "여드름"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/skin-conditions/eczema/",
+    "title": "습진",
+    "keywords": [
+      "습진",
+      "아토피"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/skin-conditions/hives/",
+    "title": "두드러기",
+    "keywords": [
+      "두드러기"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/skin-conditions/psoriasis/",
+    "title": "건선",
+    "keywords": [
+      "건선"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/urinary/",
+    "title": "비뇨기 질환",
+    "keywords": [
+      "비뇨기",
+      "방광염",
+      "요실금"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/uterine-condition/adenomyosis/",
+    "title": "자궁선근증",
+    "keywords": [
+      "자궁선근증"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/uterine-condition/endometriosis/",
+    "title": "자궁내막증",
+    "keywords": [
+      "자궁내막증",
+      "생리통"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/uterine-condition/pcos/",
+    "title": "다낭성난소증후군(PCOS)",
+    "keywords": [
+      "다낭성난소증후군",
+      "pcos"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/uterine-condition/uterine-fibroids/",
+    "title": "자궁근종",
+    "keywords": [
+      "자궁근종"
+    ]
+  },
+  {
+    "url": "/kr/treatable-conditions/weight-loss/",
+    "title": "체중 관리",
+    "keywords": [
+      "체중관리",
+      "다이어트",
+      "비만",
+      "체중 관리"
+    ]
+  }
+];
+  function goSearchCases(){
+    var input = document.getElementById('case-search-input');
+    var q = (input && input.value ? input.value : '').trim().toLowerCase();
+    var url = '/kr/#conditions';
+    if(q){
+      var map = window.CONDITION_SEARCH_MAP;
+      var hit = map.find(function(c){ return c.keywords.indexOf(q) !== -1; });
+      if(!hit){
+        hit = map.find(function(c){
+          return c.keywords.some(function(k){ return q.indexOf(k) !== -1 || k.indexOf(q) !== -1; });
+        });
+      }
+      url = hit ? hit.url : '/kr/#conditions';
+    }
+    window.location.href = url;
+  }
+</script>
+
 </script>
 
 <script>
