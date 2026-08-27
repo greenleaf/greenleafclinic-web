@@ -1,4 +1,4 @@
-# Greenleaf Acupuncture & Herb Clinic
+# GreenLeaf Acupuncture & Herb Clinic
 
 > Vancouver-based acupuncture and Chinese herbal medicine clinic located at 409 Granville Street (Unit 1455), downtown Vancouver, BC. Offers acupuncture, herbal medicine, and related treatments for pain, digestive, mental health, fertility, skin, and other conditions, with every treatment explained in plain language and backed by 70+ documented real patient case reports. Content is available in English (greenleafclinic.ca) and Korean (kr.greenleafclinic.ca).
 
@@ -9,7 +9,7 @@ Booking: https://greenleafacuclinic.janeapp.com/
 
 ## Clinic Info
 - [Hours, Fees & Insurance](https://greenleafclinic.ca/about/clinic-info/): Clinic hours, pricing, and insurance/ICBC billing info
-- [Treatment Method](https://greenleafclinic.ca/about/treatment-method/): How Greenleaf's acupuncture and herbal medicine approach works
+- [Treatment Method](https://greenleafclinic.ca/about/treatment-method/): How GreenLeaf's acupuncture and herbal medicine approach works
 - [Contact](https://greenleafclinic.ca/contact/): Location, phone, and booking details
 - [ICBC Claims](https://greenleafclinic.ca/icbc-claims/): Car accident injury treatment and ICBC direct billing
 - [Testimonials](https://greenleafclinic.ca/testimonials/): Patient reviews
