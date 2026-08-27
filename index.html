@@ -505,6 +505,30 @@
     .media-visual{height:110px;}
   }
 
+  /* NYT-style "From the blog" section */
+  .nyt-blog-section{ background:var(--paper); padding:64px 0 72px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .nyt-blog-section .wrap{ max-width:1180px; margin:0 auto; padding:0 24px; }
+  .nyt-head{ display:flex; align-items:baseline; justify-content:space-between; border-bottom:2px solid var(--ink); padding-bottom:14px; margin-bottom:36px; }
+  .nyt-head .nyt-eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-faint); }
+  .nyt-head h2{ font-family:Fraunces,serif; font-size:34px; font-weight:600; color:var(--ink); margin:4px 0 0; letter-spacing:-.01em; }
+  .nyt-head .nyt-viewall{ font-family:'IBM Plex Sans',sans-serif; font-size:13px; color:var(--warm-text); text-decoration:none; white-space:nowrap; border-bottom:1px solid var(--warm-text); padding-bottom:2px; }
+  .nyt-grid{ display:grid; grid-template-columns: 1.5fr 1px 1fr; gap:40px; }
+  .nyt-rule{ background:var(--line); }
+  .nyt-lead{ display:block; text-decoration:none; color:inherit; }
+  .nyt-lead-cat{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--lime-deep); margin-bottom:10px; display:block; }
+  .nyt-lead h3{ font-family:Fraunces,serif; font-size:30px; line-height:1.18; font-weight:600; color:var(--ink); margin:0 0 12px; letter-spacing:-.01em; }
+  .nyt-lead:hover h3{ text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:4px; }
+  .nyt-lead p{ font-family:Georgia,'IBM Plex Sans',serif; font-size:16px; line-height:1.6; color:var(--ink-soft); margin:0 0 14px; }
+  .nyt-lead .nyt-byline{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-faint); }
+  .nyt-list{ display:flex; flex-direction:column; }
+  .nyt-item{ display:block; text-decoration:none; color:inherit; padding:18px 0; border-bottom:1px solid var(--line); }
+  .nyt-item:first-child{ padding-top:0; }
+  .nyt-item:last-child{ border-bottom:none; }
+  .nyt-item-cat{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); display:block; margin-bottom:6px; }
+  .nyt-item h4{ font-family:Fraunces,serif; font-size:17px; line-height:1.32; font-weight:600; color:var(--ink); margin:0; letter-spacing:-.005em; }
+  .nyt-item:hover h4{ text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:3px; }
+  @media (max-width: 860px){ .nyt-grid{ grid-template-columns:1fr; } .nyt-rule{ display:none; } }
+
   /* case preview section — editorial/newspaper-style list */
   .cases-grid{
     display:block;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);margin-bottom:26px;
@@ -1461,47 +1485,45 @@
 </div>
 
 <div class="chapter-band chapter-paper">
-<section class="media-section">
+<section class="nyt-blog-section">
   <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">From the blog &amp; socials</span>
-      <h2>Words, Videos &amp; More.</h2>
+    <div class="nyt-head">
+      <div>
+        <span class="nyt-eyebrow">From the blog</span>
+        <h2>Things worth explaining.</h2>
+      </div>
+      <a class="nyt-viewall" href="/blog/">All articles →</a>
     </div>
-    <div class="media-grid">
-      <a class="media-card" href="https://greenleafclinic.ca/blog/a-babys-miracle-journey-a-story-of-hope-persistence-and-miraculous-recovery/" target="_blank" rel="noopener">
-        <div class="media-visual is-blog">
-          <span class="media-tag">Blog · Fertility</span>
-        </div>
-        <div class="media-body">
-          <div class="media-title">A Baby's Miracle Journey — Hope, Persistence &amp; Recovery</div>
-          <div class="media-meta">GreenLeaf Clinic · Nov 2025</div>
-          <span class="media-link">Read article <i class="ti ti-arrow-right"></i></span>
-        </div>
+    <div class="nyt-grid">
+      <a class="nyt-lead" href="/blog/a-babys-miracle-journey-a-story-of-hope-persistence-and-miraculous-recovery/" target="_blank" rel="noopener">
+        <span class="nyt-lead-cat">Fertility &amp; Women's Health</span>
+        <h3>A Baby's Miracle Journey — Hope, Persistence &amp; Recovery</h3>
+        <p>A patient's own account of an IVF cycle supported by acupuncture and herbal medicine, and the recovery that followed.</p>
+        <span class="nyt-byline">Dr. Byoungjin Na, Dr. TCM · Nov 2025</span>
       </a>
-      <a class="media-card" href="https://www.youtube.com/watch?v=UTKN12z920g&t=47s" target="_blank" rel="noopener">
-        <div class="media-visual is-video">
-          <div class="media-icon">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.13-2.14C19.51 3.5 12 3.5 12 3.5s-7.51 0-9.37.55A3.02 3.02 0 0 0 .5 6.19 31.6 31.6 0 0 0 0 12c0 1.95.17 3.9.5 5.81a3.02 3.02 0 0 0 2.13 2.14C4.49 20.5 12 20.5 12 20.5s7.51 0 9.37-.55a3.02 3.02 0 0 0 2.13-2.14c.33-1.91.5-3.86.5-5.81 0-1.95-.17-3.9-.5-5.81ZM9.6 15.6V8.4l6.27 3.6-6.27 3.6Z"/></svg>
-          </div>
-        </div>
-        <div class="media-body">
-          <div class="media-title">GreenLeaf Acupuncture &amp; Herb Clinic</div>
-          <div class="media-meta">YouTube</div>
-          <span class="media-link">Watch on YouTube <i class="ti ti-arrow-right"></i></span>
-        </div>
-      </a>
-      <a class="media-card" href="https://www.instagram.com/p/DVZ806dEcEP/" target="_blank" rel="noopener">
-        <div class="media-visual is-social">
-          <div class="media-icon">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff"><path d="M12 2.2c2.72 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.55.55.89 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.07.06 1.4.06 4.12s-.01 3.05-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76 4.9 4.9 0 0 1-1.76 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.4.06-4.12.06s-3.05-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.21 15.05 2.2 14.72 2.2 12s.01-3.05.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76A4.9 4.9 0 0 1 5.64 2.53c.64-.25 1.37-.42 2.43-.47C8.95 2.21 9.28 2.2 12 2.2Zm0 1.8c-2.67 0-2.99.01-4.04.06-.87.04-1.34.18-1.65.3-.42.16-.71.36-1.02.67-.31.31-.5.6-.67 1.02-.12.31-.26.78-.3 1.65-.05 1.05-.06 1.37-.06 4.04s.01 2.99.06 4.04c.04.87.18 1.34.3 1.65.16.42.36.71.67 1.02.31.31.6.5 1.02.67.31.12.78.26 1.65.3 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.87-.04 1.34-.18 1.65-.3.42-.16.71-.36 1.02-.67.31-.31.5-.6.67-1.02.12-.31.26-.78.3-1.65.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.87-.18-1.34-.3-1.65a2.6 2.6 0 0 0-.67-1.02 2.6 2.6 0 0 0-1.02-.67c-.31-.12-.78-.26-1.65-.3-1.05-.05-1.37-.06-4.04-.06Zm0 3.7a4.3 4.3 0 1 1 0 8.6 4.3 4.3 0 0 1 0-8.6Zm0 1.8a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm4.48-2.03a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
-          </div>
-        </div>
-        <div class="media-body">
-          <div class="media-title">@greenleafclinic.ca</div>
-          <div class="media-meta">Instagram</div>
-          <span class="media-link">View on Instagram <i class="ti ti-arrow-right"></i></span>
-        </div>
-      </a>
+      <div class="nyt-rule"></div>
+      <div class="nyt-list">
+        <a class="nyt-item" href="/blog/what-is-qi/" target="_blank" rel="noopener">
+          <span class="nyt-item-cat">Acupuncture &amp; TCM Theory</span>
+          <h4>What is Qi (氣)? Understanding the core concept in Traditional Chinese Medicine</h4>
+        </a>
+        <a class="nyt-item" href="/blog/wind-cold-syndrome/" target="_blank" rel="noopener">
+          <span class="nyt-item-cat">Acupuncture &amp; TCM Theory</span>
+          <h4>Wind-Cold Syndrome: TCM's approach to early-stage colds</h4>
+        </a>
+        <a class="nyt-item" href="/blog/healing-after-miscarriage/" target="_blank" rel="noopener">
+          <span class="nyt-item-cat">Fertility &amp; Women's Health</span>
+          <h4>Healing After Miscarriage</h4>
+        </a>
+        <a class="nyt-item" href="/blog/facial-acupuncture-for-sleep/" target="_blank" rel="noopener">
+          <span class="nyt-item-cat">Patient Care Tips</span>
+          <h4>Tired but Wired? How Facial Acupuncture Restores Deep Sleep</h4>
+        </a>
+        <a class="nyt-item" href="/blog/taichong-lr3-what-we-know-is-not-everything/" target="_blank" rel="noopener">
+          <span class="nyt-item-cat">Acupuncture &amp; TCM Theory</span>
+          <h4>Taichong (LR3, 太衝): What We Know Is Not Everything</h4>
+        </a>
+      </div>
     </div>
   </div>
 </section>
