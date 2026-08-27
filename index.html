@@ -367,6 +367,9 @@
     transition:border-color .15s, transform .15s, box-shadow .15s;
   }
   .card:hover{border-color:var(--line);border-top-color:var(--lime-deep);transform:translateY(-2px);box-shadow:0 6px 16px rgba(24,24,24,.06);}
+  .card.card-accent{border-top-color:#C9503C;background:#FBEDE9;}
+  .card.card-accent .title{color:#A63E2E;}
+  .card.card-accent:hover{border-top-color:#A63E2E;}
   .card:focus-visible{outline:2px solid var(--lime);outline-offset:2px;}
   .card i{
     font-size:23.5px;color:var(--lime-deep);
@@ -1076,7 +1079,7 @@
     </div>
 
     <div class="grid grid-15">
-      <a class="card" href="/treatable-conditions/fertility/conditions-during-pregnancy/"><div class="title">Fertility</div></a>
+      <a class="card card-accent" href="/treatable-conditions/fertility/conditions-during-pregnancy/"><div class="title">Fertility</div></a>
       <a class="card" href="/treatable-conditions/uterine-condition/pcos/"><div class="title">Uterine Condition</div></a>
       <a class="card" href="/treatable-conditions/pain/headache/"><div class="title">Pain</div></a>
       <a class="card" href="/treatable-conditions/mental-health/anxiety/"><div class="title">Mental Health</div></a>
