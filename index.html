@@ -1062,8 +1062,8 @@
     <h2>Conditions we treat. <em>See how others got better.</em></h2>
     <div class="search-bar">
       <i class="ti ti-search"></i>
-      <input type="text" id="case-search-input" placeholder="Try a symptom — e.g. insomnia, back pain, digestion" data-placeholder-full="Try a symptom — e.g. insomnia, back pain, digestion" data-placeholder-short="Try a symptom…" onkeydown="if(event.key==='Enter'){window.location.href='/cases/?q='+encodeURIComponent(this.value);}">
-      <button class="search-btn" onclick="window.location.href='/cases/?q='+encodeURIComponent(document.getElementById('case-search-input').value)">Search Cases</button>
+      <input type="text" id="case-search-input" placeholder="Try a symptom — e.g. insomnia, back pain, digestion" data-placeholder-full="Try a symptom — e.g. insomnia, back pain, digestion" data-placeholder-short="Try a symptom…" onkeydown="if(event.key==='Enter'){goSearchCases();}">
+      <button class="search-btn" onclick="goSearchCases()">Search Cases</button>
     </div>
   </div>
 </header>
@@ -1874,6 +1874,407 @@
   mq.addEventListener ? mq.addEventListener('change', updatePlaceholder) : mq.addListener(updatePlaceholder);
   updatePlaceholder();
 })();
+</script>
+
+<script>
+  // Symptom search -> Treatable Conditions redirect (falls back to category browse if no match)
+  window.CONDITION_SEARCH_MAP = [
+  {
+    "url": "/treatable-conditions/allergies/",
+    "title": "Allergies",
+    "keywords": [
+      "allergy",
+      "allergies",
+      "hay fever",
+      "rhinitis",
+      "sneezing"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/cancer/",
+    "title": "Cancer & Chemotherapy",
+    "keywords": [
+      "cancer",
+      "chemotherapy",
+      "chemo side effects"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/digestive/crohns-disease/",
+    "title": "Crohn's Disease",
+    "keywords": [
+      "crohn's disease",
+      "crohns",
+      "crohn"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/digestive/gastritis/",
+    "title": "Gastritis",
+    "keywords": [
+      "gastritis",
+      "stomach inflammation",
+      "stomach",
+      "stomach pain",
+      "upset stomach"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/digestive/gerd/",
+    "title": "GERD",
+    "keywords": [
+      "gerd",
+      "acid reflux",
+      "heartburn",
+      "reflux"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/digestive/ibs/",
+    "title": "IBS",
+    "keywords": [
+      "ibs",
+      "irritable bowel syndrome",
+      "bloating",
+      "digestion",
+      "abdominal pain"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/digestive/ulcerative-colitis/",
+    "title": "Ulcerative Colitis",
+    "keywords": [
+      "ulcerative colitis",
+      "colitis"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/ent-eye/",
+    "title": "ENT & Eye",
+    "keywords": [
+      "ear",
+      "nose",
+      "throat",
+      "eye",
+      "sinus",
+      "tinnitus",
+      "dry eye"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/facial-mts/",
+    "title": "Facial & MTS Acupuncture",
+    "keywords": [
+      "facial acupuncture",
+      "mts",
+      "cosmetic acupuncture",
+      "wrinkles"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/fertility/",
+    "title": "Fertility",
+    "keywords": [
+      "fertility",
+      "trying to conceive",
+      "ttc",
+      "infertility"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/fertility/ivf-support/",
+    "title": "IVF Support",
+    "keywords": [
+      "ivf",
+      "ivf support",
+      "embryo transfer"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/fertility/conditions-during-pregnancy/",
+    "title": "Conditions During Pregnancy",
+    "keywords": [
+      "pregnancy",
+      "morning sickness",
+      "pregnant"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/fertility/conditions-after-birth/",
+    "title": "Conditions after Birth",
+    "keywords": [
+      "postpartum",
+      "after birth",
+      "post-birth recovery"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mens-wellness/erectile-dysfunction/",
+    "title": "Erectile Dysfunction",
+    "keywords": [
+      "erectile dysfunction",
+      "ed"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mens-wellness/prostate-health/",
+    "title": "Prostate Health",
+    "keywords": [
+      "prostate",
+      "prostate health",
+      "bph"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/addiction/",
+    "title": "Addiction",
+    "keywords": [
+      "addiction",
+      "substance use"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/adhd/",
+    "title": "ADHD",
+    "keywords": [
+      "adhd",
+      "attention deficit"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/anxiety/",
+    "title": "Anxiety",
+    "keywords": [
+      "anxiety",
+      "panic attack",
+      "stress"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/depression/",
+    "title": "Depression",
+    "keywords": [
+      "depression",
+      "low mood"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/insomnia/",
+    "title": "Insomnia",
+    "keywords": [
+      "insomnia",
+      "sleep",
+      "can't sleep",
+      "poor sleep"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/ocd/",
+    "title": "OCD",
+    "keywords": [
+      "ocd",
+      "obsessive compulsive"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/mental-health/tic-disorder/",
+    "title": "Tic Disorder",
+    "keywords": [
+      "tic",
+      "tic disorder",
+      "tourette"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/ankle-foot-pain/",
+    "title": "Ankle & Foot Pain",
+    "keywords": [
+      "ankle pain",
+      "foot pain",
+      "plantar fasciitis"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/back-pain-sciatica/",
+    "title": "Back Pain / Sciatica",
+    "keywords": [
+      "back pain",
+      "lower back pain",
+      "sciatica"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/bells-palsy/",
+    "title": "Bell's Palsy",
+    "keywords": [
+      "bell's palsy",
+      "facial paralysis"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/elbow-pain/",
+    "title": "Elbow Pain",
+    "keywords": [
+      "elbow pain",
+      "tennis elbow"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/headache/",
+    "title": "Headache",
+    "keywords": [
+      "headache",
+      "migraine"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/knee-pain/",
+    "title": "Knee Pain",
+    "keywords": [
+      "knee pain"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/neck-pain/",
+    "title": "Neck Pain",
+    "keywords": [
+      "neck pain",
+      "stiff neck"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/shoulder-pain/",
+    "title": "Shoulder Pain",
+    "keywords": [
+      "shoulder pain",
+      "frozen shoulder"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/tmj/",
+    "title": "TMJ",
+    "keywords": [
+      "tmj",
+      "jaw pain"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pain/wrist-finger-pain/",
+    "title": "Wrist & Finger Pain",
+    "keywords": [
+      "wrist pain",
+      "finger pain",
+      "numbness",
+      "tingling",
+      "carpal tunnel"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/pediatrics/",
+    "title": "Pediatrics",
+    "keywords": [
+      "pediatric",
+      "child",
+      "kids"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/skin-conditions/acne/",
+    "title": "Acne",
+    "keywords": [
+      "acne",
+      "breakout"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/skin-conditions/eczema/",
+    "title": "Eczema",
+    "keywords": [
+      "eczema",
+      "dermatitis"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/skin-conditions/hives/",
+    "title": "Hives",
+    "keywords": [
+      "hives",
+      "urticaria"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/skin-conditions/psoriasis/",
+    "title": "Psoriasis",
+    "keywords": [
+      "psoriasis"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/urinary/",
+    "title": "Urinary Problems",
+    "keywords": [
+      "urinary",
+      "bladder",
+      "uti"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/uterine-condition/adenomyosis/",
+    "title": "Adenomyosis",
+    "keywords": [
+      "adenomyosis"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/uterine-condition/endometriosis/",
+    "title": "Endometriosis",
+    "keywords": [
+      "endometriosis",
+      "period pain",
+      "severe period pain"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/uterine-condition/pcos/",
+    "title": "PCOS",
+    "keywords": [
+      "pcos",
+      "polycystic ovary"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/uterine-condition/uterine-fibroids/",
+    "title": "Uterine Fibroids",
+    "keywords": [
+      "fibroids",
+      "uterine fibroids"
+    ]
+  },
+  {
+    "url": "/treatable-conditions/weight-loss/",
+    "title": "Weight Loss",
+    "keywords": [
+      "weight loss",
+      "obesity"
+    ]
+  }
+];
+  function goSearchCases(){
+    var input = document.getElementById('case-search-input');
+    var q = (input && input.value ? input.value : '').trim().toLowerCase();
+    var url = '/#conditions';
+    if(q){
+      var map = window.CONDITION_SEARCH_MAP;
+      var hit = map.find(function(c){ return c.keywords.indexOf(q) !== -1; });
+      if(!hit){
+        hit = map.find(function(c){
+          return c.keywords.some(function(k){ return q.indexOf(k) !== -1 || k.indexOf(q) !== -1; });
+        });
+      }
+      url = hit ? hit.url : '/#conditions';
+    }
+    window.location.href = url;
+  }
 </script>
 
 <a href="https://greenleafacuclinic.janeapp.com/" class="floating-book-btn" id="floatingBookBtn" aria-label="Book an Appointment">
