@@ -509,6 +509,30 @@
     .media-visual{height:110px;}
   }
 
+  /* NYT-style "From the blog" section */
+  .nyt-blog-section{ background:var(--paper); padding:64px 0 72px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .nyt-blog-section .wrap{ max-width:1180px; margin:0 auto; padding:0 24px; }
+  .nyt-head{ display:flex; align-items:baseline; justify-content:space-between; border-bottom:2px solid var(--ink); padding-bottom:14px; margin-bottom:36px; }
+  .nyt-head .nyt-eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-faint); }
+  .nyt-head h2{ font-family:Fraunces,serif; font-size:34px; font-weight:600; color:var(--ink); margin:4px 0 0; letter-spacing:-.01em; }
+  .nyt-head .nyt-viewall{ font-family:'IBM Plex Sans',sans-serif; font-size:13px; color:var(--warm-text); text-decoration:none; white-space:nowrap; border-bottom:1px solid var(--warm-text); padding-bottom:2px; }
+  .nyt-grid{ display:grid; grid-template-columns: 1.5fr 1px 1fr; gap:40px; }
+  .nyt-rule{ background:var(--line); }
+  .nyt-lead{ display:block; text-decoration:none; color:inherit; }
+  .nyt-lead-cat{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--lime-deep); margin-bottom:10px; display:block; }
+  .nyt-lead h3{ font-family:Fraunces,serif; font-size:30px; line-height:1.18; font-weight:600; color:var(--ink); margin:0 0 12px; letter-spacing:-.01em; }
+  .nyt-lead:hover h3{ text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:4px; }
+  .nyt-lead p{ font-family:Georgia,'IBM Plex Sans',serif; font-size:16px; line-height:1.6; color:var(--ink-soft); margin:0 0 14px; }
+  .nyt-lead .nyt-byline{ font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-faint); }
+  .nyt-list{ display:flex; flex-direction:column; }
+  .nyt-item{ display:block; text-decoration:none; color:inherit; padding:18px 0; border-bottom:1px solid var(--line); }
+  .nyt-item:first-child{ padding-top:0; }
+  .nyt-item:last-child{ border-bottom:none; }
+  .nyt-item-cat{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); display:block; margin-bottom:6px; }
+  .nyt-item h4{ font-family:Fraunces,serif; font-size:17px; line-height:1.32; font-weight:600; color:var(--ink); margin:0; letter-spacing:-.005em; }
+  .nyt-item:hover h4{ text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:3px; }
+  @media (max-width: 860px){ .nyt-grid{ grid-template-columns:1fr; } .nyt-rule{ display:none; } }
+
   /* case preview section */
   .cases-grid{
     display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:26px;
@@ -1085,27 +1109,28 @@
   </div>
 </div>
 
-<section class="section" id="conditions" style="padding-top:56px;padding-bottom:56px;">
+<section class="section" id="conditions" style="padding-top:14px;">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">치료 질환</span>
+      <h2>카테고리별로 둘러보기</h2>
     </div>
 
     <div class="grid grid-15">
-      <a class="card" href="/kr/treatable-conditions/fertility/conditions-during-pregnancy/"><i class="ti ti-seeding"></i><div class="title">난임</div></a>
-      <a class="card" href="/kr/treatable-conditions/uterine-condition/pcos/"><i class="ti ti-gender-female"></i><div class="title">자궁 질환</div></a>
-      <a class="card" href="/kr/treatable-conditions/pain/headache/"><i class="ti ti-bone"></i><div class="title">통증</div></a>
-      <a class="card" href="/kr/treatable-conditions/mental-health/anxiety/"><i class="ti ti-brain"></i><div class="title">정신 건강</div></a>
-      <a class="card" href="/kr/treatable-conditions/digestive/gerd/"><i class="ti ti-droplet"></i><div class="title">소화기 질환</div></a>
-      <a class="card" href="/kr/treatable-conditions/mens-wellness/erectile-dysfunction/"><i class="ti ti-gender-male"></i><div class="title">남성 건강</div></a>
-      <a class="card" href="/kr/treatable-conditions/skin-conditions/hives/"><i class="ti ti-droplet-half-2"></i><div class="title">피부 질환</div></a>
-      <a class="card" href="/kr/treatable-conditions/allergies/"><i class="ti ti-flower"></i><div class="title">알레르기</div></a>
-      <a class="card" href="/kr/treatable-conditions/ent-eye/"><i class="ti ti-ear"></i><div class="title">눈, 코, 입, 귀</div></a>
-      <a class="card" href="/kr/treatable-conditions/urinary/"><i class="ti ti-droplets"></i><div class="title">비뇨기 질환</div></a>
-      <a class="card" href="/kr/treatable-conditions/facial-mts/"><i class="ti ti-sparkles"></i><div class="title">안면침 &amp; MTS</div></a>
-      <a class="card" href="/kr/treatable-conditions/weight-loss/"><i class="ti ti-scale"></i><div class="title">체중 관리</div></a>
-      <a class="card" href="/kr/treatable-conditions/pediatrics/"><i class="ti ti-baby-carriage"></i><div class="title">소아 질환</div></a>
-      <a class="card" href="/kr/treatable-conditions/cancer/"><i class="ti ti-ribbon-health"></i><div class="title">항암 부작용</div></a>
+      <a class="card card-accent" href="/kr/treatable-conditions/fertility/conditions-during-pregnancy/"><div class="title">난임</div></a>
+      <a class="card" href="/kr/treatable-conditions/uterine-condition/pcos/"><div class="title">자궁 질환</div></a>
+      <a class="card" href="/kr/treatable-conditions/pain/headache/"><div class="title">통증</div></a>
+      <a class="card" href="/kr/treatable-conditions/mental-health/anxiety/"><div class="title">정신 건강</div></a>
+      <a class="card" href="/kr/treatable-conditions/digestive/gerd/"><div class="title">소화기 질환</div></a>
+      <a class="card" href="/kr/treatable-conditions/mens-wellness/erectile-dysfunction/"><div class="title">남성 건강</div></a>
+      <a class="card" href="/kr/treatable-conditions/skin-conditions/hives/"><div class="title">피부 질환</div></a>
+      <a class="card" href="/kr/treatable-conditions/allergies/"><div class="title">알레르기</div></a>
+      <a class="card" href="/kr/treatable-conditions/ent-eye/"><div class="title">눈, 코, 입, 귀</div></a>
+      <a class="card" href="/kr/treatable-conditions/urinary/"><div class="title">비뇨기 질환</div></a>
+      <a class="card" href="/kr/treatable-conditions/facial-mts/"><div class="title">안면침 &amp; MTS</div></a>
+      <a class="card" href="/kr/treatable-conditions/weight-loss/"><div class="title">체중 관리</div></a>
+      <a class="card" href="/kr/treatable-conditions/pediatrics/"><div class="title">소아 질환</div></a>
+      <a class="card" href="/kr/treatable-conditions/cancer/"><div class="title">항암 부작용</div></a>
     </div>
   </div>
 </section>
@@ -1115,6 +1140,7 @@
   <div class="wrap">
     <div class="section-head" style="margin-bottom:22px;">
       <span class="eyebrow">치료 사례</span>
+      <h2>아래 사례는 모두 저희 클리닉의 실제 치료 기록입니다.</h2>
     </div>
 
     <div class="cases-grid">
@@ -1126,17 +1152,17 @@
       <div class="case-card">
         <div class="case-tags"><span class="case-tag">자궁 질환</span><span class="case-weeks">12주</span></div>
         <p class="case-text">10대 시절부터 매달 결석할 만큼 심한 생리통을 겪어온 경우.</p>
-<a class="case-link" href="/kr/cases/cases/case-51-endometriosis-period-pain-healthy-delivery.html">전체 사례 보기 →</a>
+<a class="case-link" href="/kr/cases/cases/case-51-endometriosis-period-pain-healthy-delivery.html"><span class="visually-hidden">전체 사례 보기</span><span aria-hidden="true">→</span></a>
       </div>
       <div class="case-card">
         <div class="case-tags"><span class="case-tag">통증</span><span class="case-weeks">8주</span></div>
         <p class="case-text">교통사고 이후 만성 허리 통증이 이어졌고, 몇 달간 물리치료를 받아도 나아지지 않았던 경우.</p>
-<a class="case-link" href="/kr/cases/cases/case-64-post-accident-headache-brain-fog-glymphatic.html">전체 사례 보기 →</a>
+<a class="case-link" href="/kr/cases/cases/case-64-post-accident-headache-brain-fog-glymphatic.html"><span class="visually-hidden">전체 사례 보기</span><span aria-hidden="true">→</span></a>
       </div>
       <div class="case-card">
         <div class="case-tags"><span class="case-tag">정신 건강</span><span class="case-weeks">10주</span></div>
         <p class="case-text">밤마다 생각이 멈추지 않아 잠들기 힘들었고, 수면제를 먹었다 끊기를 반복해온 경우.</p>
-<a class="case-link" href="/kr/cases/cases/case-12-five-years-of-insomnia.html">전체 사례 보기 →</a>
+<a class="case-link" href="/kr/cases/cases/case-12-five-years-of-insomnia.html"><span class="visually-hidden">전체 사례 보기</span><span aria-hidden="true">→</span></a>
       </div>
     </div>
 
@@ -1154,6 +1180,8 @@
 
   <div class="section-head">
     <span class="eyebrow">의료진</span>
+    <h2>어느 원장님께 예약하는 게 좋을까요?</h2>
+    <p>고민하지 않으셔도 됩니다. 두 분 모두 조금씩 다른 강점이 있으니, 아래에서 내 증상과 가장 가까운 쪽을 찾아보고 실제 치료 사례를 통해 어떻게 진료하는지 확인해보세요.</p>
   </div>
 
   <div class="prac-grid">
@@ -1165,7 +1193,7 @@
         <div class="prac-top">
           <div class="prac-role founder">설립자 · 원장</div>
           <h3 class="prac-name"><a href="/kr/practitioners/dr-na/" class="prac-name-link">나병진 원장</a></h3>
-          <span class="prac-credential"></span>
+          <span class="prac-credential">Dr. TCM.</span>
         </div>
       </div>
       <p class="prac-intro">어렵고 만성적이며 복잡한 다양한 케이스들을 지난 20년간 꾸준히 치료해왔습니다. 몇 달 동안 여러 검사를 받아도 뚜렷한 답을 찾지 못하셨다면 나병진 원장님을 찾아주세요.</p>
@@ -1251,6 +1279,8 @@
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">치료 방식</span>
+      <h2>치료 방법 살펴보기</h2>
+      <p>침 치료가 처음이신가요? 각 치료 항목을 눌러보시면 진료실에서 실제로 어떤 일이 일어나는지 쉽게 설명해드립니다.</p>
     </div>
 
     <div class="method-list">
@@ -1330,11 +1360,13 @@
       <div class="stat-block">
         <div class="stat-eyebrow">환자 후기</div>
         <p class="stat-number">483<span class="plus">+</span></p>
+        <p class="stat-caption">지금도 계속 늘어나고 있습니다 — 모두 여러분과 비슷한 고민을 안고 찾아오셨던 분들이 남겨주신 후기입니다.</p>
         <div class="stat-source"><i class="ti ti-brand-google"></i>Verified on Google</div>
       </div>
 
       <div>
-        <div class="testi-head" style="justify-content:flex-end;">
+        <div class="testi-head">
+          <h2>실제 환자들의 이야기를 들어보세요.</h2>
           <div class="testi-nav">
             <button type="button" id="testiPrev" aria-label="이전 리뷰"><i class="ti ti-chevron-left"></i></button>
             <button type="button" id="testiNext" aria-label="다음 리뷰"><i class="ti ti-chevron-right"></i></button>
@@ -1492,56 +1524,54 @@
 </div>
 
 <div class="chapter-band chapter-bg">
-<section class="media-section">
+<section class="nyt-blog-section">
   <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">블로그 &amp; 소셜 미디어</span>
+    <div class="nyt-head">
+      <div>
+        <span class="nyt-eyebrow">블로그에서</span>
+        <h2>알아두면 좋은 이야기들.</h2>
+      </div>
+      <a class="nyt-viewall" href="/kr/blog/">전체 글 보기 →</a>
     </div>
-    <div class="media-grid">
-      <a class="media-card" href="https://greenleafclinic.ca/blog/a-babys-miracle-journey-a-story-of-hope-persistence-and-miraculous-recovery/" target="_blank" rel="noopener">
-        <div class="media-visual is-blog">
-          <span class="media-tag">블로그 · 난임</span>
-        </div>
-        <div class="media-body">
-          <div class="media-title">아기의 기적 같은 여정 — 희망, 인내, 그리고 회복</div>
-          <div class="media-meta">그린리프 클리닉 · 2025년 11월</div>
-          <span class="media-link">글 읽기 <i class="ti ti-arrow-right"></i></span>
-        </div>
+    <div class="nyt-grid">
+      <a class="nyt-lead" href="/kr/blog/amenorrhea-three-case-studies/">
+        <span class="nyt-lead-cat">난임·여성 건강</span>
+        <h3>생리가 몇 달째 없습니다. 어떡하나요?</h3>
+        <p>피임약 중단, 급격한 다이어트, 체중 증가 등 서로 다른 원인으로 생리가 멈춘 세 환자 사례와 원인별 한의학적 치료법을 설명합니다.</p>
+        <span class="nyt-byline">나병진 원장, Dr. TCM</span>
       </a>
-      <a class="media-card" href="https://www.youtube.com/watch?v=UTKN12z920g&t=47s" target="_blank" rel="noopener">
-        <div class="media-visual is-video">
-          <div class="media-icon">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.13-2.14C19.51 3.5 12 3.5 12 3.5s-7.51 0-9.37.55A3.02 3.02 0 0 0 .5 6.19 31.6 31.6 0 0 0 0 12c0 1.95.17 3.9.5 5.81a3.02 3.02 0 0 0 2.13 2.14C4.49 20.5 12 20.5 12 20.5s7.51 0 9.37-.55a3.02 3.02 0 0 0 2.13-2.14c.33-1.91.5-3.86.5-5.81 0-1.95-.17-3.9-.5-5.81ZM9.6 15.6V8.4l6.27 3.6-6.27 3.6Z"/></svg>
-          </div>
-        </div>
-        <div class="media-body">
-          <div class="media-title">GreenLeaf Acupuncture &amp; Herb Clinic</div>
-          <div class="media-meta">유튜브</div>
-          <span class="media-link">유튜브에서 보기 <i class="ti ti-arrow-right"></i></span>
-        </div>
-      </a>
-      <a class="media-card" href="https://www.instagram.com/p/DVZ806dEcEP/" target="_blank" rel="noopener">
-        <div class="media-visual is-social">
-          <div class="media-icon">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff"><path d="M12 2.2c2.72 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.55.55.89 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.07.06 1.4.06 4.12s-.01 3.05-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76 4.9 4.9 0 0 1-1.76 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.4.06-4.12.06s-3.05-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.21 15.05 2.2 14.72 2.2 12s.01-3.05.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76A4.9 4.9 0 0 1 5.64 2.53c.64-.25 1.37-.42 2.43-.47C8.95 2.21 9.28 2.2 12 2.2Zm0 1.8c-2.67 0-2.99.01-4.04.06-.87.04-1.34.18-1.65.3-.42.16-.71.36-1.02.67-.31.31-.5.6-.67 1.02-.12.31-.26.78-.3 1.65-.05 1.05-.06 1.37-.06 4.04s.01 2.99.06 4.04c.04.87.18 1.34.3 1.65.16.42.36.71.67 1.02.31.31.6.5 1.02.67.31.12.78.26 1.65.3 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.87-.04 1.34-.18 1.65-.3.42-.16.71-.36 1.02-.67.31-.31.5-.6.67-1.02.12-.31.26-.78.3-1.65.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.87-.18-1.34-.3-1.65a2.6 2.6 0 0 0-.67-1.02 2.6 2.6 0 0 0-1.02-.67c-.31-.12-.78-.26-1.65-.3-1.05-.05-1.37-.06-4.04-.06Zm0 3.7a4.3 4.3 0 1 1 0 8.6 4.3 4.3 0 0 1 0-8.6Zm0 1.8a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm4.48-2.03a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
-          </div>
-        </div>
-        <div class="media-body">
-          <div class="media-title">@greenleafclinic.ca</div>
-          <div class="media-meta">인스타그램</div>
-          <span class="media-link">인스타그램에서 보기 <i class="ti ti-arrow-right"></i></span>
-        </div>
-      </a>
+      <div class="nyt-rule"></div>
+      <div class="nyt-list">
+        <a class="nyt-item" href="/kr/blog/what-is-qi-kr/">
+          <span class="nyt-item-cat">침구·한의학 이론</span>
+          <h4>'기'란 무엇인가요?</h4>
+        </a>
+        <a class="nyt-item" href="/kr/blog/panic-disorder-sympathetic-nervous-system/">
+          <span class="nyt-item-cat">질환 설명</span>
+          <h4>공황장애와 교감신경, 그리고 한의학</h4>
+        </a>
+        <a class="nyt-item" href="/kr/blog/ankle-sprain-acupuncture-recovery/">
+          <span class="nyt-item-cat">환자 관리 팁</span>
+          <h4>발목 부상: 침을 맞으면 빨리 낫나요?</h4>
+        </a>
+        <a class="nyt-item" href="/kr/blog/brain-tonic-chongmyeongtang-students-kr/">
+          <span class="nyt-item-cat">한약·영양</span>
+          <h4>총명탕을 먹으면 정말로 머리가 좋아지나요?</h4>
+        </a>
+        <a class="nyt-item" href="/kr/blog/electro-acupuncture-how-it-works/">
+          <span class="nyt-item-cat">침구·한의학 이론</span>
+          <h4>전침, 왜 놓는 걸까요? — 침 자극을 지속시키는 두 가지 방법</h4>
+        </a>
+      </div>
     </div>
   </div>
 </section>
-</div>
-
-<div class="chapter-band chapter-paper" id="faq">
 <section class="faq-section">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">자주 묻는 질문</span>
+      <h2>예약 전에 자주 묻는 질문들.</h2>
+      <p>첫 방문 전에 궁금하실 만한 점들에 대한 답변입니다 — 방문 이후에 자주 나오는 질문도 함께 담았습니다.</p>
     </div>
 
     <div class="faq-tabs" id="faqTabs">
