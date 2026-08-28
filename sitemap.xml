@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://greenleafclinic.ca/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/"/>
@@ -10,6 +14,10 @@
   <url>
     <loc>https://greenleafclinic.ca/about/clinic-info/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/clinic-info/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/clinic-info/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/clinic-info/"/>
@@ -17,6 +25,10 @@
   <url>
     <loc>https://greenleafclinic.ca/about/treatment-method/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/treatment-method/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/treatment-method/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/treatment-method/"/>
@@ -24,6 +36,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/"/>
@@ -31,34 +47,66 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/3-pressure-points-to-curb-cravings/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/4-herbs-to-replace-your-morning-coffee/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/5-herbs-that-aid-healthy-digestion/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/5-self-acupressure-points-for-stress-relief/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/5-self-massage-acupressure-points-to-help-you-sleep/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/6-conditions-tui-na-massage-can-treat/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/a-babys-miracle-journey-a-story-of-hope-persistence-and-miraculous-recovery/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/ankle-sprain-treatment-ice-therapy-mistake/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/ankle-sprain-treatment-ice-therapy-mistake/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/ankle-sprain-acupuncture-recovery/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/ankle-sprain-treatment-ice-therapy-mistake/"/>
@@ -66,6 +114,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/ankle-sprain-acupuncture-recovery/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/ankle-sprain-treatment-ice-therapy-mistake/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/ankle-sprain-acupuncture-recovery/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/ankle-sprain-treatment-ice-therapy-mistake/"/>
@@ -73,10 +125,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/anxiety-symptoms-treatments-for-youth/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/are-meridians-merely-pathways-of-organ-qi/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/are-meridians-merely-pathways-of-organ-qi/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/meridians-independent-of-organs-history/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/are-meridians-merely-pathways-of-organ-qi/"/>
@@ -84,6 +144,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/meridians-independent-of-organs-history/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/are-meridians-merely-pathways-of-organ-qi/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/meridians-independent-of-organs-history/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/are-meridians-merely-pathways-of-organ-qi/"/>
@@ -91,6 +155,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/are-you-familiar-with-post-traumatic-stress-disorder-ptsd/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/are-you-familiar-with-post-traumatic-stress-disorder-ptsd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/ptsd-car-accident-treatment-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/are-you-familiar-with-post-traumatic-stress-disorder-ptsd/"/>
@@ -98,6 +166,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/ptsd-car-accident-treatment-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/are-you-familiar-with-post-traumatic-stress-disorder-ptsd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/ptsd-car-accident-treatment-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/are-you-familiar-with-post-traumatic-stress-disorder-ptsd/"/>
@@ -105,6 +177,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/back-pain/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/back-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/back-pain-psoas-quadratus-lumborum-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/back-pain/"/>
@@ -112,6 +188,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/back-pain-psoas-quadratus-lumborum-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/back-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/back-pain-psoas-quadratus-lumborum-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/back-pain/"/>
@@ -119,6 +199,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/beat-menstrual-pain-constipation-with-these-remedies/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/beat-menstrual-pain-constipation-with-these-remedies/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/constipation-menstrual-pain-blood-stasis-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/beat-menstrual-pain-constipation-with-these-remedies/"/>
@@ -126,6 +210,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/constipation-menstrual-pain-blood-stasis-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/beat-menstrual-pain-constipation-with-these-remedies/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/constipation-menstrual-pain-blood-stasis-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/beat-menstrual-pain-constipation-with-these-remedies/"/>
@@ -133,6 +221,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/blueberry-season-anthocyanin-benefits/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/blueberry-season-anthocyanin-benefits/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/blueberry-season-anthocyanin-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/blueberry-season-anthocyanin-benefits/"/>
@@ -140,6 +232,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/blueberry-season-anthocyanin-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/blueberry-season-anthocyanin-benefits/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/blueberry-season-anthocyanin-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/blueberry-season-anthocyanin-benefits/"/>
@@ -147,6 +243,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/bokbunja-blackberry-kidney-tonic/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/bokbunja-blackberry-kidney-tonic/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/blackberry-bokbunja-kidney-tonic-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/bokbunja-blackberry-kidney-tonic/"/>
@@ -154,6 +254,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/blackberry-bokbunja-kidney-tonic-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/bokbunja-blackberry-kidney-tonic/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/blackberry-bokbunja-kidney-tonic-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/bokbunja-blackberry-kidney-tonic/"/>
@@ -161,14 +265,26 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/brain-fog-fluid-retention-treatment-vancouver/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/chinese-motherwart-a-herb-for-hormonal-balance-and-blood-flow/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/chongmyeongtang-brain-tonic-for-students/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/chongmyeongtang-brain-tonic-for-students/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/brain-tonic-chongmyeongtang-students-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/chongmyeongtang-brain-tonic-for-students/"/>
@@ -176,6 +292,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/brain-tonic-chongmyeongtang-students-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/chongmyeongtang-brain-tonic-for-students/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/brain-tonic-chongmyeongtang-students-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/chongmyeongtang-brain-tonic-for-students/"/>
@@ -183,6 +303,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/common-symptoms-after-a-car-accident/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/common-symptoms-after-a-car-accident/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/car-accident-recovery-treatment-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/common-symptoms-after-a-car-accident/"/>
@@ -190,6 +314,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/car-accident-recovery-treatment-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/common-symptoms-after-a-car-accident/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/car-accident-recovery-treatment-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/common-symptoms-after-a-car-accident/"/>
@@ -197,6 +325,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/correct-posture-causes-of-pain/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/correct-posture-causes-of-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/correct-posture-pain-causes-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/correct-posture-causes-of-pain/"/>
@@ -204,6 +336,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/correct-posture-pain-causes-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/correct-posture-causes-of-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/correct-posture-pain-causes-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/correct-posture-causes-of-pain/"/>
@@ -211,6 +347,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/depression/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/depression/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/vancouver-winter-depression-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/depression/"/>
@@ -218,6 +358,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/vancouver-winter-depression-case-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/depression/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/vancouver-winter-depression-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/depression/"/>
@@ -225,10 +369,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/diarrhea-is-it-the-same-for-everyone/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/doctor-i-have-indigestion/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/doctor-i-have-indigestion/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stress-functional-dyspepsia-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/doctor-i-have-indigestion/"/>
@@ -236,6 +388,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/stress-functional-dyspepsia-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/doctor-i-have-indigestion/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stress-functional-dyspepsia-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/doctor-i-have-indigestion/"/>
@@ -243,6 +399,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/drinking-only-water-can-still-cause-vomiting/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/drinking-only-water-can-still-cause-vomiting/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/vomiting-water-intolerance-shang-han-lun/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/drinking-only-water-can-still-cause-vomiting/"/>
@@ -250,6 +410,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/vomiting-water-intolerance-shang-han-lun/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/drinking-only-water-can-still-cause-vomiting/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/vomiting-water-intolerance-shang-han-lun/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/drinking-only-water-can-still-cause-vomiting/"/>
@@ -257,6 +421,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/dry-mouth-dizzy-eyes-frequent-sighs/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/dry-mouth-dizzy-eyes-frequent-sighs/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/dry-mouth-sighing-stress-alarm-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/dry-mouth-dizzy-eyes-frequent-sighs/"/>
@@ -264,6 +432,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/dry-mouth-sighing-stress-alarm-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/dry-mouth-dizzy-eyes-frequent-sighs/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/dry-mouth-sighing-stress-alarm-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/dry-mouth-dizzy-eyes-frequent-sighs/"/>
@@ -271,10 +443,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/dry-needling-vs-acupuncture/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/early-cold-symptoms-know-them-to-block-them/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/early-cold-symptoms-know-them-to-block-them/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/cold-prevention-fever-tips-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/early-cold-symptoms-know-them-to-block-them/"/>
@@ -282,6 +462,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/cold-prevention-fever-tips-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/early-cold-symptoms-know-them-to-block-them/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/cold-prevention-fever-tips-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/early-cold-symptoms-know-them-to-block-them/"/>
@@ -289,6 +473,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/electro-acupuncture-how-effective-is-it/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/electro-acupuncture-how-effective-is-it/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/electro-acupuncture-effects-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/electro-acupuncture-how-effective-is-it/"/>
@@ -296,6 +484,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/electro-acupuncture-effects-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/electro-acupuncture-how-effective-is-it/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/electro-acupuncture-effects-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/electro-acupuncture-how-effective-is-it/"/>
@@ -303,10 +495,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/foods-avoid-taking-herbal-medicine/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/generalized-anxiety-disorder-gad/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/generalized-anxiety-disorder-gad/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/generalized-anxiety-disorder-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/generalized-anxiety-disorder-gad/"/>
@@ -314,6 +514,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/generalized-anxiety-disorder-case-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/generalized-anxiety-disorder-gad/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/generalized-anxiety-disorder-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/generalized-anxiety-disorder-gad/"/>
@@ -321,14 +525,26 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/healing-after-miscarriage/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/heartburn-claustrophobia/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/heartburn-why-it-occurs-how-to-treat-it/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/heartburn-why-it-occurs-how-to-treat-it/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/heartburn-stress-blood-flow/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/heartburn-why-it-occurs-how-to-treat-it/"/>
@@ -336,6 +552,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/heartburn-stress-blood-flow/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/heartburn-why-it-occurs-how-to-treat-it/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/heartburn-stress-blood-flow/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/heartburn-why-it-occurs-how-to-treat-it/"/>
@@ -343,6 +563,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/how-can-acupuncture-treat-anxiety/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/how-can-acupuncture-treat-anxiety/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/how-acupuncture-treats-anxiety-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/how-can-acupuncture-treat-anxiety/"/>
@@ -350,6 +574,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/how-acupuncture-treats-anxiety-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/how-can-acupuncture-treat-anxiety/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/how-acupuncture-treats-anxiety-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/how-can-acupuncture-treat-anxiety/"/>
@@ -357,10 +585,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/how-to-strengthen-the-spleen/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/hyperactive-amygdala-type-due-to-trauma-initiated-hyperactivity-of-sympathetic-systems/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/hyperactive-amygdala-type-due-to-trauma-initiated-hyperactivity-of-sympathetic-systems/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/ptsd-amygdala-panic-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/hyperactive-amygdala-type-due-to-trauma-initiated-hyperactivity-of-sympathetic-systems/"/>
@@ -368,6 +604,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/ptsd-amygdala-panic-case-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/hyperactive-amygdala-type-due-to-trauma-initiated-hyperactivity-of-sympathetic-systems/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/ptsd-amygdala-panic-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/hyperactive-amygdala-type-due-to-trauma-initiated-hyperactivity-of-sympathetic-systems/"/>
@@ -375,18 +615,34 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/hyperactive-hepatic-type-due-to-hyper-metabolism-of-liver/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/hypermetabolism-excessive-sweating/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/insomnia-heat-with-the-gallbladder-meridian-type/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/insomnia-three-types-overview/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/insomnia-three-types-overview/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-types-diagnosis-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/insomnia-three-types-overview/"/>
@@ -394,6 +650,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/insomnia-types-diagnosis-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/insomnia-three-types-overview/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-types-diagnosis-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/insomnia-three-types-overview/"/>
@@ -401,6 +661,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/insomnia-whats-the-reason-behind-it/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/insomnia-whats-the-reason-behind-it/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-heat-retention-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/insomnia-whats-the-reason-behind-it/"/>
@@ -408,6 +672,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/insomnia-heat-retention-case-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/insomnia-whats-the-reason-behind-it/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-heat-retention-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/insomnia-whats-the-reason-behind-it/"/>
@@ -415,6 +683,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/international-students-stomach-health/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/international-students-stomach-health/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/international-students-stomach-disease-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/international-students-stomach-health/"/>
@@ -422,6 +694,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/international-students-stomach-disease-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/international-students-stomach-health/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/international-students-stomach-disease-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/international-students-stomach-health/"/>
@@ -429,14 +705,26 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/ivf-journey-with-acupuncture-herbal-medicine-2/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/lung-governs-qi-tcm-modern-physiology/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/menstrual-cramps/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/menstrual-cramps/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stress-menstrual-pain-cycle-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/menstrual-cramps/"/>
@@ -444,6 +732,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/stress-menstrual-pain-cycle-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/menstrual-cramps/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stress-menstrual-pain-cycle-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/menstrual-cramps/"/>
@@ -451,10 +743,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/muscle-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/my-chest-feels-tight-can-eastern-medicine-help/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/my-chest-feels-tight-can-eastern-medicine-help/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/chest-tightness-hwabyung/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/my-chest-feels-tight-can-eastern-medicine-help/"/>
@@ -462,6 +762,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/chest-tightness-hwabyung/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/my-chest-feels-tight-can-eastern-medicine-help/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/chest-tightness-hwabyung/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/my-chest-feels-tight-can-eastern-medicine-help/"/>
@@ -469,6 +773,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/panic-attack-can-you-treat-with-acupuncture-and-herb-treatment/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/panic-attack-can-you-treat-with-acupuncture-and-herb-treatment/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/panic-disorder-gallbladder-oriental-medicine-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/panic-attack-can-you-treat-with-acupuncture-and-herb-treatment/"/>
@@ -476,6 +784,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/panic-disorder-gallbladder-oriental-medicine-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/panic-attack-can-you-treat-with-acupuncture-and-herb-treatment/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/panic-disorder-gallbladder-oriental-medicine-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/panic-attack-can-you-treat-with-acupuncture-and-herb-treatment/"/>
@@ -483,10 +795,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/panic-disorder-anxiety-is-the-mind-or-body-first/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/panic-disorder-sympathetic-parasympathetic-nervous-system/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/panic-disorder-sympathetic-parasympathetic-nervous-system/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/panic-disorder-sympathetic-nervous-system/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/panic-disorder-sympathetic-parasympathetic-nervous-system/"/>
@@ -494,6 +814,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/panic-disorder-sympathetic-nervous-system/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/panic-disorder-sympathetic-parasympathetic-nervous-system/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/panic-disorder-sympathetic-nervous-system/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/panic-disorder-sympathetic-parasympathetic-nervous-system/"/>
@@ -501,6 +825,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/panic-disorder/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/panic-disorder/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/panic-disorder-case-eastern-medicine-approach/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/panic-disorder/"/>
@@ -508,6 +836,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/panic-disorder-case-eastern-medicine-approach/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/panic-disorder/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/panic-disorder-case-eastern-medicine-approach/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/panic-disorder/"/>
@@ -515,6 +847,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/psns-initiated-insomia/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/psns-initiated-insomia/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-highly-sensitive-person-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/psns-initiated-insomia/"/>
@@ -522,6 +858,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/insomnia-highly-sensitive-person-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/psns-initiated-insomia/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-highly-sensitive-person-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/psns-initiated-insomia/"/>
@@ -529,10 +869,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/restoring-qi-how-to-boost-your-energy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/sns-initiated-insomnia/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/sns-initiated-insomnia/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-sympathetic-dominant-type-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/sns-initiated-insomnia/"/>
@@ -540,6 +888,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/insomnia-sympathetic-dominant-type-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/sns-initiated-insomnia/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/insomnia-sympathetic-dominant-type-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/sns-initiated-insomnia/"/>
@@ -547,10 +899,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/sns-sympathetic-nervous-system-dominant-type-due-to-hyposensitive-psns-parasympathetic-nervous-system/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/sns-sympathetic-nervous-system-dominant-type/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/sns-sympathetic-nervous-system-dominant-type/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/sympathetic-anger-panic-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/sns-sympathetic-nervous-system-dominant-type/"/>
@@ -558,6 +918,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/sympathetic-anger-panic-case-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/sns-sympathetic-nervous-system-dominant-type/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/sympathetic-anger-panic-case-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/sns-sympathetic-nervous-system-dominant-type/"/>
@@ -565,6 +929,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/sp3-taibai-beyond-spleen-qi-deficiency/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/sp3-taibai-beyond-spleen-qi-deficiency/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/taibai-sp3-beyond-spleen-qi-deficiency/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/sp3-taibai-beyond-spleen-qi-deficiency/"/>
@@ -572,6 +940,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/taibai-sp3-beyond-spleen-qi-deficiency/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/sp3-taibai-beyond-spleen-qi-deficiency/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/taibai-sp3-beyond-spleen-qi-deficiency/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/sp3-taibai-beyond-spleen-qi-deficiency/"/>
@@ -579,10 +951,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/spleen-qi-deficiency-in-eastern-medicine/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/st36-location-why-classical-and-modern-textbooks-differ/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/st36-location-why-classical-and-modern-textbooks-differ/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/st36-classical-vs-modern-location/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/st36-location-why-classical-and-modern-textbooks-differ/"/>
@@ -590,6 +970,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/st36-classical-vs-modern-location/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/st36-location-why-classical-and-modern-textbooks-differ/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/st36-classical-vs-modern-location/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/st36-location-why-classical-and-modern-textbooks-differ/"/>
@@ -597,6 +981,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/st42-chongyang-neuro-immuno-metabolic-hub/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/st42-chongyang-neuro-immuno-metabolic-hub/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stomach-meridian-jungyang-st42-neuro-immune-history/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/st42-chongyang-neuro-immuno-metabolic-hub/"/>
@@ -604,6 +992,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/stomach-meridian-jungyang-st42-neuro-immune-history/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/st42-chongyang-neuro-immuno-metabolic-hub/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stomach-meridian-jungyang-st42-neuro-immune-history/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/st42-chongyang-neuro-immuno-metabolic-hub/"/>
@@ -611,26 +1003,50 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/stomach-issues-anxiety/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/szechuan-lovage-root-herbs-that-improve-blood-and-qi-flow/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/the-basics-of-tongue-diagnosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/the-beneficial-effects-of-acupuncture-and-herbal-medicine-on-ovarian-hyperstimulation-syndrome-ohss-in-ivf-patients/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/the-benefits-of-moxibustion/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/the-relationship-between-stress-anxiety-diarrhea/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/the-relationship-between-stress-anxiety-diarrhea/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/gut-brain-axis-stress-diarrhea/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/the-relationship-between-stress-anxiety-diarrhea/"/>
@@ -638,6 +1054,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/gut-brain-axis-stress-diarrhea/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/the-relationship-between-stress-anxiety-diarrhea/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/gut-brain-axis-stress-diarrhea/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/the-relationship-between-stress-anxiety-diarrhea/"/>
@@ -645,10 +1065,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/the-reliable-ally-in-implantation-acupuncture-and-herbal-medicine-accompanying-ivf/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/the-theory-of-three-yin-three-yang-transformation/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/the-theory-of-three-yin-three-yang-transformation/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/saminsamyang-six-channels-theory/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/the-theory-of-three-yin-three-yang-transformation/"/>
@@ -656,6 +1084,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/saminsamyang-six-channels-theory/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/the-theory-of-three-yin-three-yang-transformation/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/saminsamyang-six-channels-theory/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/the-theory-of-three-yin-three-yang-transformation/"/>
@@ -663,10 +1095,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/tired-but-wired-facial-acupuncture-for-sleep/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/treat-heel-pain-with-acupuncture-plantar-fasciitis-foot/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/treat-heel-pain-with-acupuncture-plantar-fasciitis-foot/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/plantar-fasciitis-fascial-chain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/treat-heel-pain-with-acupuncture-plantar-fasciitis-foot/"/>
@@ -674,6 +1114,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/plantar-fasciitis-fascial-chain/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/treat-heel-pain-with-acupuncture-plantar-fasciitis-foot/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/plantar-fasciitis-fascial-chain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/treat-heel-pain-with-acupuncture-plantar-fasciitis-foot/"/>
@@ -681,10 +1125,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/treating-acid-reflux-with-eastern-medicine/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/treating-heat-with-heat-samgyetang/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/treating-heat-with-heat-samgyetang/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/heat-treats-heat-samgyetang-summer-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/treating-heat-with-heat-samgyetang/"/>
@@ -692,6 +1144,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/heat-treats-heat-samgyetang-summer-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/treating-heat-with-heat-samgyetang/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/heat-treats-heat-samgyetang-summer-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/treating-heat-with-heat-samgyetang/"/>
@@ -699,10 +1155,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/trouble-sleeping-staying-asleep/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/what-happens-to-the-body-when-its-stressed/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-happens-to-the-body-when-its-stressed/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stress-three-stages-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-happens-to-the-body-when-its-stressed/"/>
@@ -710,6 +1174,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/stress-three-stages-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-happens-to-the-body-when-its-stressed/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/stress-three-stages-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-happens-to-the-body-when-its-stressed/"/>
@@ -717,10 +1185,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/what-is-liver-qi-stagnation/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/what-is-qi/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-is-qi/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/qi-deficiency-vs-stagnation-diagnosis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-is-qi/"/>
@@ -728,6 +1204,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/qi-deficiency-vs-stagnation-diagnosis/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-is-qi/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/qi-deficiency-vs-stagnation-diagnosis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-is-qi/"/>
@@ -735,6 +1215,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/what-is-yin-yang-philosophy-tcm/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-is-yin-yang-philosophy-tcm/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/yin-yang-change-theory-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-is-yin-yang-philosophy-tcm/"/>
@@ -742,6 +1226,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/yin-yang-change-theory-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-is-yin-yang-philosophy-tcm/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/yin-yang-change-theory-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-is-yin-yang-philosophy-tcm/"/>
@@ -749,6 +1237,10 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/what-was-tcm-observing-for-two-thousand-years/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-was-tcm-observing-for-two-thousand-years/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/taechung-lr3-portal-hypertension-2000-years/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-was-tcm-observing-for-two-thousand-years/"/>
@@ -756,6 +1248,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/taechung-lr3-portal-hypertension-2000-years/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/what-was-tcm-observing-for-two-thousand-years/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/taechung-lr3-portal-hypertension-2000-years/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/what-was-tcm-observing-for-two-thousand-years/"/>
@@ -763,14 +1259,26 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/when-allergy-isnt-just-allergy-a-case-of-a-highly-sensitive-child/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/when-knee-pain-isnt-just-about-the-joint-how-treating-fluid-retention-solved-chronic-knee-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/why-five-elements-attached-to-three-yin-three-yang/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/why-five-elements-attached-to-three-yin-three-yang/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/five-elements-three-yin-yang-theory-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/why-five-elements-attached-to-three-yin-three-yang/"/>
@@ -778,6 +1286,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/five-elements-three-yin-yang-theory-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/why-five-elements-attached-to-three-yin-three-yang/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/five-elements-three-yin-yang-theory-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/why-five-elements-attached-to-three-yin-three-yang/"/>
@@ -785,10 +1297,18 @@
   <url>
     <loc>https://greenleafclinic.ca/blog/wind-cold-syndrome/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://greenleafclinic.ca/blog/your-qi-is-weak/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/your-qi-is-weak/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/what-is-qi-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/your-qi-is-weak/"/>
@@ -796,6 +1316,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/what-is-qi-kr/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/your-qi-is-weak/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/kr/blog/what-is-qi-kr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/your-qi-is-weak/"/>
@@ -803,6 +1327,10 @@
   <url>
     <loc>https://greenleafclinic.ca/cases/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/cases/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/cases/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/cases/"/>
@@ -810,6 +1338,10 @@
   <url>
     <loc>https://greenleafclinic.ca/contact/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/contact/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/contact/"/>
@@ -817,6 +1349,10 @@
   <url>
     <loc>https://greenleafclinic.ca/icbc-claims/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/icbc-claims/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/icbc-claims/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/icbc-claims/"/>
@@ -824,6 +1360,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/"/>
@@ -831,6 +1371,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/about/clinic-info/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/clinic-info/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/clinic-info/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/clinic-info/"/>
@@ -838,6 +1382,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/about/treatment-method/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/about/treatment-method/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/about/treatment-method/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/about/treatment-method/"/>
@@ -845,6 +1393,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/blog/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/blog/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/blog/"/>
@@ -852,6 +1404,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/cases/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/cases/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/cases/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/cases/"/>
@@ -859,6 +1415,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/contact/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/contact/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/contact/"/>
@@ -866,6 +1426,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/icbc-claims/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/icbc-claims/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/icbc-claims/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/icbc-claims/"/>
@@ -873,6 +1437,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/practitioners/clare-park/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/assets/images/practitioners/clare-park.jpg</image:loc>
+      <image:title>Clare Park - GreenLeaf Acupuncture &amp; Herb Clinic</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/clare-park/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
@@ -880,6 +1448,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/practitioners/dr-na/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/assets/images/practitioners/dr-na-hero.png</image:loc>
+      <image:title>Dr. Byoung Jin Na - GreenLeaf Acupuncture &amp; Herb Clinic</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/dr-na/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
@@ -887,6 +1459,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/testimonials/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/testimonials/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/testimonials/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/testimonials/"/>
@@ -894,6 +1470,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/allergies/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/allergies/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
@@ -901,6 +1481,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/cancer/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/cancer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
@@ -908,6 +1492,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
@@ -915,6 +1503,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/gastritis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
@@ -922,6 +1514,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/gerd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
@@ -929,6 +1525,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/ibs/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
@@ -936,6 +1536,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
@@ -943,6 +1547,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/ent-eye/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/ent-eye/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
@@ -950,6 +1558,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/facial-mts/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/facial-mts/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
@@ -957,6 +1569,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
@@ -964,6 +1580,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
@@ -971,6 +1591,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
@@ -978,6 +1602,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/fertility/ivf-support/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
@@ -985,6 +1613,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
@@ -992,6 +1624,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
@@ -999,6 +1635,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/addiction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
@@ -1006,6 +1646,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/adhd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
@@ -1013,6 +1657,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/anxiety/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
@@ -1020,6 +1668,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/depression/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
@@ -1027,6 +1679,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/insomnia/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
@@ -1034,6 +1690,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/ocd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
@@ -1041,6 +1701,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
@@ -1048,6 +1712,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
@@ -1055,6 +1723,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
@@ -1062,6 +1734,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/bells-palsy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
@@ -1069,6 +1745,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/elbow-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
@@ -1076,6 +1756,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/headache/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/headache/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
@@ -1083,6 +1767,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/knee-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
@@ -1090,6 +1778,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/neck-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
@@ -1097,6 +1789,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
@@ -1104,6 +1800,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/tmj/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
@@ -1111,6 +1811,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
@@ -1118,6 +1822,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/pediatrics/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pediatrics/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
@@ -1125,6 +1833,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/acne/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
@@ -1132,6 +1844,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
@@ -1139,6 +1855,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/hives/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
@@ -1146,6 +1866,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
@@ -1153,6 +1877,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/urinary/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/urinary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
@@ -1160,6 +1888,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
@@ -1167,6 +1899,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
@@ -1174,6 +1910,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
@@ -1181,6 +1921,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
@@ -1188,6 +1932,10 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/treatable-conditions/weight-loss/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/weight-loss/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
@@ -1195,6 +1943,10 @@
   <url>
     <loc>https://greenleafclinic.ca/practitioners/clare-park/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/assets/images/practitioners/clare-park.jpg</image:loc>
+      <image:title>Clare Park - GreenLeaf Acupuncture &amp; Herb Clinic</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/clare-park/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/clare-park/"/>
@@ -1202,6 +1954,10 @@
   <url>
     <loc>https://greenleafclinic.ca/practitioners/dr-na/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/assets/images/practitioners/dr-na-hero.png</image:loc>
+      <image:title>Dr. Byoung Jin Na - GreenLeaf Acupuncture &amp; Herb Clinic</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/practitioners/dr-na/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/practitioners/dr-na/"/>
@@ -1209,6 +1965,10 @@
   <url>
     <loc>https://greenleafclinic.ca/testimonials/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/testimonials/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/testimonials/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/testimonials/"/>
@@ -1216,6 +1976,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/allergies/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/allergies/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/allergies/"/>
@@ -1223,6 +1987,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/cancer/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/cancer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/cancer/"/>
@@ -1230,6 +1998,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/crohns-disease/"/>
@@ -1237,6 +2009,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gastritis/"/>
@@ -1244,6 +2020,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/gerd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/gerd/"/>
@@ -1251,6 +2031,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/ibs/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ibs/"/>
@@ -1258,6 +2042,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/digestive/ulcerative-colitis/"/>
@@ -1265,6 +2053,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/ent-eye/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/ent-eye/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/ent-eye/"/>
@@ -1272,6 +2064,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/facial-mts/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/facial-mts/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/facial-mts/"/>
@@ -1279,6 +2075,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/"/>
@@ -1286,6 +2086,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-after-birth/"/>
@@ -1293,6 +2097,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/conditions-during-pregnancy/"/>
@@ -1300,6 +2108,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/fertility/ivf-support/"/>
@@ -1307,6 +2119,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/erectile-dysfunction/"/>
@@ -1314,6 +2130,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mens-wellness/prostate-health/"/>
@@ -1321,6 +2141,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/addiction/"/>
@@ -1328,6 +2152,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/adhd/"/>
@@ -1335,6 +2163,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/anxiety/"/>
@@ -1342,6 +2174,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/depression/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/depression/"/>
@@ -1349,6 +2185,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/insomnia/"/>
@@ -1356,6 +2196,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/ocd/"/>
@@ -1363,6 +2207,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/mental-health/tic-disorder/"/>
@@ -1370,6 +2218,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/ankle-foot-pain/"/>
@@ -1377,6 +2229,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/back-pain-sciatica/"/>
@@ -1384,6 +2240,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/bells-palsy/"/>
@@ -1391,6 +2251,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/elbow-pain/"/>
@@ -1398,6 +2262,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/headache/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/headache/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/headache/"/>
@@ -1405,6 +2273,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/knee-pain/"/>
@@ -1412,6 +2284,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/neck-pain/"/>
@@ -1419,6 +2295,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/shoulder-pain/"/>
@@ -1426,6 +2306,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/tmj/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/tmj/"/>
@@ -1433,6 +2317,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pain/wrist-finger-pain/"/>
@@ -1440,6 +2328,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/pediatrics/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/pediatrics/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/pediatrics/"/>
@@ -1447,6 +2339,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/acne/"/>
@@ -1454,6 +2350,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/eczema/"/>
@@ -1461,6 +2361,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/hives/"/>
@@ -1468,6 +2372,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/skin-conditions/psoriasis/"/>
@@ -1475,6 +2383,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/urinary/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/urinary/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/urinary/"/>
@@ -1482,6 +2394,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/adenomyosis/"/>
@@ -1489,6 +2405,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/endometriosis/"/>
@@ -1496,6 +2416,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/pcos/"/>
@@ -1503,6 +2427,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/uterine-condition/uterine-fibroids/"/>
@@ -1510,6 +2438,10 @@
   <url>
     <loc>https://greenleafclinic.ca/treatable-conditions/weight-loss/</loc>
     <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
     <xhtml:link rel="alternate" hreflang="en" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://kr.greenleafclinic.ca/treatable-conditions/weight-loss/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://greenleafclinic.ca/treatable-conditions/weight-loss/"/>
@@ -1517,41 +2449,81 @@
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/electro-acupuncture-how-it-works/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/anxiety-insomnia-after-gallbladder-surgery/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/taste-theory-sour-salty-bitter/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/what-is-qi-origin-east-west-cosmology/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/pulse-diagnosis-thread-drama-myth/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/taste-theory-spicy-sweet/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/amenorrhea-three-case-studies/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/hwabyung-anger-syndrome-case/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/shenmen-ht7-daling-pc7-difference/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kr.greenleafclinic.ca/kr/blog/taixi-ki3-renal-failure-uremia/</loc>
     <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://kr.greenleafclinic.ca/og-image.jpg</image:loc>
+      <image:title>GreenLeaf Acupuncture &amp; Herb Clinic - Acupuncture Vancouver</image:title>
+    </image:image>
   </url>
 </urlset>
