@@ -5,7 +5,8 @@
  * Catches the class of bugs found during the Aug 28 2026 Semrush audit:
  *  - canonical / og:url / JSON-LD mainEntityOfPage not matching the page's
  *    real path (wrong slug or missing /blog/ or /kr/ prefix)
- *  - MedicalClinic (LocalBusiness) structured data missing required "address"
+ *  - "publisher" MedicalClinic (LocalBusiness) structured data missing the
+ *    required "address" field (the field Google/Semrush actually validate)
  *  - <title> tags that are too long for search result display
  *
  * By default only checks files passed as CLI args (used by CI to check just
@@ -46,19 +47,6 @@ function expectedUrl(relPath) {
   const domain = isKr ? 'https://kr.greenleafclinic.ca' : 'https://greenleafclinic.ca';
   const urlPath = dir === '.' ? '/' : '/' + dir.split(path.sep).join('/') + '/';
   return domain + urlPath;
-}
-
-function findMedicalClinicNodes(obj, found = [], seen = new Set()) {
-  if (!obj || typeof obj !== 'object' || seen.has(obj)) return found;
-  seen.add(obj);
-  if (obj['@type'] === 'MedicalClinic' || obj['@type'] === 'LocalBusiness') {
-    found.push(obj);
-  }
-  for (const key of Object.keys(obj)) {
-    const val = obj[key];
-    if (val && typeof val === 'object') findMedicalClinicNodes(val, found, seen);
-  }
-  return found;
 }
 
 const args = process.argv.slice(2);
@@ -109,7 +97,15 @@ for (const file of files) {
     if (data.mainEntityOfPage && data.mainEntityOfPage !== expected) {
       errors.push(`${relPath}: JSON-LD mainEntityOfPage is "${data.mainEntityOfPage}" but expected "${expected}"`);
     }
-    const clinics = findMedicalClinicNodes(data);
+    // Only the top-level entity (homepage's own @type, or the article's
+    // "publisher") is required to carry a full address — that's what
+    // Google/Semrush actually validate. author.worksFor is intentionally
+    // left as a lightweight affiliation reference without address.
+    const clinics = [];
+    if (data['@type'] === 'MedicalClinic' || data['@type'] === 'LocalBusiness') clinics.push(data);
+    if (data.publisher && (data.publisher['@type'] === 'MedicalClinic' || data.publisher['@type'] === 'LocalBusiness')) {
+      clinics.push(data.publisher);
+    }
     for (const node of clinics) {
       if (!node.address) {
         errors.push(`${relPath}: JSON-LD "${node.name || node['@type']}" is missing required "address" field`);
