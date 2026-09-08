@@ -45,7 +45,12 @@ function expectedUrl(relPath) {
   const dir = path.dirname(relPath);
   const isKr = relPath === 'kr' || relPath.startsWith('kr' + path.sep) || relPath.startsWith('kr/');
   const domain = isKr ? 'https://kr.greenleafclinic.ca' : 'https://greenleafclinic.ca';
-  const urlPath = dir === '.' ? '/' : '/' + dir.split(path.sep).join('/') + '/';
+  // KR pages live under kr/ in the repo but are served at the root of the
+  // kr. subdomain (the kr-proxy Worker strips the /kr/ prefix), so the
+  // expected canonical drops the leading "kr" segment.
+  let segments = dir === '.' ? [] : dir.split(path.sep);
+  if (isKr && segments[0] === 'kr') segments = segments.slice(1);
+  const urlPath = segments.length === 0 ? '/' : '/' + segments.join('/') + '/';
   return domain + urlPath;
 }
 
