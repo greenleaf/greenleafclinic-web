@@ -245,6 +245,18 @@
     color:#fff;max-width:660px;margin:0;
     text-shadow:0 2px 18px rgba(0,0,0,.28);
   }
+  .video-hero-content .hero-eyebrow{
+    display:inline-flex;align-items:flex-start;gap:8px;
+    font-family:'IBM Plex Mono',monospace;font-size:17px;font-weight:600;
+    letter-spacing:.08em;text-transform:uppercase;line-height:normal;max-width:none;
+    color:rgba(255,255,255,.88);margin:0 0 14px;
+  }
+  .video-hero-content .hero-eyebrow::before{content:"";width:16px;height:1px;background:var(--lime);flex-shrink:0;margin-top:.55em;}
+  .video-hero-content .hero-headline{
+    font-family:'Fraunces',serif;font-weight:500;font-size:43px;line-height:1.12;
+    letter-spacing:-0.01em;color:#fff;max-width:660px;margin:0;
+    text-shadow:0 2px 18px rgba(0,0,0,.28);
+  }
 
   /* stat band — sits directly below the video hero */
   .stat-band{
@@ -587,6 +599,7 @@
 
   @media (max-width:820px){
     h1{font-size:36px;}
+    .video-hero-content .hero-headline{font-size:36px;}
   }
   @media (prefers-reduced-motion: reduce){
     .card, .case-card{transition:none;}
@@ -1066,8 +1079,8 @@
   })();
   </script>
   <div class="wrap video-hero-content">
-    <span class="eyebrow">New to acupuncture in Vancouver, or been let down before</span>
-    <h1>You'll understand every needle before it goes in.</h1>
+    <h1 class="hero-eyebrow">New to acupuncture in Vancouver, or been let down before</h1>
+    <p class="hero-headline">You'll understand every needle before it goes in.</p>
   </div>
 </header>
 
