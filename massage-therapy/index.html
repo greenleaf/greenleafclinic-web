@@ -899,6 +899,123 @@
     .floating-book-btn i{font-size:19px;}
   }
 </style>
+<style>
+  .draft-flag{position:fixed;top:0;right:0;z-index:999;background:var(--ink);color:#fff;
+    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    padding:6px 14px;border-bottom-left-radius:10px;opacity:.85;}
+  .m-hero{
+    position:relative;
+    background:
+      linear-gradient(100deg, rgba(15,14,12,.62) 0%, rgba(15,14,12,.56) 40%, rgba(15,14,12,.34) 75%, rgba(15,14,12,.16) 100%),
+      url('hero-massage.jpg') center 30%/cover no-repeat;
+    border-bottom:1px solid var(--line);padding:88px 0 72px;
+  }
+  .m-hero .eyebrow{color:rgba(255,255,255,.75);}
+  .m-hero .eyebrow::before{background:var(--warm);}
+  .m-hero h1{font-size:44px;max-width:780px;color:#fff;}
+  .m-hero h1 em{color:var(--warm);}
+  .m-hero .lede{font-size:18px;max-width:660px;margin-bottom:26px;color:rgba(255,255,255,.82);}
+  .m-badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px;padding:0;list-style:none;}
+  .m-badges li{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--lime-deep);background:var(--lime-soft);
+    border-radius:999px;padding:7px 14px;}
+  .m-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+  .btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--warm);color:#fff;
+    text-decoration:none;font-weight:600;font-size:15px;padding:14px 26px;border-radius:999px;}
+  .m-hero .btn-ghost{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.5);
+    color:#fff;text-decoration:none;font-weight:500;font-size:15px;padding:13px 24px;border-radius:999px;}
+  .m-status{margin-top:26px;font-size:14px;color:rgba(255,255,255,.68);display:flex;gap:10px;align-items:flex-start;max-width:600px;line-height:1.65;}
+  .m-status .dot{width:8px;height:8px;border-radius:50%;background:var(--warm);margin-top:7px;flex-shrink:0;}
+  .band{padding:68px 0;border-top:1px solid var(--line);}
+  .band.paper{background:var(--paper);}
+  .band h2{font-size:30px;max-width:640px;}
+  .band .sub{font-size:16px;color:var(--ink-soft);max-width:620px;line-height:1.7;margin:0 0 34px;}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+  .pcard{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:26px;}
+  .band.paper .pcard{background:var(--bg);}
+  .pcard .n{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--lime-deep);letter-spacing:.08em;}
+  .pcard h3{font-family:'Fraunces',serif;font-weight:500;font-size:19px;margin:10px 0 10px;line-height:1.35;}
+  .pcard p{font-size:14.5px;color:var(--ink-soft);line-height:1.7;margin:0;}
+  .quote-band{background:var(--ink);color:#F7F5EE;padding:60px 0;}
+  .quote-band p{font-family:'Fraunces',serif;font-size:27px;line-height:1.45;max-width:800px;margin:0;font-weight:400;}
+  .quote-band .who{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--lime);margin-top:22px;}
+  .svc{display:grid;grid-template-columns:200px 1fr;gap:28px;padding:26px 0;border-top:1px solid var(--line);}
+  .svc:first-of-type{border-top:none;}
+  .svc h3{font-family:'Fraunces',serif;font-weight:500;font-size:20px;margin:0;line-height:1.3;}
+  .svc .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-faint);margin-top:8px;display:block;}
+  .svc p{font-size:15px;color:var(--ink-soft);line-height:1.75;margin:0;}
+  .svc p .hl{color:var(--warm-text);font-weight:600;}
+  .combo{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);
+    border-radius:var(--radius);overflow:hidden;background:var(--paper);}
+  .combo > div{padding:28px;}
+  .combo > div:first-child{border-right:1px solid var(--line);}
+  .combo h4{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-faint);margin:0 0 14px;}
+  .combo ul{margin:0;padding-left:18px;}
+  .combo li{font-size:14.5px;color:var(--ink-soft);line-height:1.8;}
+  .icbc-note{display:flex;gap:16px;background:var(--warm-soft);border-radius:var(--radius);
+    padding:22px 24px;margin-top:24px;align-items:flex-start;}
+  .icbc-note p{margin:0;font-size:15px;line-height:1.7;color:var(--ink);}
+  .icbc-note strong{color:var(--warm-deep);}
+  .rmt-card{border:1px dashed var(--line);border-radius:var(--radius);background:var(--paper);
+    padding:38px;display:grid;grid-template-columns:120px 1fr;gap:30px;align-items:center;}
+  .rmt-avatar{width:120px;height:120px;border-radius:50%;background:var(--lime-soft);
+    display:flex;align-items:center;justify-content:center;}
+  .rmt-avatar svg{width:56px;height:56px;color:var(--lime-deep);opacity:.55;}
+  .waitlist-form{margin-top:44px;padding-top:40px;border-top:1px solid var(--line);max-width:520px;}
+  .waitlist-form .wl-row{display:flex;gap:20px;flex-wrap:wrap;}
+  .waitlist-form .wl-field{display:flex;flex-direction:column;gap:7px;margin-bottom:20px;flex:1;min-width:180px;}
+  .waitlist-form .wl-field span{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.07em;
+    text-transform:uppercase;color:var(--ink-faint);}
+  .waitlist-form input{border:none;border-bottom:1.5px solid var(--line);background:transparent;
+    padding:8px 2px;font-size:15.5px;font-family:'IBM Plex Sans',sans-serif;color:var(--ink);}
+  .waitlist-form input:focus{outline:none;border-bottom-color:var(--warm);}
+  .waitlist-form button{border:none;}
+  .wl-confirm{margin-top:16px;font-size:14px;color:var(--lime-deep);max-width:440px;line-height:1.6;}
+  .wl-error, .wl-fail{margin-top:16px;font-size:14px;color:var(--warm-deep);max-width:440px;line-height:1.6;}
+  .wl-sending{margin-top:16px;font-size:14px;color:var(--ink-faint);}
+  .rmt-card .label{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--warm-text);}
+  .rmt-card h3{font-family:'Fraunces',serif;font-weight:500;font-size:24px;margin:10px 0 12px;}
+  .rmt-card p{font-size:15px;color:var(--ink-soft);line-height:1.75;margin:0 0 16px;max-width:520px;}
+  .rmt-card a{font-size:14px;color:var(--warm-text);font-weight:600;text-decoration:none;}
+  .fees{width:100%;border-collapse:collapse;margin-top:8px;background:var(--paper);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;}
+  .fees th{text-align:left;font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-faint);font-weight:500;padding:16px 22px;
+    border-bottom:1px solid var(--line);}
+  .fees td{padding:16px 22px;font-size:15px;color:var(--ink-soft);border-bottom:1px solid var(--line);}
+  .fees tr:last-child td{border-bottom:none;}
+  .fees td.price{font-weight:700;color:var(--warm-text);font-family:'IBM Plex Sans',sans-serif;}
+  .fees td.price .gst{font-weight:500;font-size:12px;color:var(--ink-faint);margin-left:3px;}
+  .fees-note{font-size:13.5px;color:var(--ink-faint);margin-top:14px;line-height:1.7;}
+  .faq-item{border-top:1px solid var(--line);padding:24px 0;}
+  .faq-item:first-of-type{border-top:none;}
+  .faq-item h3{font-family:'Fraunces',serif;font-weight:500;font-size:18.5px;margin:0 0 10px;}
+  .faq-item p{font-size:15px;color:var(--ink-soft);line-height:1.75;margin:0;}
+  .cta-band{background:var(--lime-soft);padding:60px 0;text-align:center;}
+  .cta-band h2{font-size:30px;margin:0 auto 14px;}
+  .cta-band p{font-size:16px;color:var(--ink-soft);max-width:520px;margin:0 auto 26px;line-height:1.7;}
+  .icbc-ad{background:var(--warm-deep);padding:56px 0;}
+  .icbc-ad .icbc-logo{display:inline-flex;margin-bottom:16px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.18));}
+  .icbc-ad .icbc-mark{width:48px;height:48px;display:block;}
+  .icbc-ad .eyebrow{color:var(--warm-soft);}
+  .icbc-ad .eyebrow::before{background:var(--warm-soft);}
+  .icbc-ad h2{font-size:28px;max-width:680px;color:#fff;margin:0 0 16px;}
+  .icbc-ad .sub{font-size:16px;line-height:1.8;max-width:720px;color:rgba(255,255,255,.88);margin:0;}
+  .icbc-ad .sub strong{color:#fff;}
+
+  @media(max-width:860px){
+    .grid3,.grid2,.combo{grid-template-columns:1fr;}
+    .combo > div:first-child{border-right:none;border-bottom:1px solid var(--line);}
+    .svc{grid-template-columns:1fr;gap:10px;}
+    .rmt-card{grid-template-columns:1fr;text-align:left;}
+    .m-hero h1{font-size:34px;}
+  }
+</style>
 </head>
 <body>
 <nav class="nav">
