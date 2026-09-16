@@ -36,4 +36,6 @@ jobs:
 
       - name: Run SEO checks on changed pages
         if: steps.changed.outputs.files != ''
-        run: node .github/scripts/check-seo.js ${{ steps.changed.outputs.files }}
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: node .github/scripts/check-seo.js $CHANGED_FILES
