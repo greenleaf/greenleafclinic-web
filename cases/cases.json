@@ -671,5 +671,16 @@
     "cat": "Pain",
     "weeks": "5 weeks",
     "kw_en": "tennis elbow lateral epicondylitis chef knife repetitive strain tendon fascia release cupping"
+  },
+  {
+    "slug": "case-71-empty-stomach-pain-panic-breathing",
+    "title": "Stomach Pain on an Empty Stomach — and Then, One Day, Breathing Became Hard",
+    "summary": "Months of empty-stomach pain unresponsive to stomach medication, with palpitations, shallow breathing and insomnia, traced to stress-driven autonomic imbalance and tight accessory breathing muscles, resolved in four weeks.",
+    "cat": [
+      "Mental Health",
+      "Digestive Issues"
+    ],
+    "weeks": "4 weeks",
+    "kw_en": "stomach pain empty stomach heartburn bloating constipation palpitations shortness of breath panic disorder anxiety insomnia autonomic nervous system vagus nerve accessory breathing muscles"
   }
 ]
