@@ -663,5 +663,16 @@
     ],
     "weeks": "8주",
     "kw_en": "난임 착상실패 자궁내막증 침치료 체외수정 이식성공 infertility failed transfer endometriosis acupuncture successful transfer"
+  },
+  {
+    "slug": "case-71-empty-stomach-pain-panic-breathing",
+    "title": "빈속에 찾아오던 위통, 그리고 어느 날부터 가빠진 숨",
+    "summary": "위장약으로 낫지 않던 반년 넘은 빈속 위통에 심계, 숨참, 불면이 겹친 환자. 원인은 스트레스로 인한 자율신경 불균형과 굳은 호흡 보조근이었고, 4주 만에 위장 증상과 공황 증상이 함께 사라진 사례.",
+    "cat": [
+      "정신 건강",
+      "소화기 질환"
+    ],
+    "weeks": "4주",
+    "kw_en": "빈속위통 공복위통 속쓰림 가스 복부팽만 변비 가슴두근거림 심계 숨참 호흡곤란 공황 공황장애 불안 불면 입면장애 잦은소변 열감 자율신경 미주신경 호흡보조근 stomach pain panic palpitations shortness of breath insomnia"
   }
 ]
